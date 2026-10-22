@@ -1,0 +1,253 @@
+{
+  "history_scope_complete": true,
+  "scope": "frozen current-paper development scope plus its actual referenced structure inputs",
+  "task_exclusion": "explicit task namespace only",
+  "geometry_exclusion": "snapshot-level full-count bucket and preregistered matcher",
+  "material_exclusion": false,
+  "full_raw_source_coverage": {
+    "Matbench": {
+      "path": "/home/yxzhang/energy/external_benchmarks/matbench_mp_e_form/matbench_mp_e_form.json.gz",
+      "sha256": "dedcb1d4ba2e3e50dbdd45ba5bc647a00e9c2bcf8f8bf556dc8e92caa39eb21f",
+      "status": "parsed",
+      "events": {
+        "structure": 132752
+      }
+    },
+    "MP2022": {
+      "path": "/home/yxzhang/energy/external_datasets/matbench_discovery/mp/2023-02-07-mp-computed-structure-entries.json.gz",
+      "sha256": "553d6272f049a8f4ec26e503b89751e2616dd3af53d086545f6ea00f317a361f",
+      "status": "parsed",
+      "events": {
+        "material": 309428,
+        "task": 154702,
+        "structure": 154718
+      }
+    }
+  },
+  "failure_resolutions": [
+    {
+      "path": "/home/yxzhang/energy/experiment4_20260922/matbench_actual/matbench_subset.extxyz",
+      "sha256": "d7f2fa8fe7d6ac878cd6cf34666ed16a0ac957797d4f542ba9361c6dd734008f",
+      "resolution": "same source reparsed successfully"
+    },
+    {
+      "path": "/home/yxzhang/energy/formation_energy_protocol_v1_20261004/stage0/mp_thermo_geometry_v3/results.csv",
+      "sha256": "bf495fb3913da77861c969e92c5bd95c739b7740f969dae1f420e979caed9b2f",
+      "resolution": "same source reparsed successfully"
+    },
+    {
+      "path": "/home/yxzhang/energy/runs/rclfa_v3/sc1_deployable_v1/bad_cif_test_set/broken_lattice.cif",
+      "sha256": "4568266626fa15820b6bae5a325d54f27f549068868f0e466e6f5b6f173aed3c",
+      "resolution": "documented intentionally invalid test input"
+    },
+    {
+      "path": "/home/yxzhang/energy/runs/rclfa_v3/sc1_deployable_v1/bad_cif_test_set/missing_atoms.cif",
+      "sha256": "989860b381eadfc9009c789ba3cf9497cf2a7a90a97e7649f60d385b562eb9c3",
+      "resolution": "documented intentionally invalid test input"
+    },
+    {
+      "path": "/home/yxzhang/energy/runs/rclfa_v3/sc1_deployable_v1/bad_cif_test_set/unknown_element.cif",
+      "sha256": "f1b50881304f606180a6039a8b645a31e0a4c3e08b94de36a8f669e97d3c128a",
+      "resolution": "documented intentionally invalid test input"
+    },
+    {
+      "path": "/home/yxzhang/energy/runs/rclfa_v3/sc1_deployable_v1/bad_cif_test_set/empty_file.cif",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "resolution": "documented intentionally invalid test input"
+    },
+    {
+      "path": "/home/yxzhang/energy/runs/rclfa_v3/foundation_materialization_246/matbench_fold0_foundation_smoke.extxyz",
+      "sha256": "fd4173494b4b6b1debcb78a47f0b425bd279e12a093950f5f13b2ba614f50a99",
+      "resolution": "same source reparsed successfully"
+    },
+    {
+      "path": "/home/yxzhang/energy/runs/rclfa_v3/foundation_materialization_246/matbench_fold0_foundation_smoke_balanced24.extxyz",
+      "sha256": "a27817b8497bcd5fc42b8b763b481e61131b6c28220378e35bc78b4dd02045dd",
+      "resolution": "same source reparsed successfully"
+    },
+    {
+      "path": "/home/yxzhang/energy/runs/rclfa_v3/mace_finetune_upper_bound_277_278_tiny_m5/medium_extxyz/mace_medium_train.extxyz",
+      "sha256": "314ccde2ab9d9745baff8436d075d104de0ba9e8d7145147f922a5880297ece5",
+      "resolution": "same source reparsed successfully"
+    },
+    {
+      "path": "/home/yxzhang/energy/runs/rclfa_v3/mace_finetune_upper_bound_277_278_tiny_m5/medium_extxyz/mace_medium_val.extxyz",
+      "sha256": "4e365d3c890d75fe1c3a2769817cc22234c1329535fc4de241db4c553bb25b71",
+      "resolution": "same source reparsed successfully"
+    },
+    {
+      "path": "/home/yxzhang/energy/runs/rclfa_v3/mace_finetune_upper_bound_277_278_tiny_m5/medium_extxyz/mace_medium_test.extxyz",
+      "sha256": "8987b7fe56c3c9e56394c616be6122a0d79afd9f30c76d6ef73aabda26cbc4aa",
+      "resolution": "same source reparsed successfully"
+    },
+    {
+      "path": "/home/yxzhang/energy/runs/rclfa_v3/foundation_adapter_finetune_267/dataset/matbench_fold0_representative_probe.extxyz",
+      "sha256": "daddf32dc91c5bfe65dbeae4fbcfc78bb5c0c84d4b4be56c1c02e2ce146a6b7e",
+      "resolution": "same source reparsed successfully"
+    },
+    {
+      "path": "/home/yxzhang/energy/runs/rclfa_v3/mace_finetune_upper_bound_277_278/medium_extxyz/mace_medium_train.extxyz",
+      "sha256": "3f271da58bbd91e850cb03d63b48d625176551fc58adb8c84e2b2229666c1c2b",
+      "resolution": "same source reparsed successfully"
+    },
+    {
+      "path": "/home/yxzhang/energy/runs/rclfa_v3/mace_finetune_upper_bound_277_278/medium_extxyz/mace_medium_val.extxyz",
+      "sha256": "20f3be22c5653bbf0bbdc8f05bf50ce9a5031aefceed31aaf2091a2c9875490f",
+      "resolution": "same source reparsed successfully"
+    },
+    {
+      "path": "/home/yxzhang/energy/runs/rclfa_v3/mace_finetune_upper_bound_277_278/medium_extxyz/mace_medium_test.extxyz",
+      "sha256": "690752966680efda5c6e2443e1547b1d5715795c3806d2fe89a3a92592cf4b67",
+      "resolution": "same source reparsed successfully"
+    },
+    {
+      "path": "/home/yxzhang/energy/runs/rclfa_v3/foundation_supervised_residual_268/quick_ordered_dataset/matbench_fold0_quick_ordered.extxyz",
+      "sha256": "779acf695ca01d878ed2adcb3052cf0f5933301b15a47178d684d50eb7d763d5",
+      "resolution": "same source reparsed successfully"
+    },
+    {
+      "path": "/home/yxzhang/energy/runs/rclfa_v3/mace_finetune_upper_bound_277_278_tiny_m5_forces/medium_extxyz/mace_medium_train.extxyz",
+      "sha256": "35e136e98997e6cfddabc994a81d686c5caded6d3596ba32d77d8985e92da683",
+      "resolution": "same source reparsed successfully"
+    },
+    {
+      "path": "/home/yxzhang/energy/runs/rclfa_v3/mace_finetune_upper_bound_277_278_tiny_m5_forces/medium_extxyz/mace_medium_val.extxyz",
+      "sha256": "1eedeeafc60cdf71c73288f64ba1c7220d3a11f76622db0c0a7c9e00b4cf76eb",
+      "resolution": "same source reparsed successfully"
+    },
+    {
+      "path": "/home/yxzhang/energy/runs/rclfa_v3/mace_finetune_upper_bound_277_278_tiny_m5_forces/medium_extxyz/mace_medium_test.extxyz",
+      "sha256": "64e6cba8ffd18052dc488be2f285f15411324e1f080713580e65641668322150",
+      "resolution": "same source reparsed successfully"
+    },
+    {
+      "path": "/home/yxzhang/energy/runs/rclfa_v3/task_specific_reference_299_308/alignn_reference_300/jv_formation_energy_peratom_alignn_download_test.zip",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "resolution": "empty archive: no entries or geometry"
+    },
+    {
+      "path": "/home/yxzhang/energy/runs/rclfa_v3/protocol_conditioned_20260530/wbm50k_protocol/export/wbm_steps_extxyz.extxyz",
+      "sha256": "2d2a4a270fd1ebeb48ec0380dbee1244f978cf5a2d048f0d7bd91a07b8ac5a5e",
+      "resolution": "same source reparsed successfully"
+    }
+  ],
+  "local_counts": {
+    "non_data_files": 1483,
+    "parsed_files": 12621,
+    "identical_content_files": 11785,
+    "structure": 11804,
+    "exported_structures": 1140,
+    "member": 616,
+    "non_data": 168,
+    "material": 24
+  },
+  "server_counts": {
+    "parsed_files": 547831,
+    "non_data_files": 25972,
+    "identical_content_files": 110207,
+    "structure": 818255,
+    "exported_structures": 64143,
+    "material": 518055,
+    "member": 116,
+    "non_data": 52,
+    "task": 154719
+  },
+  "referenced_counts": {
+    "structure": 865567,
+    "parsed_files": 865567,
+    "exported_structures": 23962,
+    "identical_content_files": 243676
+  },
+  "repaired_counts": {
+    "exported_structures": 3343,
+    "structure": 76780,
+    "parsed_files": 16
+  },
+  "graph_counts": {
+    "checkpoint_without_input_geometry": 6847,
+    "graph_structures_verified": 30573,
+    "exported_graph_structures": 2642,
+    "geometry_cache_files": 13,
+    "raw_matbench_derived_feature_graphs": 11296
+  },
+  "graph_repair_counts": {
+    "graph_structures_verified": 79250,
+    "exported_graph_structures": 7270,
+    "geometry_cache_files": 7,
+    "feature_readouts_without_input_geometry": 2
+  },
+  "graph_intermediate_counts": {
+    "periodic_shift_rank_3": 18676,
+    "graph_structures_verified": 19044,
+    "exported_graph_structures": 1772,
+    "periodic_shift_rank_0": 22,
+    "periodic_shift_rank_2": 152,
+    "periodic_shift_rank_1": 194,
+    "geometry_cache_files": 2
+  },
+  "graph_final_counts": {
+    "periodic_shift_rank_3": 3018,
+    "graph_structures_verified": 3072,
+    "exported_graph_structures": 279,
+    "periodic_shift_rank_0": 4,
+    "periodic_shift_rank_2": 24,
+    "periodic_shift_rank_1": 26,
+    "geometry_cache_files": 2,
+    "identical_geometry_cache_files": 2
+  },
+  "supplement_counts": {
+    "parquet_files": 17,
+    "resolved_references": 148816,
+    "already_audited_geometry": 148816,
+    "cif_identifier_files": 647639,
+    "archive_identifier_rescans": 2
+  },
+  "archives": "all frozen scoped archives read; empty container separately resolved; no unrelated archive scope claim",
+  "input_sha256": {
+    "server_history_registry_v1/AUDIT.json": "b0d0ba1e56c4260b3e04b6a3a161ad3d9fe09add50b19599fb8d59a605ec0243",
+    "server_history_repairs_v2/AUDIT.json": "5521790e196e2254e731d763a30468d81770be1c8fc50c5d21aa5ffe11c8923e",
+    "referenced_history_registry_v2/AUDIT.json": "c79ee83c7d23c629f93814757e05af3780478fe6228c41d0379890a11ed85f3d",
+    "local_history_registry_v2/AUDIT.json": "cee7369b537ef705288538645827fec0fc7b5cfef0b00af2299e37d36a8cafd6",
+    "history_supplement_v2/AUDIT.json": "c63794a45dfecdb1fe045f8c6522c0bba19ac1336c0ac5b1b95dc687bb1e78c7",
+    "history_graph_audit_v2/AUDIT.json": "948d6a465651d4c17d3b7ae1d18039cf7bf93bf4dd1148df52bbe2dd8e0d9b71",
+    "history_graph_repairs_v2/AUDIT.json": "6e670f4851a23b2722f7642287c786fe1b9a6cf4df6a7f71c9cb56219d62476e",
+    "history_graph_repairs_v8/AUDIT.json": "353fb620b5f144a5cf79b0a45416eeabc96662003de873fcf2c8b8e43361501a",
+    "history_graph_repairs_v9/AUDIT.json": "5b264f8b1941823886acc9dd0083184b42bc64f63d84aa2f1ee2552a9106a331",
+    "GRAPH_REPAIR4_SCOPE_v2.json": "abe8740570163fb5fcb23eb085191547d24ea8a00133edcf533efbd7ed6097d7",
+    "GRAPH_REPAIR6_SCOPE_v2.json": "1dbd11495869c0ff998e10606d8b6285d65f81b8deb4e99fd86469575504346f",
+    "GRAPH_REPAIR_SCOPE_v2.json": "98e4297898dce1596b1c557fc4b70c1dbeaf22a12159742baa6f5ec96b6b9a4a",
+    "local_identifiers_supplement_v2/AUDIT.json": "1af44c67e90f15e941ae22c4262dcdf5fd8652144366171f28b3f422e7c41e3a",
+    "LOCAL_ARRAY_SCHEMA_AUDIT.json": "a232ede6ebc5a68a15874c04a0e027fc8d8248c6bc2f7806da32f8a12f81a829",
+    "SERVER_ARRAY_SCHEMA_AUDIT.json": "bc78e3895932a2e574d29349c9bf402c03a889d1549a2b6bab21a9af76a1cc17",
+    "INVALID_TEST_FIXTURE_RESOLUTION.json": "c4b75f3060c6e55cbd426ad48447350aab68ddd00e808e1695a9869c21e9a0b0",
+    "SERVER_SCOPE_INVENTORY.json": "724020429d176be32a77b0e823ae3405bcc50088763fbd135bdb641267943ddf",
+    "REFERENCED_INPUTS_SCOPE_v2.json": "c86524bf9a40df5e13032edcb2426cf5094e640352a8a034a2772a5ed3cd61ca",
+    "server_history_registry_v1/STRUCTURE_BUCKETS.jsonl.gz": "7a3a1a243fc3ae48ccc23b0dbc87632f3a11b34e4a0f286aabc3e8527836874d",
+    "server_history_registry_v1/TASK_REGISTRY_A.json": "e0d224a9f1766e8fa71feaf52a1c0f8a579eb21d826c4f7846b22371aa0e6d25",
+    "server_history_registry_v1/MATERIAL_PROVENANCE_REGISTRY.json": "19381ccaf82c9fc0921f965ba1a7292c59ac44938877b195873e99c6f0b74abd",
+    "server_history_registry_v1/FILE_AUDIT.jsonl": "f6a66fe3575078afe78533f361d5dcd2c6bd22b43e24b3adcc56344e83786152",
+    "server_history_repairs_v2/STRUCTURE_BUCKETS.jsonl.gz": "c479783a4e554bb9f7ba4e047a087d186b08946885710bb142eb6a0c0e22c3ac",
+    "server_history_repairs_v2/TASK_REGISTRY_A.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "server_history_repairs_v2/MATERIAL_PROVENANCE_REGISTRY.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "server_history_repairs_v2/FILE_AUDIT.jsonl": "306d7f0eee6b0f4ff61cf064e681f6987b77d01ceedd97b2343b9f36f1215637",
+    "referenced_history_registry_v2/STRUCTURE_BUCKETS.jsonl.gz": "9869099a7bf4f67ad2c2ff7fc115609fb1a28a91e57e745a9f02c61d1c5e5b12",
+    "referenced_history_registry_v2/TASK_REGISTRY_A.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "referenced_history_registry_v2/MATERIAL_PROVENANCE_REGISTRY.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "referenced_history_registry_v2/FILE_AUDIT.jsonl": "857c1a6281103159ff38ea01f49ff90f0aac4b40a5170531b344057004c670de",
+    "local_history_registry_v2/STRUCTURE_BUCKETS.jsonl.gz": "f92fc71a317685cf736bf3352158b3d578140814087d5aee3caaa962b28ee81d",
+    "local_history_registry_v2/TASK_REGISTRY_A.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "local_history_registry_v2/MATERIAL_PROVENANCE_REGISTRY.json": "5d1cf63caba181ab21a1193af1102a9a2f9199e8209e0e466d538eeede54e7b1",
+    "local_history_registry_v2/FILE_AUDIT.jsonl": "15d277884a0c7da5b0e23a90c542a0e4be29f89abd2008196ad50e305c3ee988",
+    "history_graph_audit_v2/STRUCTURE_BUCKETS.jsonl.gz": "84751fb1e85eca34dd0b00fc7fb27ecd144c0ff2fd639ac1e0c20e1e67a84d0d",
+    "history_graph_repairs_v2/STRUCTURE_BUCKETS.jsonl.gz": "4160bc0382aa61b0c650a8bdfca8589e5370ee9b57a3d03a4e654e8cc2fc8c00",
+    "history_graph_repairs_v8/STRUCTURE_BUCKETS.jsonl.gz": "47164488fad74bbe40c473ee29ca5a5a842730d0b67513dd6ac8a9636e9e444e",
+    "history_graph_repairs_v9/STRUCTURE_BUCKETS.jsonl.gz": "b500a7cebd869e45cc7f22ed5afa16972f5d54acfc1dc183a1678b104f4ed7c2",
+    "history_supplement_v2/TASK_REGISTRY_A.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "history_supplement_v2/MATERIAL_PROVENANCE_REGISTRY.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "local_identifiers_supplement_v2/TASK_REGISTRY_A.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "local_identifiers_supplement_v2/MATERIAL_PROVENANCE_REGISTRY.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  "not_claimed": "absence from original model pretraining is not established",
+  "immutable_binary_files_checked": 21532,
+  "model_forwards": 0
+}

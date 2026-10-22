@@ -1,0 +1,479 @@
+{
+  "note": "Generated at packaging time from archived CSVs; not a new model experiment.",
+  "tables": {
+    "SevenNet/direct/absolute_mae_mev_atom": {
+      "n": 3,
+      "mean": 69.91128214631689,
+      "sample_std": 0.5027864518679904
+    },
+    "SevenNet/direct/pair_delta_mae_mev_atom": {
+      "n": 3,
+      "mean": 67.17124577523592,
+      "sample_std": 0.562965821436286
+    },
+    "SevenNet/direct/top1_accuracy": {
+      "n": 3,
+      "mean": 0.7192982456140351,
+      "sample_std": 0.008039606482378692
+    },
+    "SevenNet/aligned/absolute_mae_mev_atom": {
+      "n": 3,
+      "mean": 21.473942890364015,
+      "sample_std": 0.1595289675069646
+    },
+    "SevenNet/aligned/pair_delta_mae_mev_atom": {
+      "n": 3,
+      "mean": 23.379283797835935,
+      "sample_std": 0.10035767832124093
+    },
+    "SevenNet/aligned/top1_accuracy": {
+      "n": 3,
+      "mean": 0.843859649122807,
+      "sample_std": 0.006077371254627594
+    },
+    "EqV3/direct/absolute_mae_mev_atom": {
+      "n": 3,
+      "mean": 62.383941883044855,
+      "sample_std": 1.6805430853598422
+    },
+    "EqV3/direct/pair_delta_mae_mev_atom": {
+      "n": 3,
+      "mean": 54.56891758111267,
+      "sample_std": 1.3141898395399332
+    },
+    "EqV3/direct/top1_accuracy": {
+      "n": 3,
+      "mean": 0.6842105263157895,
+      "sample_std": 0.027348170645824336
+    },
+    "EqV3/aligned/absolute_mae_mev_atom": {
+      "n": 3,
+      "mean": 17.78865008399187,
+      "sample_std": 0.45526175693425325
+    },
+    "EqV3/aligned/pair_delta_mae_mev_atom": {
+      "n": 3,
+      "mean": 17.153949002938273,
+      "sample_std": 1.9580334223068319
+    },
+    "EqV3/aligned/top1_accuracy": {
+      "n": 3,
+      "mean": 0.8403508771929824,
+      "sample_std": 0.01324532357065042
+    },
+    "SevenNet/direct/norm_ratio": {
+      "n": 3,
+      "mean": 2.640764308437753,
+      "sample_std": 0.016175983351256102
+    },
+    "SevenNet/direct/projection_alpha": {
+      "n": 3,
+      "mean": 0.49844602090894813,
+      "sample_std": 0.026063274103727094
+    },
+    "SevenNet/direct/orthogonal_norm_ratio": {
+      "n": 3,
+      "mean": 2.593184283787231,
+      "sample_std": 0.021373326761841147
+    },
+    "SevenNet/aligned/norm_ratio": {
+      "n": 3,
+      "mean": 0.7413130377455959,
+      "sample_std": 0.007050657014459144
+    },
+    "SevenNet/aligned/projection_alpha": {
+      "n": 3,
+      "mean": 0.3579335496049455,
+      "sample_std": 0.0004822169038368885
+    },
+    "SevenNet/aligned/orthogonal_norm_ratio": {
+      "n": 3,
+      "mean": 0.6491675376861546,
+      "sample_std": 0.008039418582624226
+    },
+    "synthetic/zero_direct/absolute_mae_mev_atom": {
+      "n": 3,
+      "mean": 0.9019453975279851,
+      "sample_std": 0.05153101348286377
+    },
+    "synthetic/zero_direct/pair_drift_mev_atom": {
+      "n": 3,
+      "mean": 0.20691058920613817,
+      "sample_std": 0.023390555147590406
+    },
+    "force12/zero_direct/rmse_ev_ang": {
+      "n": 3,
+      "mean": 0.004150195058093647,
+      "sample_std": 0.00037091790550547574
+    },
+    "force100/zero_direct/structure_mean_rmse_ev_ang": {
+      "n": 3,
+      "mean": 0.002347234698687798,
+      "sample_std": 0.00024106747501491662
+    },
+    "synthetic/reference_direct/absolute_mae_mev_atom": {
+      "n": 3,
+      "mean": 53.98957303289639,
+      "sample_std": 0.0456868434079491
+    },
+    "synthetic/reference_direct/pair_drift_mev_atom": {
+      "n": 3,
+      "mean": 18.770066025497066,
+      "sample_std": 0.30418793478135375
+    },
+    "force12/reference_direct/rmse_ev_ang": {
+      "n": 3,
+      "mean": 0.7487734245145883,
+      "sample_std": 0.00956610579710108
+    },
+    "force100/reference_direct/structure_mean_rmse_ev_ang": {
+      "n": 3,
+      "mean": 0.4168890637170301,
+      "sample_std": 0.0009298657379017814
+    },
+    "synthetic/reference_aligned/absolute_mae_mev_atom": {
+      "n": 3,
+      "mean": 0.9950183121535254,
+      "sample_std": 0.052484512370940185
+    },
+    "synthetic/reference_aligned/pair_drift_mev_atom": {
+      "n": 3,
+      "mean": 0.21012249232839544,
+      "sample_std": 0.04109632927615578
+    },
+    "force12/reference_aligned/rmse_ev_ang": {
+      "n": 3,
+      "mean": 0.0038165545207766516,
+      "sample_std": 0.0008730650758567144
+    },
+    "force100/reference_aligned/structure_mean_rmse_ev_ang": {
+      "n": 3,
+      "mean": 0.0024688830108550133,
+      "sample_std": 0.0003947839874735822
+    },
+    "r2SCAN/direct/absolute_mae_full_scope_mev_atom": {
+      "n": 3,
+      "mean": 83.66685715910353,
+      "sample_std": 0.11391231791195137
+    },
+    "r2SCAN/direct/pair_delta_mae_mev_atom": {
+      "n": 3,
+      "mean": 24.17452310338453,
+      "sample_std": 0.6624087550072078
+    },
+    "r2SCAN/direct/top1_accuracy": {
+      "n": 3,
+      "mean": 0.46296296296296297,
+      "sample_std": 0.006415002990995883
+    },
+    "r2SCAN/aligned/absolute_mae_full_scope_mev_atom": {
+      "n": 3,
+      "mean": 23.942513993531847,
+      "sample_std": 0.09243873304653073
+    },
+    "r2SCAN/aligned/pair_delta_mae_mev_atom": {
+      "n": 3,
+      "mean": 12.978740048303104,
+      "sample_std": 0.07124638660366972
+    },
+    "r2SCAN/aligned/top1_accuracy": {
+      "n": 3,
+      "mean": 0.7444444444444445,
+      "sample_std": 0.0
+    }
+  },
+  "checks": [
+    {
+      "name": "SevenNet/direct/absolute_mae_mev_atom",
+      "expected_mean": 69.911,
+      "computed_mean": 69.91128214631689,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "SevenNet/direct/pair_delta_mae_mev_atom",
+      "expected_mean": 67.171,
+      "computed_mean": 67.17124577523592,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "SevenNet/direct/top1_accuracy",
+      "expected_mean": 0.719,
+      "computed_mean": 0.7192982456140351,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "SevenNet/aligned/absolute_mae_mev_atom",
+      "expected_mean": 21.474,
+      "computed_mean": 21.473942890364015,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "SevenNet/aligned/pair_delta_mae_mev_atom",
+      "expected_mean": 23.379,
+      "computed_mean": 23.379283797835935,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "SevenNet/aligned/top1_accuracy",
+      "expected_mean": 0.844,
+      "computed_mean": 0.843859649122807,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "EqV3/direct/absolute_mae_mev_atom",
+      "expected_mean": 62.384,
+      "computed_mean": 62.383941883044855,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "EqV3/direct/pair_delta_mae_mev_atom",
+      "expected_mean": 54.569,
+      "computed_mean": 54.56891758111267,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "EqV3/direct/top1_accuracy",
+      "expected_mean": 0.684,
+      "computed_mean": 0.6842105263157895,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "EqV3/aligned/absolute_mae_mev_atom",
+      "expected_mean": 17.789,
+      "computed_mean": 17.78865008399187,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "EqV3/aligned/pair_delta_mae_mev_atom",
+      "expected_mean": 17.154,
+      "computed_mean": 17.153949002938273,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "EqV3/aligned/top1_accuracy",
+      "expected_mean": 0.84,
+      "computed_mean": 0.8403508771929824,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "SevenNet/direct/norm_ratio",
+      "expected_mean": 2.641,
+      "computed_mean": 2.640764308437753,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "SevenNet/direct/projection_alpha",
+      "expected_mean": 0.498,
+      "computed_mean": 0.49844602090894813,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "SevenNet/direct/orthogonal_norm_ratio",
+      "expected_mean": 2.593,
+      "computed_mean": 2.593184283787231,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "SevenNet/aligned/norm_ratio",
+      "expected_mean": 0.741,
+      "computed_mean": 0.7413130377455959,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "SevenNet/aligned/projection_alpha",
+      "expected_mean": 0.358,
+      "computed_mean": 0.3579335496049455,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "SevenNet/aligned/orthogonal_norm_ratio",
+      "expected_mean": 0.649,
+      "computed_mean": 0.6491675376861546,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "synthetic/zero_direct/absolute_mae_mev_atom",
+      "expected_mean": 0.902,
+      "computed_mean": 0.9019453975279851,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "synthetic/zero_direct/pair_drift_mev_atom",
+      "expected_mean": 0.207,
+      "computed_mean": 0.20691058920613817,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "force12/zero_direct/rmse_ev_ang",
+      "expected_mean": 0.00415,
+      "computed_mean": 0.004150195058093647,
+      "decimal_places": 5,
+      "passed": true
+    },
+    {
+      "name": "force100/zero_direct/structure_mean_rmse_ev_ang",
+      "expected_mean": 0.00235,
+      "computed_mean": 0.002347234698687798,
+      "decimal_places": 5,
+      "passed": true
+    },
+    {
+      "name": "synthetic/reference_direct/absolute_mae_mev_atom",
+      "expected_mean": 53.99,
+      "computed_mean": 53.98957303289639,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "synthetic/reference_direct/pair_drift_mev_atom",
+      "expected_mean": 18.77,
+      "computed_mean": 18.770066025497066,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "force12/reference_direct/rmse_ev_ang",
+      "expected_mean": 0.74877,
+      "computed_mean": 0.7487734245145883,
+      "decimal_places": 5,
+      "passed": true
+    },
+    {
+      "name": "force100/reference_direct/structure_mean_rmse_ev_ang",
+      "expected_mean": 0.4169,
+      "computed_mean": 0.4168890637170301,
+      "decimal_places": 4,
+      "passed": true
+    },
+    {
+      "name": "synthetic/reference_aligned/absolute_mae_mev_atom",
+      "expected_mean": 0.995,
+      "computed_mean": 0.9950183121535254,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "synthetic/reference_aligned/pair_drift_mev_atom",
+      "expected_mean": 0.21,
+      "computed_mean": 0.21012249232839544,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "force12/reference_aligned/rmse_ev_ang",
+      "expected_mean": 0.00382,
+      "computed_mean": 0.0038165545207766516,
+      "decimal_places": 5,
+      "passed": true
+    },
+    {
+      "name": "force100/reference_aligned/structure_mean_rmse_ev_ang",
+      "expected_mean": 0.00247,
+      "computed_mean": 0.0024688830108550133,
+      "decimal_places": 5,
+      "passed": true
+    },
+    {
+      "name": "r2SCAN/direct/absolute_mae_full_scope_mev_atom",
+      "expected_mean": 83.667,
+      "computed_mean": 83.66685715910353,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "r2SCAN/direct/pair_delta_mae_mev_atom",
+      "expected_mean": 24.175,
+      "computed_mean": 24.17452310338453,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "r2SCAN/direct/top1_accuracy",
+      "expected_mean": 0.463,
+      "computed_mean": 0.46296296296296297,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "r2SCAN/aligned/absolute_mae_full_scope_mev_atom",
+      "expected_mean": 23.943,
+      "computed_mean": 23.942513993531847,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "r2SCAN/aligned/pair_delta_mae_mev_atom",
+      "expected_mean": 12.979,
+      "computed_mean": 12.978740048303104,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "r2SCAN/aligned/top1_accuracy",
+      "expected_mean": 0.744,
+      "computed_mean": 0.7444444444444445,
+      "decimal_places": 3,
+      "passed": true
+    },
+    {
+      "name": "trajectory/Frozen",
+      "expected_mean": 54.4,
+      "computed_mean": 54.401084575150804,
+      "decimal_places": 1,
+      "passed": true
+    },
+    {
+      "name": "trajectory/Aligned_seed_mean",
+      "expected_mean": 84.9,
+      "computed_mean": 84.93456181420618,
+      "decimal_places": 1,
+      "passed": true
+    },
+    {
+      "name": "trajectory/Direct_seed_mean",
+      "expected_mean": 137.3,
+      "computed_mean": 137.2721016730548,
+      "decimal_places": 1,
+      "passed": true
+    },
+    {
+      "name": "trajectory/41_of_50",
+      "passed": true
+    }
+  ],
+  "trajectory": {
+    "n_tasks": 50,
+    "n_structures": 171,
+    "n_pairs": 434,
+    "run_types": {
+      "GGA": 37,
+      "GGA+U": 13
+    },
+    "Frozen_task_median_mev_atom": 54.401084575150804,
+    "Frozen+h_task_median_mev_atom": 54.401084575150804,
+    "Direct_seed_mean_task_median_mev_atom": 137.2721016730548,
+    "Aligned_seed_mean_task_median_mev_atom": 84.93456181420618,
+    "aligned_better_than_direct_tasks": 41
+  },
+  "passed": true
+}

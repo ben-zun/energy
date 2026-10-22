@@ -1,0 +1,36 @@
+{
+  "gradient_checks": [
+    {
+      "route": "direct",
+      "loss_decoded": 27.492467568911206,
+      "loss_encoded": 27.492467568911202,
+      "gradient_relative_l2_error": 0.0015409429246473097,
+      "gradient_max_abs_error": 0.03125,
+      "same_loss_repeated_backward_relative_error": 0.0013805072658697182,
+      "raw_output_gradient_max_difference": 0.0,
+      "gradient_of_loss_difference_relative_norm": 0.0
+    },
+    {
+      "route": "clean",
+      "loss_decoded": 0.6007755911922465,
+      "loss_encoded": 0.6007755911922459,
+      "gradient_relative_l2_error": 0.0017120323898521799,
+      "gradient_max_abs_error": 0.03125,
+      "same_loss_repeated_backward_relative_error": 0.001431173062117989,
+      "raw_output_gradient_max_difference": 0.0,
+      "gradient_of_loss_difference_relative_norm": 0.0
+    }
+  ],
+  "within_composition_prediction_difference_max_ev_atom": 2.7755575615628914e-16,
+  "initial_weight_hash": "2f1fd1d4dd23eb95770fe26dacacad77403ec63a817b20bdcfdd75312eb68d47",
+  "parameter_updates_during_gate": 0,
+  "probe_ids": [
+    "mb-mp-e-form-007253",
+    "mb-mp-e-form-014434",
+    "mb-mp-e-form-008231",
+    "mb-mp-e-form-015901"
+  ],
+  "training_mode": true,
+  "network_precision": "bfloat16",
+  "physical_loss_precision": "float64"
+}

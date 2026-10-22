@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_KMg6Nb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.55707269
+_cell_length_b   9.23604061
+_cell_length_c   4.58053841
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   134.77146975
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KMg6Nb
+_chemical_formula_sum   'K1 Mg6 Nb1'
+_cell_volume   196.93490692
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.23984771  0.36992336  0.25000000  1
+  Mg  Mg1  1  0.75175373  0.38118658  0.25000000  1
+  Mg  Mg2  1  0.75175373  0.87056715  0.25000000  1
+  Mg  Mg3  1  0.25296377  0.09546753  0.75000000  1
+  Mg  Mg4  1  0.25296377  0.65749824  0.75000000  1
+  Mg  Mg5  1  0.69084307  0.09542154  0.75000000  1
+  Mg  Mg6  1  0.80773219  0.65386660  0.75000000  1
+  Nb  Nb7  1  0.25214002  0.87607001  0.25000000  1

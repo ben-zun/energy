@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_BaMg6Nb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.75994150
+_cell_length_b   9.53077437
+_cell_length_c   4.50426793
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   134.82510670
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaMg6Nb
+_chemical_formula_sum   'Ba1 Mg6 Nb1'
+_cell_volume   205.82682451
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.24935329  0.37467615  0.25000000  1
+  Mg  Mg1  1  0.75225394  0.37754984  0.25000000  1
+  Mg  Mg2  1  0.75225394  0.87470309  0.25000000  1
+  Mg  Mg3  1  0.24991941  0.09041161  0.75000000  1
+  Mg  Mg4  1  0.24991941  0.65950980  0.75000000  1
+  Mg  Mg5  1  0.68318446  0.09159273  0.75000000  1
+  Mg  Mg6  1  0.81509814  0.65754957  0.75000000  1
+  Nb  Nb7  1  0.24801642  0.87400721  0.25000000  1

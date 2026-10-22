@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_MgNb5O9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.90981708
+_cell_length_b   5.62377368
+_cell_length_c   5.62377354
+_cell_angle_alpha   60.00000081
+_cell_angle_beta   44.90366382
+_cell_angle_gamma   44.90366523
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgNb5O9
+_chemical_formula_sum   'Mg1 Nb5 O9'
+_cell_volume   187.70048869
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.50000000  0.50000000  0.50000000  1
+  Nb  Nb1  1  0.00000000  0.00000000  0.00000000  1
+  Nb  Nb2  1  0.33891985  0.99441315  0.99441315  1
+  Nb  Nb3  1  0.18149831  0.48516869  0.48516869  1
+  Nb  Nb4  1  0.66108015  0.00558685  0.00558685  1
+  Nb  Nb5  1  0.81850169  0.51483131  0.51483131  1
+  O  O6  1  0.00000000  0.00000000  0.50000000  1
+  O  O7  1  0.00000000  0.50000000  0.50000000  1
+  O  O8  1  0.33239092  0.50269280  0.99744064  1
+  O  O9  1  0.33239092  0.99744064  0.50269280  1
+  O  O10  1  0.33239092  0.50269280  0.50269280  1
+  O  O11  1  0.66760908  0.49730720  0.00255936  1
+  O  O12  1  0.66760908  0.00255936  0.49730720  1
+  O  O13  1  0.66760908  0.49730720  0.49730720  1
+  O  O14  1  0.00000000  0.50000000  0.00000000  1

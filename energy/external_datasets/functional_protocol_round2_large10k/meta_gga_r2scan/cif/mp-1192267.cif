@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Ho8In3Co
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.26081085
+_cell_length_b   10.26081085
+_cell_length_c   6.98819655
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000110
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho8In3Co
+_chemical_formula_sum   'Ho16 In6 Co2'
+_cell_volume   637.17554931
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.53596573  0.07193145  0.50430423  1.0
+  Ho  Ho1  1  0.92806855  0.46403427  0.50430423  1.0
+  Ho  Ho2  1  0.53596573  0.46403427  0.50430423  1.0
+  Ho  Ho3  1  0.46403427  0.92806855  0.00430423  1.0
+  Ho  Ho4  1  0.07193145  0.53596573  0.00430423  1.0
+  Ho  Ho5  1  0.46403427  0.53596573  0.00430423  1.0
+  Ho  Ho6  1  0.17804421  0.35608742  0.71215261  1.0
+  Ho  Ho7  1  0.64391258  0.82195579  0.71215261  1.0
+  Ho  Ho8  1  0.17804421  0.82195579  0.71215261  1.0
+  Ho  Ho9  1  0.82195579  0.64391258  0.21215261  1.0
+  Ho  Ho10  1  0.35608742  0.17804421  0.21215261  1.0
+  Ho  Ho11  1  0.82195579  0.17804421  0.21215261  1.0
+  Ho  Ho12  1  0.66666700  0.33333300  0.89573945  1.0
+  Ho  Ho13  1  0.33333300  0.66666700  0.39573945  1.0
+  Ho  Ho14  1  0.00000000  0.00000000  0.49270800  1.0
+  Ho  Ho15  1  0.00000000  0.00000000  0.99270800  1.0
+  In  In16  1  0.83685815  0.67371630  0.75342504  1.0
+  In  In17  1  0.32628370  0.16314185  0.75342504  1.0
+  In  In18  1  0.83685815  0.16314185  0.75342504  1.0
+  In  In19  1  0.16314185  0.32628370  0.25342504  1.0
+  In  In20  1  0.67371630  0.83685815  0.25342504  1.0
+  In  In21  1  0.16314185  0.83685815  0.25342504  1.0
+  Co  Co22  1  0.66666700  0.33333300  0.28092792  1.0
+  Co  Co23  1  0.33333300  0.66666700  0.78092792  1.0

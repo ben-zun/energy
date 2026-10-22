@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_SrSnHg
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.94529768
+_cell_length_b   4.94222037
+_cell_length_c   8.31539394
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.02061298
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrSnHg
+_chemical_formula_sum   'Sr2 Sn2 Hg2'
+_cell_volume   175.96964629
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.00017610  0.00035220  0.75190258  1.0
+  Sr  Sr1  1  -0.00017610  -0.00035220  0.25190258  1.0
+  Sn  Sn2  1  0.66670124  0.33340249  0.96957446  1.0
+  Sn  Sn3  1  0.33329876  0.66659751  0.46957446  1.0
+  Hg  Hg4  1  0.66671624  0.33343249  0.54852296  1.0
+  Hg  Hg5  1  0.33328376  0.66656651  0.04852296  1.0

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_BaCa(AgO2)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.86152655
+_cell_length_b   5.86152641
+_cell_length_c   7.79371140
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999662
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaCa(AgO2)4
+_chemical_formula_sum   'Ba1 Ca1 Ag4 O8'
+_cell_volume   231.89769326
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  -0.00000000  -0.00000000  0.00000000  1
+  Ca  Ca1  1  -0.00000000  -0.00000000  0.50000000  1
+  Ag  Ag2  1  0.33333300  0.66666700  0.73718834  1
+  Ag  Ag3  1  0.66666700  0.33333300  0.73718834  1
+  Ag  Ag4  1  0.33333300  0.66666700  0.26281166  1
+  Ag  Ag5  1  0.66666700  0.33333300  0.26281166  1
+  O  O6  1  0.29352083  0.29352083  0.70523995  1
+  O  O7  1  0.70647917  1.00000000  0.70523995  1
+  O  O8  1  1.00000000  0.70647917  0.70523995  1
+  O  O9  1  0.70647917  0.70647917  0.29476005  1
+  O  O10  1  0.00000000  0.29352083  0.29476005  1
+  O  O11  1  0.29352083  0.00000000  0.29476005  1
+  O  O12  1  0.33333300  0.66666700  0.00000000  1
+  O  O13  1  0.66666700  0.33333300  0.00000000  1

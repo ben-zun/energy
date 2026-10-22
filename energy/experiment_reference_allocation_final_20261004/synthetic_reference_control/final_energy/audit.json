@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checks": {
+    "runs": 9,
+    "all_fixed_120_epochs": true,
+    "checkpoint_selection": "validation calibrated MAE only",
+    "test_n": 2048,
+    "same_composition_structures": 52,
+    "same_composition_groups": 22,
+    "same_composition_pairs": 53,
+    "test_or_confirmation_labels_used_for_selection": false,
+    "fresh_teacher_vs_frozen_label_max_abs_ev_atom": 5.7220458984375e-06,
+    "fresh_teacher_vs_frozen_label_tolerance_ev_atom": 1e-05
+  }
+}

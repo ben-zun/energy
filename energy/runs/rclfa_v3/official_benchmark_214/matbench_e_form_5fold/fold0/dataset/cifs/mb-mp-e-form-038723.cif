@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_H4N2O3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.96835987
+_cell_length_b   5.93590290
+_cell_length_c   5.36556128
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   H4N2O3
+_chemical_formula_sum   'H8 N4 O6'
+_cell_volume   158.23953305
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  H  H0  1  0.41813545  0.75000000  0.14895082  1
+  H  H1  1  0.08186455  0.75000000  0.14895082  1
+  H  H2  1  0.91813545  0.25000000  0.85104918  1
+  H  H3  1  0.58186455  0.25000000  0.85104918  1
+  H  H4  1  0.11029561  0.75000000  0.86805000  1
+  H  H5  1  0.38970439  0.75000000  0.86805000  1
+  H  H6  1  0.88970439  0.25000000  0.13195000  1
+  H  H7  1  0.61029561  0.25000000  0.13195000  1
+  N  N8  1  0.25000000  0.75000000  0.03016497  1
+  N  N9  1  0.75000000  0.25000000  0.96983503  1
+  N  N10  1  0.75000000  0.75000000  0.50744534  1
+  N  N11  1  0.25000000  0.25000000  0.49255466  1
+  O  O12  1  0.75000000  0.75000000  0.26973631  1
+  O  O13  1  0.25000000  0.25000000  0.73026369  1
+  O  O14  1  0.97438305  0.75000000  0.61666635  1
+  O  O15  1  0.52561695  0.75000000  0.61666635  1
+  O  O16  1  0.02561695  0.25000000  0.38333365  1
+  O  O17  1  0.47438305  0.25000000  0.38333365  1

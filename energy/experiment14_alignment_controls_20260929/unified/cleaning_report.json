@@ -1,0 +1,51 @@
+{
+  "matbench": {
+    "input_structures": 422,
+    "R1_duplicate_records": 0,
+    "R2_strict_equivalence": 11,
+    "groups_with_label_conflict": 5,
+    "groups_with_mixed_source": 0,
+    "magnetic_state_metadata": "unavailable in the frozen manifest",
+    "scopes": {
+      "raw": {
+        "groups": 200,
+        "structures": 422,
+        "pairs": 250
+      },
+      "dedup": {
+        "groups": 190,
+        "structures": 401,
+        "pairs": 238
+      },
+      "dedup_no_conflict": {
+        "groups": 190,
+        "structures": 401,
+        "pairs": 238
+      }
+    }
+  },
+  "r2scan": {
+    "input_structures": 1654,
+    "R1_duplicate_records": 0,
+    "R2_strict_equivalence": 6,
+    "groups_with_label_conflict": 1,
+    "magnetic_state_metadata": "unavailable",
+    "scopes": {
+      "raw": {
+        "groups": 94,
+        "structures": 224,
+        "pairs": 210
+      },
+      "dedup": {
+        "groups": 90,
+        "structures": 214,
+        "pairs": 202
+      },
+      "dedup_no_conflict": {
+        "groups": 90,
+        "structures": 214,
+        "pairs": 202
+      }
+    }
+  }
+}

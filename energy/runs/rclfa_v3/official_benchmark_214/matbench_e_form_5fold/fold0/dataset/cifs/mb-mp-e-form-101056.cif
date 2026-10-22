@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Sr3LaGaCo2O9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.03957868
+_cell_length_b   4.03957868
+_cell_length_c   14.31768337
+_cell_angle_alpha   81.71200179
+_cell_angle_beta   81.71200179
+_cell_angle_gamma   88.74921123
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr3LaGaCo2O9
+_chemical_formula_sum   'Sr3 La1 Ga1 Co2 O9'
+_cell_volume   228.78387152
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.29748835  0.29748835  0.40502331  1
+  Sr  Sr1  1  0.69828675  0.69828675  0.60342650  1
+  Sr  Sr2  1  0.42441170  0.42441170  0.15117661  1
+  La  La3  1  0.57478461  0.57478461  0.85043077  1
+  Ga  Ga4  1  0.85235631  0.85235631  0.29528739  1
+  Co  Co5  1  0.00937771  0.00937771  0.98124458  1
+  Co  Co6  1  0.14510909  0.14510909  0.70978182  1
+  O  O7  1  0.78633280  0.78633280  0.42733441  1
+  O  O8  1  0.21141825  0.21141825  0.57716350  1
+  O  O9  1  0.36647897  0.86647897  0.26704207  1
+  O  O10  1  0.13582125  0.63582125  0.72835750  1
+  O  O11  1  0.63582125  0.13582125  0.72835750  1
+  O  O12  1  0.86647897  0.36647897  0.26704207  1
+  O  O13  1  0.07239591  0.07239591  0.85520819  1
+  O  O14  1  0.71144143  0.71144143  0.00656189  1
+  O  O15  1  0.28199668  0.28199668  0.00656189  1

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": {
+    "frozen_overall_n": 2048,
+    "frozen_relative_n": 401,
+    "frozen_relative_groups": 190,
+    "routes": [
+      "aligned",
+      "direct"
+    ],
+    "seeds": [
+      20260528,
+      20260529,
+      20260530
+    ],
+    "prediction_rows": 14616,
+    "test_not_used_for_refit": "verified_from_upstream artifacts; this script performs no fit"
+  }
+}

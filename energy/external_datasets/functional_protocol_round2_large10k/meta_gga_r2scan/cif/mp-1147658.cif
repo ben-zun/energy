@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Cu6SnO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.50732519
+_cell_length_b   6.43643519
+_cell_length_c   6.43639254
+_cell_angle_alpha   60.00826990
+_cell_angle_beta   60.36656379
+_cell_angle_gamma   60.36654526
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu6SnO8
+_chemical_formula_sum   'Cu6 Sn1 O8'
+_cell_volume   191.68449034
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.49999992  -0.00000206  0.49999989  1.0
+  Cu  Cu1  1  0.49999924  0.00000026  0.00000087  1.0
+  Cu  Cu2  1  -0.00000035  0.00000029  0.50000034  1.0
+  Cu  Cu3  1  0.00000270  0.50000090  -0.00000396  1.0
+  Cu  Cu4  1  -0.00000154  0.50000004  0.50000025  1.0
+  Cu  Cu5  1  0.49999948  0.50000049  0.00000060  1.0
+  Sn  Sn6  1  0.50000055  0.49999959  0.49999897  1.0
+  O  O7  1  0.35726958  0.36237032  0.36236673  1.0
+  O  O8  1  0.91794244  0.36067691  0.36067562  1.0
+  O  O9  1  0.35725958  0.36235490  0.91800202  1.0
+  O  O10  1  0.08205782  0.63932316  0.63932910  1.0
+  O  O11  1  0.35726140  0.91800365  0.36235210  1.0
+  O  O12  1  0.64273915  0.08199571  0.63764848  1.0
+  O  O13  1  0.64273075  0.63762985  0.63763197  1.0
+  O  O14  1  0.64273928  0.63764599  0.08199701  1.0

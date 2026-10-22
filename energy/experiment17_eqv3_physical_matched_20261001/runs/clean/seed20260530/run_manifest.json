@@ -1,0 +1,9 @@
+{
+  "route": "clean",
+  "seed": 20260530,
+  "started_utc": "2026-10-01T19:08:46.409130+00:00",
+  "lock_sha256": "b7fb1ee8406440cf9c9efe5c0d5309a60f6d3ad720265230ec7e5d6e7060d042",
+  "code_sha256": "a8f4a38fdf6ff4da2c33c5bdf1121e43460ad7ebe60e2bf25556e9110a257f70",
+  "initial_weight_hash": "d0f9a095b56529eb4608c974f147bc43eff86232121c63b5f4287ca478399778",
+  "trainable_parameters": 860417
+}

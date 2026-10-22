@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_SrMnFeBiO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.42697936
+_cell_length_b   5.42697969
+_cell_length_c   5.42697936
+_cell_angle_alpha   60.83849749
+_cell_angle_beta   60.83848764
+_cell_angle_gamma   60.83849746
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrMnFeBiO6
+_chemical_formula_sum   'Sr1 Mn1 Fe1 Bi1 O6'
+_cell_volume   115.15805053
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.24945528  0.24945528  0.24945528  1
+  Mn  Mn1  1  0.99923695  0.99923695  0.99923695  1
+  Fe  Fe2  1  0.49987556  0.49987556  0.49987556  1
+  Bi  Bi3  1  0.75123109  0.75123109  0.75123109  1
+  O  O4  1  0.80168110  0.24534636  0.70482185  1
+  O  O5  1  0.24534636  0.70482185  0.80168110  1
+  O  O6  1  0.70482185  0.80168110  0.24534636  1
+  O  O7  1  0.75463522  0.31326381  0.18045277  1
+  O  O8  1  0.31326381  0.18045277  0.75463522  1
+  O  O9  1  0.18045277  0.75463522  0.31326381  1

@@ -1,0 +1,12 @@
+{
+  "train_structures": 8192,
+  "train_full_count_composition_keys": 7851,
+  "cohort_tasks": 50,
+  "cohort_tasks_with_exact_composition_in_train": 2,
+  "task_ids": [
+    "mp-3474721",
+    "mp-3623499"
+  ],
+  "metadata_sha256": "5c76b4cda009429241117f09ec340cd383fe6f2aa60c12397131384cf75d2eaf",
+  "rule": "exact full count vector; descriptive only, no cohort selection"
+}

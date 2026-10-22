@@ -1,0 +1,57 @@
+{
+  "checks": [
+    {
+      "check": "A1 per-group aggregates reproduce per-seed rows",
+      "passed": true,
+      "detail": "max abs deviation 8.527e-14 at r2scan/frozen_aligned/seed0/spread_gt_10/abs_mae_multigroup_mev recomputed=184.464670 recorded=184.464670"
+    },
+    {
+      "check": "A2 scopes nest correctly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "A3 composition is identical to base under group centring",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "A4 paired point estimates match the difference of per-seed values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "A5 bootstrap interval brackets the point estimate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "A6 discordant counts are internally consistent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "A7 cleaning report matches the manifest",
+      "passed": true,
+      "detail": "usable_structures=401 usable_groups=190 report={'groups': 190, 'structures': 401, 'pairs': 238}"
+    },
+    {
+      "check": "A7b no structure is kept with an exclusion reason",
+      "passed": true,
+      "detail": "0 violations"
+    },
+    {
+      "check": "A8 U and A predictions are not identical",
+      "passed": true,
+      "detail": "cost vectors differ"
+    },
+    {
+      "check": "A8b composition changes the absolute MAE but not the relative metrics",
+      "passed": true,
+      "detail": "base=122.120 composition=32.509"
+    }
+  ],
+  "n_checks": 10,
+  "n_failed": 0,
+  "problems": []
+}

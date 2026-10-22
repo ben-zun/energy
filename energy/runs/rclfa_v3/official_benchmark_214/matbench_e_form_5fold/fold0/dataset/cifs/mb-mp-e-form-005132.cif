@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_RbMg6Al
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.82818865
+_cell_length_b   6.99970017
+_cell_length_c   5.17956217
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.83444577
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbMg6Al
+_chemical_formula_sum   'Rb1 Mg6 Al1'
+_cell_volume   212.56665425
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.17779756  0.83889828  0.25000000  1
+  Mg  Mg1  1  0.66407511  0.34129627  0.25000000  1
+  Mg  Mg2  1  0.66407511  0.82277784  0.25000000  1
+  Mg  Mg3  1  0.33125235  0.19923641  0.75000000  1
+  Mg  Mg4  1  0.33125235  0.63201694  0.75000000  1
+  Mg  Mg5  1  0.83741644  0.16870872  0.75000000  1
+  Mg  Mg6  1  0.79763909  0.64882005  0.75000000  1
+  Al  Al7  1  0.19649200  0.34824550  0.25000000  1

@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Ca2TaNb2O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.39588738
+_cell_length_b   6.44883121
+_cell_length_c   9.96825840
+_cell_angle_alpha   104.82987429
+_cell_angle_beta   93.28128095
+_cell_angle_gamma   92.03167705
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2TaNb2O8
+_chemical_formula_sum   'Ca4 Ta2 Nb4 O16'
+_cell_volume   334.31190698
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.76533571  0.45147622  0.58556576  1
+  Ca  Ca1  1  0.74592140  0.86921308  0.43699772  1
+  Ca  Ca2  1  0.23440221  0.55249553  0.41383080  1
+  Ca  Ca3  1  0.25417741  0.13412279  0.56166164  1
+  Ta  Ta4  1  0.75713206  0.64722667  0.00257340  1
+  Ta  Ta5  1  0.24507110  0.35425988  0.99734016  1
+  Nb  Nb6  1  0.72387132  0.24112454  0.23770942  1
+  Nb  Nb7  1  0.71328243  0.99822038  0.77852697  1
+  Nb  Nb8  1  0.27759516  0.76142690  0.76176246  1
+  Nb  Nb9  1  0.28870850  0.00520177  0.22057876  1
+  O  O10  1  0.08873028  0.22536355  0.13540479  1
+  O  O11  1  0.38520237  0.09726171  0.88768728  1
+  O  O12  1  0.91087180  0.77632806  0.86339555  1
+  O  O13  1  0.61838005  0.90452428  0.11212372  1
+  O  O14  1  0.58642417  0.44696993  0.10986790  1
+  O  O15  1  0.91558543  0.32879221  0.89814734  1
+  O  O16  1  0.41644217  0.55559080  0.88907747  1
+  O  O17  1  0.08776211  0.67101793  0.10022591  1
+  O  O18  1  0.45735810  0.26221418  0.37590204  1
+  O  O19  1  0.04263355  0.89573791  0.64818989  1
+  O  O20  1  0.34486874  0.85539308  0.36511432  1
+  O  O21  1  0.17234693  0.47411963  0.62653015  1
+  O  O22  1  0.65580657  0.14804010  0.63393072  1
+  O  O23  1  0.82774377  0.52926256  0.37273936  1
+  O  O24  1  0.95891802  0.10830863  0.35184316  1
+  O  O25  1  0.54251264  0.74182870  0.62296632  1

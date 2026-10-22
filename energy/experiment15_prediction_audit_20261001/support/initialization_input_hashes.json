@@ -1,0 +1,12 @@
+{
+  "/home/yxzhang/energy/checkpoints/equiformer_v3/checkpoint/omat24-mptrj-salex_gradient.pt": "429ccded98163122e7ba588d78e2441653f37f3e091e106c432807fe373c8f98",
+  "/home/yxzhang/energy/experiment14_alignment_controls_20260929/eqv3_fitted_reference.csv": "421201cbebd9ab09f22f427b5ddf411d36c59d2c08e840012911143d546c6214",
+  "/home/yxzhang/energy/runs/rclfa_v3/eqv3_matched_benchmark_20260725/calibration/calibrated_predictions.csv": "d415a788e4664d1db1e6873e70c7b83545f5f008b3b822ca6e1ac3f8776be224",
+  "/home/yxzhang/energy/runs/rclfa_v3/task_specific_reference_299_308/medium_same_split_269/train/train.csv": "79479313819f316c259ef796f8ff13ff16b9582daded8df1d8ffe81932d7b0ae",
+  "/home/yxzhang/energy/runs/rclfa_v3/task_specific_reference_299_308/medium_same_split_269/val/val.csv": "c9c4d829a5801ea990a4bd7c13162adafef0d8680a45fd524bb2e073c8ae566b",
+  "/home/yxzhang/energy/rclfa_v3/scripts/run_eqv3_native_upper_bound_smoke_20260725.py": "d0b6f08416cda41b4af2fb97c1aaff901c4447f977bc5f6c19bed87fc6976f6d",
+  "/home/yxzhang/energy/rclfa_v3/eqv3_native.py": "8b5535a4d5bed8bbf9649f14c61e5f33d66684376591558c0c3aefec07d80206",
+  "/home/yxzhang/energy/experiment14_alignment_controls_20260929/code/p06_eqv3_alignment_gate.py": "4f25c8188bfa1a00d3a2cf3a0f49f676fc3dec4beff454272564a054f85af28d",
+  "/home/yxzhang/energy/experiment14_alignment_controls_20260929/code/p08_error_decomposition.py": "985bf91b20c359e782984bf9b4d6c3fcb8ee1b755604f2cf0625739e24ef5122",
+  "/home/yxzhang/energy/experiment14_alignment_controls_20260929/code/p09_alignment_start.py": "1321ea609883bf071d38691a0f3ca49d399bb6290d2afbd9f8c688c1495d2635"
+}

@@ -1,0 +1,5 @@
+model,calibration,actual_fit_rows,max_abs_prediction_difference_ev_atom,max_abs_coefficient_difference,energy_scale_a,reproduced
+sevennet,element_reference,8192,2.1760371282653068e-13,4.5659627523342294e-08,1.0,True
+sevennet,affine_energy_composition,8192,1.7763568394002505e-14,1.270445082468541e-09,0.9467815292785777,True
+eqv3,element_reference,8175,1.3680723220943491e-13,2.3666148152301503e-08,1.0,True
+eqv3,affine_energy_composition,8175,3.197442310920451e-14,5.694131743894104e-08,0.9463407799293599,True

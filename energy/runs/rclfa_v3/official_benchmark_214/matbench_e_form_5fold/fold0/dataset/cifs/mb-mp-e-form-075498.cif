@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_MgGaMo4O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.82986252
+_cell_length_b   6.14377656
+_cell_length_c   9.45351372
+_cell_angle_alpha   108.96025387
+_cell_angle_beta   107.96165899
+_cell_angle_gamma   90.00064506
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgGaMo4O7
+_chemical_formula_sum   'Mg2 Ga2 Mo8 O14'
+_cell_volume   302.72646708
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.50000000  0.00000000  0.50000000  1
+  Mg  Mg1  1  0.50000000  0.50000000  0.50000000  1
+  Ga  Ga2  1  0.94488227  0.69490101  0.38978856  1
+  Ga  Ga3  1  0.05511773  0.30509899  0.61021144  1
+  Mo  Mo4  1  0.63488542  0.11287680  0.22570809  1
+  Mo  Mo5  1  0.74645844  0.22680206  0.99275978  1
+  Mo  Mo6  1  0.25354156  0.77319794  0.00724022  1
+  Mo  Mo7  1  0.36511458  0.88712320  0.77429191  1
+  Mo  Mo8  1  0.25357764  0.23402027  0.00724298  1
+  Mo  Mo9  1  0.09078764  0.11285801  0.22573054  1
+  Mo  Mo10  1  0.90921236  0.88714199  0.77426946  1
+  Mo  Mo11  1  0.74642236  0.76597973  0.99275702  1
+  O  O12  1  0.24966421  0.24213211  0.48428083  1
+  O  O13  1  0.73464680  0.24215605  0.48428314  1
+  O  O14  1  0.12711165  0.61027236  0.75420710  1
+  O  O15  1  0.62408045  0.09928656  0.74812455  1
+  O  O16  1  0.37591955  0.90071344  0.25187545  1
+  O  O17  1  0.87285972  0.85606326  0.24578704  1
+  O  O18  1  0.87288835  0.38972764  0.24579290  1
+  O  O19  1  0.12714028  0.14393674  0.75421296  1
+  O  O20  1  0.00000000  0.50000000  0.00000000  1
+  O  O21  1  0.62406833  0.64882655  0.74811811  1
+  O  O22  1  0.37593167  0.35117345  0.25188189  1
+  O  O23  1  0.75033579  0.75786789  0.51571917  1
+  O  O24  1  0.26535320  0.75784395  0.51571686  1
+  O  O25  1  0.50000000  0.50000000  0.00000000  1

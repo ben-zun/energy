@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_SrZr3N6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.61597174
+_cell_length_b   9.02290187
+_cell_length_c   57.94652955
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   111.50737839
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrZr3N6
+_chemical_formula_sum   'Sr1 Zr3 N6'
+_cell_volume   3218.27516402
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.00000000  -0.00000000  0.00000000  1
+  Zr  Zr1  1  0.00000000  -0.00000000  0.50000000  1
+  Zr  Zr2  1  0.50000000  0.50000000  0.00000000  1
+  Zr  Zr3  1  0.00000000  0.50000000  0.00000000  1
+  N  N4  1  0.00000000  -0.00000000  0.76903614  1
+  N  N5  1  0.00000000  -0.00000000  0.23096386  1
+  N  N6  1  0.75918533  0.71845957  0.00000000  1
+  N  N7  1  0.24081467  0.28154043  0.00000000  1
+  N  N8  1  0.04072576  0.28154043  0.00000000  1
+  N  N9  1  0.95927424  0.71845957  0.00000000  1

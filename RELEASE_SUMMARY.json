@@ -1,0 +1,21 @@
+{
+  "name": "energy-reference-alignment-20261016",
+  "created": "2026-10-16",
+  "source_account": "yxzhang@10.20.5.100",
+  "source_root": "/home/yxzhang/energy",
+  "source_artifacts": 28048,
+  "source_artifact_bytes": 2501810706,
+  "integrity_checks_passed": true,
+  "integrity_check_count": 18,
+  "paper_number_checks": 40,
+  "manuscript_sha256": "d3b31e2e073b2cbe6b391826804723ebe6cf33bca99276d0a3396245dfea0430",
+  "missing_sources": 0,
+  "original_experiments_modified": false,
+  "training_rerun": false,
+  "github_published": false,
+  "notes": [
+    "Original source paths retained; GPU environment portability not verified.",
+    "Large files require LFS or external artifact storage for GitHub.",
+    "README explains third-party notices and unavailable bibliography."
+  ]
+}

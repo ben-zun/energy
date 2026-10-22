@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_NaCdCuSe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.03043609
+_cell_length_b   3.74436812
+_cell_length_c   17.59895550
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCdCuSe2
+_chemical_formula_sum   'Na4 Cd4 Cu4 Se8'
+_cell_volume   529.18138940
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.14422013  0.25000000  0.92418672  1
+  Na  Na1  1  0.64422013  0.25000000  0.57581328  1
+  Na  Na2  1  0.85577987  0.75000000  0.07581328  1
+  Na  Na3  1  0.35577987  0.75000000  0.42418672  1
+  Cd  Cd4  1  0.11789951  0.25000000  0.24247735  1
+  Cd  Cd5  1  0.61789951  0.25000000  0.25752265  1
+  Cd  Cd6  1  0.88210049  0.75000000  0.75752265  1
+  Cd  Cd7  1  0.38210049  0.75000000  0.74247735  1
+  Cu  Cu8  1  0.63235783  0.25000000  0.89272965  1
+  Cu  Cu9  1  0.13235783  0.25000000  0.60727035  1
+  Cu  Cu10  1  0.36764217  0.75000000  0.10727035  1
+  Cu  Cu11  1  0.86764217  0.75000000  0.39272965  1
+  Se  Se12  1  0.15221414  0.25000000  0.09937851  1
+  Se  Se13  1  0.65221414  0.25000000  0.40062149  1
+  Se  Se14  1  0.84778586  0.75000000  0.90062149  1
+  Se  Se15  1  0.34778586  0.75000000  0.59937851  1
+  Se  Se16  1  0.57730888  0.25000000  0.11568403  1
+  Se  Se17  1  0.07730888  0.25000000  0.38431597  1
+  Se  Se18  1  0.42269112  0.75000000  0.88431597  1
+  Se  Se19  1  0.92269112  0.75000000  0.61568403  1

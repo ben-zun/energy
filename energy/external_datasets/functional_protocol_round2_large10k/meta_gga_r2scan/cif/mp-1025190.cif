@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Co2NiSe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.54389056
+_cell_length_b   6.11827231
+_cell_length_c   6.36454836
+_cell_angle_alpha   117.93048144
+_cell_angle_beta   106.16524531
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Co2NiSe4
+_chemical_formula_sum   'Co2 Ni1 Se4'
+_cell_volume   115.71301688
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.25969854  0.27530224  0.51939609  1.0
+  Co  Co1  1  0.74031141  0.72478006  0.48062282  1.0
+  Ni  Ni2  1  -0.00016644  -0.00031641  -0.00033287  1.0
+  Se  Se3  1  0.12901392  0.46018075  0.25802784  1.0
+  Se  Se4  1  0.87104280  0.53987188  0.74208359  1.0
+  Se  Se5  1  0.36352818  0.02524217  0.72705637  1.0
+  Se  Se6  1  0.63657258  0.97493831  0.27314417  1.0

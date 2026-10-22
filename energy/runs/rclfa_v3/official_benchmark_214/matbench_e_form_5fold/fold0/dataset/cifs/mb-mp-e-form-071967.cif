@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_SrCo2(AsO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.87176322
+_cell_length_b   7.12055815
+_cell_length_c   9.38683585
+_cell_angle_alpha   113.29012418
+_cell_angle_beta   102.22748123
+_cell_angle_gamma   97.70302057
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrCo2(AsO4)2
+_chemical_formula_sum   'Sr2 Co4 As4 O16'
+_cell_volume   341.78277816
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.69038019  0.75299575  0.51034687  1
+  Sr  Sr1  1  0.30961981  0.24700425  0.48965313  1
+  Co  Co2  1  0.16373277  0.87815526  0.08788136  1
+  Co  Co3  1  0.83626723  0.12184474  0.91211864  1
+  Co  Co4  1  0.43150521  0.31655895  0.09065406  1
+  Co  Co5  1  0.56849479  0.68344105  0.90934594  1
+  As  As6  1  0.25086414  0.89612889  0.72820517  1
+  As  As7  1  0.74913586  0.10387111  0.27179483  1
+  As  As8  1  0.07380739  0.56778565  0.25708937  1
+  As  As9  1  0.92619261  0.43221435  0.74291063  1
+  O  O10  1  0.10530872  0.38626373  0.07823002  1
+  O  O11  1  0.89469128  0.61373627  0.92176998  1
+  O  O12  1  0.44173681  0.71153428  0.09361544  1
+  O  O13  1  0.55826319  0.28846572  0.90638456  1
+  O  O14  1  0.83038403  0.00765023  0.08838402  1
+  O  O15  1  0.16961597  0.99234977  0.91161598  1
+  O  O16  1  0.45249223  0.14786817  0.22146517  1
+  O  O17  1  0.54750777  0.85213183  0.77853383  1
+  O  O18  1  0.13600153  0.83054127  0.29452782  1
+  O  O19  1  0.86399847  0.16945873  0.70547218  1
+  O  O20  1  0.78786880  0.48581876  0.26676418  1
+  O  O21  1  0.21213120  0.51418124  0.73323582  1
+  O  O22  1  0.37938327  0.15989817  0.74431414  1
+  O  O23  1  0.62061673  0.84010183  0.25568586  1
+  O  O24  1  0.28012304  0.54345430  0.40518297  1
+  O  O25  1  0.71987696  0.45654570  0.59481703  1

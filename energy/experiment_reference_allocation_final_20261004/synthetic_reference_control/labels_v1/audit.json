@@ -1,0 +1,14 @@
+{
+  "n": 11264,
+  "integer_count_max_abs": 1.4210854715202004e-14,
+  "total_shift_identity_max_abs_ev": 4.547473508864641e-13,
+  "same_composition_shift_max_spread_ev_atom": 8.881784197001252e-16,
+  "oracle_energy_max_abs_ev_atom": 4.440892098500626e-16,
+  "oracle_ec_drift_max_abs_ev_atom": 8.881784197001252e-16,
+  "reference_coordinate_dependency": "none: label shift uses atomic fractions only",
+  "teacher_trainable_state_hash": "c53990a996404d163f1831b6eeb207d6ab11b8d09ab75c7cb86032cab25f0afe",
+  "teacher_full_state_hash": "1efaedf3d53220d5f79a3e6466c380d244fa1aa39cb0e9cb5b40e4656e6794b6",
+  "synthetic_labels_sha256": "e380e97e706571d0b4cc2900b4e86fbe17af2c16ff8bb03708a74fa8f980f6f1",
+  "reference_coefficients_sha256": "d46d75b22e5a6466bbe70809d097a73c4eba7a5b04d9330cbecb90d271558563",
+  "status": "PASS"
+}

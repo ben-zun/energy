@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_DyAl7Fe5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.62847926
+_cell_length_b   6.62202396
+_cell_length_c   6.62009621
+_cell_angle_alpha   135.84049304
+_cell_angle_beta   98.05949188
+_cell_angle_gamma   98.19076975
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyAl7Fe5
+_chemical_formula_sum   'Dy1 Al7 Fe5'
+_cell_volume   187.58184710
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.00460775  0.00007161  0.00464525  1.0
+  Al  Al1  1  0.65908918  -0.00025981  0.65889140  1.0
+  Al  Al2  1  0.33984854  0.00012499  0.33989423  1.0
+  Al  Al3  1  0.33720326  0.34397235  0.99346613  1.0
+  Al  Al4  1  0.64947804  0.65615272  0.99336293  1.0
+  Al  Al5  1  0.77292317  0.50004014  0.27292628  1.0
+  Al  Al6  1  0.79238291  0.28905629  0.50337485  1.0
+  Al  Al7  1  0.21424951  0.71085992  0.50333557  1.0
+  Fe  Fe8  1  0.49837271  0.49969286  0.49846956  1.0
+  Fe  Fe9  1  0.49834815  -0.00012467  -0.00132756  1.0
+  Fe  Fe10  1  0.99881704  0.00013642  0.49844802  1.0
+  Fe  Fe11  1  0.99880034  0.50024981  -0.00136232  1.0
+  Fe  Fe12  1  0.23588041  0.50002839  0.73587567  1.0

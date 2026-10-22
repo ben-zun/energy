@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Sr2AlTlV2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.74713221
+_cell_length_b   3.75434339
+_cell_length_c   13.30312507
+_cell_angle_alpha   89.99687490
+_cell_angle_beta   89.99574386
+_cell_angle_gamma   90.00394280
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2AlTlV2O7
+_chemical_formula_sum   'Sr2 Al1 Tl1 V2 O7'
+_cell_volume   187.14864268
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.50000927  0.49999898  0.81806648  1
+  Sr  Sr1  1  0.49999211  0.50000851  0.18182672  1
+  Al  Al2  1  0.49999250  0.49999148  0.50002568  1
+  Tl  Tl3  1  0.00001077  0.00000023  0.00004899  1
+  V  V4  1  0.00001693  0.00003493  0.63946174  1
+  V  V5  1  0.99997174  -0.00003167  0.36054394  1
+  O  O6  1  0.50002195  0.00001800  0.59155184  1
+  O  O7  1  0.00004283  0.49999141  0.59157831  1
+  O  O8  1  0.49996497  0.99997103  0.40843715  1
+  O  O9  1  0.99995088  0.50000068  0.40847687  1
+  O  O10  1  0.00002140  0.00000094  0.78530944  1
+  O  O11  1  0.99999515  0.00001440  0.21477905  1
+  O  O12  1  0.50000751  0.50000009  0.99989279  1

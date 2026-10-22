@@ -1,0 +1,12 @@
+{
+  "operational_gate": "passed",
+  "effect_direction_not_inspected": true,
+  "criteria": [
+    "40 epochs each",
+    "finite trajectories",
+    "val-only checkpoint choice",
+    "identical initialization",
+    "prediction artifacts"
+  ],
+  "timestamp_utc": "2026-10-03T15:04:18.423313+00:00"
+}

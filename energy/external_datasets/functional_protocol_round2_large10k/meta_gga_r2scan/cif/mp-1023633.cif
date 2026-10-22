@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_CeMg15
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.53060327
+_cell_length_b   6.53053612
+_cell_length_c   10.25227190
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00071376
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeMg15
+_chemical_formula_sum   'Ce1 Mg15'
+_cell_volume   378.66028786
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.16665913  0.33332127  0.12500000  1.0
+  Mg  Mg1  1  0.16666861  0.33333622  0.62500000  1.0
+  Mg  Mg2  1  0.18036749  0.84016962  0.12500000  1.0
+  Mg  Mg3  1  0.16159506  0.83079397  0.62500000  1.0
+  Mg  Mg4  1  0.65983064  0.31966229  0.12500000  1.0
+  Mg  Mg5  1  0.66921489  0.33842979  0.62500000  1.0
+  Mg  Mg6  1  0.65980413  0.84017162  0.12500000  1.0
+  Mg  Mg7  1  0.66919890  0.83079297  0.62500000  1.0
+  Mg  Mg8  1  0.33388654  0.16609896  0.38134278  1.0
+  Mg  Mg9  1  0.33388654  0.16609896  0.86865722  1.0
+  Mg  Mg10  1  0.33389989  0.66779877  0.38133981  1.0
+  Mg  Mg11  1  0.33389989  0.66779877  0.86866019  1.0
+  Mg  Mg12  1  0.83221342  0.16609796  0.38134178  1.0
+  Mg  Mg13  1  0.83221342  0.16609796  0.86865822  1.0
+  Mg  Mg14  1  0.83333072  0.66666444  0.36390097  1.0
+  Mg  Mg15  1  0.83333072  0.66666444  0.88609903  1.0

@@ -1,0 +1,21 @@
+{
+  "seed": 20260529,
+  "routes": [
+    {
+      "route": "direct",
+      "weight_hash": "2f1fd1d4dd23eb95770fe26dacacad77403ec63a817b20bdcfdd75312eb68d47",
+      "head_hash": "89de1e641f5fd0c2ee2b9081088d6f1120d9d0e965a1cb8a0473a35d886cd6e7",
+      "scale": 1.0,
+      "lora_B_abs_max": 0.0
+    },
+    {
+      "route": "clean",
+      "weight_hash": "2f1fd1d4dd23eb95770fe26dacacad77403ec63a817b20bdcfdd75312eb68d47",
+      "head_hash": "89de1e641f5fd0c2ee2b9081088d6f1120d9d0e965a1cb8a0473a35d886cd6e7",
+      "scale": 1.0,
+      "lora_B_abs_max": 0.0
+    }
+  ],
+  "same_initial_weights": true,
+  "same_output_head": true
+}

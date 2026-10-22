@@ -1,0 +1,49 @@
+seed,comparison,criterion,budget,route,epoch,optimizer_steps,val_native_mae,val_calibrated_mae,reason,threshold_mev,achieved_gap_mev
+20260528,same_budget,budget_20,20.0,U,20,10240,110.393822,103.996367,best val calibrated MAE among epochs <= 20,,
+20260528,same_budget,budget_40,40.0,U,40,20480,79.546169,77.53933,best val calibrated MAE among epochs <= 40,,
+20260528,same_budget,budget_60,60.0,U,60,30720,68.479615,67.460992,best val calibrated MAE among epochs <= 60,,
+20260528,same_budget,budget_80,80.0,U,79,40448,63.575308,62.953774,best val calibrated MAE among epochs <= 80,,
+20260528,same_budget,budget_120,120.0,U,116,59392,61.520422,60.391194,best val calibrated MAE among epochs <= 120,,
+20260528,final_best,final_best,120.0,U,116,59392,61.520422,60.391194,best val calibrated MAE within 120 epochs,,
+20260529,same_budget,budget_20,20.0,U,20,10240,113.101046,104.55423,best val calibrated MAE among epochs <= 20,,
+20260529,same_budget,budget_40,40.0,U,40,20480,78.881823,77.17849,best val calibrated MAE among epochs <= 40,,
+20260529,same_budget,budget_60,60.0,U,59,30208,69.649638,68.362701,best val calibrated MAE among epochs <= 60,,
+20260529,same_budget,budget_80,80.0,U,80,40960,64.294169,63.405035,best val calibrated MAE among epochs <= 80,,
+20260529,same_budget,budget_120,120.0,U,119,60928,61.158207,60.37742,best val calibrated MAE among epochs <= 120,,
+20260529,final_best,final_best,120.0,U,119,60928,61.158207,60.37742,best val calibrated MAE within 120 epochs,,
+20260530,same_budget,budget_20,20.0,U,20,10240,112.278018,104.793467,best val calibrated MAE among epochs <= 20,,
+20260530,same_budget,budget_40,40.0,U,40,20480,78.713035,76.812049,best val calibrated MAE among epochs <= 40,,
+20260530,same_budget,budget_60,60.0,U,60,30720,69.044531,67.513892,best val calibrated MAE among epochs <= 60,,
+20260530,same_budget,budget_80,80.0,U,80,40960,64.466817,63.268366,best val calibrated MAE among epochs <= 80,,
+20260530,same_budget,budget_120,120.0,U,111,56832,61.001311,60.146356,best val calibrated MAE among epochs <= 120,,
+20260530,final_best,final_best,120.0,U,111,56832,61.001311,60.146356,best val calibrated MAE within 120 epochs,,
+20260528,same_budget,budget_20,20.0,A,19,9728,22.181835,21.36072,best val calibrated MAE among epochs <= 20,,
+20260528,same_budget,budget_40,40.0,A,38,19456,21.250856,20.891794,best val calibrated MAE among epochs <= 40,,
+20260528,same_budget,budget_60,60.0,A,38,19456,21.250856,20.891794,best val calibrated MAE among epochs <= 60,,
+20260528,same_budget,budget_80,80.0,A,38,19456,21.250856,20.891794,best val calibrated MAE among epochs <= 80,,
+20260528,same_budget,budget_120,120.0,A,38,19456,21.250856,20.891794,best val calibrated MAE among epochs <= 120,,
+20260528,final_best,final_best,120.0,A,38,19456,21.250856,20.891794,best val calibrated MAE within 120 epochs,,
+20260529,same_budget,budget_20,20.0,A,18,9216,21.571884,21.320163,best val calibrated MAE among epochs <= 20,,
+20260529,same_budget,budget_40,40.0,A,35,17920,20.890714,20.706225,best val calibrated MAE among epochs <= 40,,
+20260529,same_budget,budget_60,60.0,A,35,17920,20.890714,20.706225,best val calibrated MAE among epochs <= 60,,
+20260529,same_budget,budget_80,80.0,A,35,17920,20.890714,20.706225,best val calibrated MAE among epochs <= 80,,
+20260529,same_budget,budget_120,120.0,A,35,17920,20.890714,20.706225,best val calibrated MAE among epochs <= 120,,
+20260529,final_best,final_best,120.0,A,35,17920,20.890714,20.706225,best val calibrated MAE within 120 epochs,,
+20260530,same_budget,budget_20,20.0,A,20,10240,21.360898,21.208712,best val calibrated MAE among epochs <= 20,,
+20260530,same_budget,budget_40,40.0,A,37,18944,20.822558,20.69618,best val calibrated MAE among epochs <= 40,,
+20260530,same_budget,budget_60,60.0,A,37,18944,20.822558,20.69618,best val calibrated MAE among epochs <= 60,,
+20260530,same_budget,budget_80,80.0,A,37,18944,20.822558,20.69618,best val calibrated MAE among epochs <= 80,,
+20260530,same_budget,budget_120,120.0,A,37,18944,20.822558,20.69618,best val calibrated MAE among epochs <= 120,,
+20260530,final_best,final_best,120.0,A,37,18944,20.822558,20.69618,best val calibrated MAE within 120 epochs,,
+20260528,matched_accuracy,first_within_60.3912,,U,116,59392,61.520422,60.391194,first epoch with val calibrated MAE <= 60.3912,60.391194,16.782613999999995
+20260528,matched_accuracy,first_within_60.3912,,A,2,1024,43.702495,43.60858,first epoch with val calibrated MAE <= 60.3912,60.391194,16.782613999999995
+20260528,matched_accuracy,first_within_103.9964,,U,20,10240,110.393822,103.996367,first epoch with val calibrated MAE <= 103.9964,103.996367,37.62972300000001
+20260528,matched_accuracy,first_within_103.9964,,A,1,512,63.801546,66.366644,first epoch with val calibrated MAE <= 103.9964,103.996367,37.62972300000001
+20260529,matched_accuracy,first_within_60.3774,,U,119,60928,61.158207,60.37742,first epoch with val calibrated MAE <= 60.3774,60.37742,18.004584
+20260529,matched_accuracy,first_within_60.3774,,A,2,1024,42.861742,42.372836,first epoch with val calibrated MAE <= 60.3774,60.37742,18.004584
+20260529,matched_accuracy,first_within_104.5542,,U,20,10240,113.101046,104.55423,first epoch with val calibrated MAE <= 104.5542,104.55423,39.236992
+20260529,matched_accuracy,first_within_104.5542,,A,1,512,64.378196,65.317238,first epoch with val calibrated MAE <= 104.5542,104.55423,39.236992
+20260530,matched_accuracy,first_within_60.1464,,U,111,56832,61.001311,60.146356,first epoch with val calibrated MAE <= 60.1464,60.146356,16.848627999999998
+20260530,matched_accuracy,first_within_60.1464,,A,2,1024,43.438662,43.297728,first epoch with val calibrated MAE <= 60.1464,60.146356,16.848627999999998
+20260530,matched_accuracy,first_within_104.7935,,U,20,10240,112.278018,104.793467,first epoch with val calibrated MAE <= 104.7935,104.793467,38.409153
+20260530,matched_accuracy,first_within_104.7935,,A,1,512,64.115341,66.384314,first epoch with val calibrated MAE <= 104.7935,104.793467,38.409153

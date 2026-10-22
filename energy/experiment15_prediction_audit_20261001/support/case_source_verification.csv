@@ -1,0 +1,7 @@
+id,group,natoms,cif_sha256,label_source,verified
+mb-mp-e-form-030311,CrPO10|48,48,607c32f157b8841c129dad16e04d0f4ca928bb373a1142b36ee34e5c72c23961,/home/yxzhang/energy/runs/rclfa_v3/official_benchmark_214/matbench_e_form_5fold/fold0/dataset/test/test.csv,True
+mb-mp-e-form-045201,CrPO10|48,48,531ca2f89ce414046616b46afd61c8b489c2c9b461700e343817e7d9f84e274f,/home/yxzhang/energy/runs/rclfa_v3/official_benchmark_214/matbench_e_form_5fold/fold0/dataset/test/test.csv,True
+mb-mp-e-form-040675,Nb5Si3|16,16,e58d01efc0c8078338d03b8a775f9144ee2a9f192b5ab1f8bf8769832b3ec5f5,/home/yxzhang/energy/runs/rclfa_v3/official_benchmark_214/matbench_e_form_5fold/fold0/dataset/test/test.csv,True
+mb-mp-e-form-042477,Nb5Si3|16,16,d07b09391877e913be9bfbe2691f4ead437104b83372d1d84c35293d61bfba0f,/home/yxzhang/energy/runs/rclfa_v3/official_benchmark_214/matbench_e_form_5fold/fold0/dataset/test/test.csv,True
+mb-mp-e-form-018375,TaRu|2,2,316ca65b6701d150835de1ce5c9e14d1a37fbc4d4d89fbaeb5cd5262cd422faf,/home/yxzhang/energy/runs/rclfa_v3/official_benchmark_214/matbench_e_form_5fold/fold0/dataset/test/test.csv,True
+mb-mp-e-form-027507,TaRu|2,2,f4a23396c8b807c198970f62291392c811d92c8bd44bb89bd16cc1111aed3526,/home/yxzhang/energy/runs/rclfa_v3/official_benchmark_214/matbench_e_form_5fold/fold0/dataset/test/test.csv,True

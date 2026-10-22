@@ -1,0 +1,8 @@
+{
+  "status": "verified",
+  "required_files": 11,
+  "overlap_rows": 273,
+  "within_group_rows": 386,
+  "calibration_reproduced": true,
+  "numeric_finite": true
+}

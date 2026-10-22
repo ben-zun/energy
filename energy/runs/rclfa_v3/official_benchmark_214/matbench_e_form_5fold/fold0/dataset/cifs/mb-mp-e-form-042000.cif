@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Pt(NO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.07433878
+_cell_length_b   6.07433837
+_cell_length_c   6.07433876
+_cell_angle_alpha   46.75192387
+_cell_angle_beta   46.75192370
+_cell_angle_gamma   46.75192476
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pt(NO3)2
+_chemical_formula_sum   'Pt1 N2 O6'
+_cell_volume   108.64059886
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pt  Pt0  1  -0.00000000  -0.00000000  0.00000000  1
+  N  N1  1  0.59010263  0.59010263  0.59010263  1
+  N  N2  1  0.40989737  0.40989737  0.40989737  1
+  O  O3  1  0.84366115  0.31009691  0.60865048  1
+  O  O4  1  0.60865048  0.84366115  0.31009692  1
+  O  O5  1  0.31009692  0.60865048  0.84366115  1
+  O  O6  1  0.15633885  0.68990309  0.39134952  1
+  O  O7  1  0.39134952  0.15633885  0.68990308  1
+  O  O8  1  0.68990308  0.39134952  0.15633885  1

@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_YZnPd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.87192070
+_cell_length_b   7.24457746
+_cell_length_c   7.24453928
+_cell_angle_alpha   120.00017300
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YZnPd
+_chemical_formula_sum   'Y3 Zn3 Pd3'
+_cell_volume   175.98682693
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  -0.00000000  0.40431894  0.00000000  1.0
+  Y  Y1  1  -0.00000000  0.59570190  0.59568443  1.0
+  Y  Y2  1  -0.00000000  0.00001647  0.40431557  1.0
+  Zn  Zn3  1  0.50000000  0.75001609  0.00000000  1.0
+  Zn  Zn4  1  0.50000000  0.25000528  0.24998186  1.0
+  Zn  Zn5  1  0.50000000  0.00002442  0.75001814  1.0
+  Pd  Pd6  1  -0.00000000  1.00000201  -0.00000000  1.0
+  Pd  Pd7  1  0.50000000  0.66667311  0.33332933  1.0
+  Pd  Pd8  1  0.50000000  0.33334278  0.66667067  1.0

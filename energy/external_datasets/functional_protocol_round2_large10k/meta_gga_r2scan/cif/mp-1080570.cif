@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CsNiBr3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.55607498
+_cell_length_b   7.55607759
+_cell_length_c   6.27613375
+_cell_angle_alpha   89.99994798
+_cell_angle_beta   90.00005080
+_cell_angle_gamma   119.99973702
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsNiBr3
+_chemical_formula_sum   'Cs2 Ni2 Br6'
+_cell_volume   310.32491166
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.33333296  0.66666688  0.75000017  1.0
+  Cs  Cs1  1  0.66666719  0.33333289  0.25000066  1.0
+  Ni  Ni2  1  -0.00000009  0.00000013  0.50000011  1.0
+  Ni  Ni3  1  -0.00000026  0.00000018  -0.00000009  1.0
+  Br  Br4  1  0.15492903  0.84507287  0.25000227  1.0
+  Br  Br5  1  0.15492790  0.30985394  0.25000058  1.0
+  Br  Br6  1  0.69014635  0.84507200  0.25000059  1.0
+  Br  Br7  1  0.84507160  0.15492822  0.74999912  1.0
+  Br  Br8  1  0.84507230  0.69014608  0.74999937  1.0
+  Br  Br9  1  0.30985403  0.15492781  0.74999921  1.0

@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_Sm2GaNi2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.23633392
+_cell_length_b   5.36051254
+_cell_length_c   5.40351026
+_cell_angle_alpha   119.73328759
+_cell_angle_beta   113.04118288
+_cell_angle_gamma   90.00167996
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sm2GaNi2
+_chemical_formula_sum   'Sm2 Ga1 Ni2'
+_cell_volume   95.11411769
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  1  0.79878211  0.29879680  0.59760085  1.0
+  Sm  Sm1  1  0.20121779  0.70119639  0.40239942  1.0
+  Ga  Ga2  1  -0.00000005  0.00000134  0.00000005  1.0
+  Ni  Ni3  1  0.49999824  0.26294416  -0.00000365  1.0
+  Ni  Ni4  1  0.50000190  0.73706231  0.00000433  1.0

@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "route": "A",
+  "seed": 20260528,
+  "epochs": 120,
+  "no_early_stopping": true,
+  "best_epoch": 38,
+  "best_val_calibrated_mae": 20.89179352208137,
+  "init_hash": "c53990a996404d163f1831b6eeb207d6ab11b8d09ab75c7cb86032cab25f0afe",
+  "init_checks": {
+    "route_A_minus_route_U_equals_d_max_abs": 6.464333826450286e-06,
+    "route_U_call_equals_raw_max_abs": 9.5367431640625e-07,
+    "route_A_call_equals_raw_plus_d_max_abs": 1.1448723693519014e-06,
+    "A_initial_vs_exp11_base_max_abs_ev_atom": 8.108520305860623e-06,
+    "A_initial_vs_confirmation_base_max_abs_ev_atom": 5.7220458984375e-06,
+    "confirmation_d_within_group_max_spread_ev_atom": 0.0,
+    "per_atom_single_division_max_abs_ev_atom": 9.5367431640625e-07,
+    "medium_d_within_group_max_spread_ev_atom": 0.0,
+    "d_mean_ev_atom": 4.428980544735325,
+    "d_std_ev_atom": 1.6193460901243952
+  },
+  "finished_at_utc": "2026-09-28T19:12:39.610973+00:00"
+}

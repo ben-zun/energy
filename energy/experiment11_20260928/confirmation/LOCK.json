@@ -1,0 +1,31 @@
+{
+  "frozen_at_utc": "2026-09-28T13:31:42.880096+00:00",
+  "source_protocol": "Matbench MP formation energy, same target convention as training",
+  "selection": "SHA256(20260928:id), no model outputs or energy labels used in selection",
+  "exclusion": "all 11264 medium development IDs and their reduced compositions; canonical structure hash cross-check",
+  "overall_n": 2048,
+  "relative_n": 422,
+  "relative_groups": 200,
+  "union_n": 2436,
+  "overall_estimand": "uniform deterministic sample from formula-disjoint remaining original fold0 test; not full in-distribution population",
+  "relative_estimand": "200 repeated exact-count compositions, max 8 structures/group; enrichment explicit, separate from overall MAE",
+  "pretraining_overlap": "unknown, not claimed independent of foundation pretraining",
+  "prior_use_boundary": "not used by the evaluated medium fine-tuning, calibration, composition fitting or development; public dataset may have appeared in unrelated historical benchmarks",
+  "seeds": [
+    20260528,
+    20260529,
+    20260530
+  ],
+  "C_features": "fractions118",
+  "checkpoint_selection": "original validation absolute MAE only, min across 20 epochs, patience 8",
+  "candidate_policy": "base, archived direct adaptation, fractions-only hT, archived val-selected alpha fractions-only, matched A/B/C; no confirmation grid search",
+  "overall_bootstrap": "exact-composition clusters, singleton compositions included",
+  "relative_bootstrap": "whole exact-composition groups; same resample for paired differences",
+  "input_hashes": {
+    "/home/yxzhang/energy/runs/rclfa_v3/official_benchmark_214/matbench_e_form_5fold/fold0/dataset/test/test.csv": "14406942a240c5bb6cca54dbb679709bf608fd8071cebdad9d4873bff0cc36bf",
+    "/home/yxzhang/energy/runs/rclfa_v3/real_fegx_foundation_replacement_272/reference_conversion/sevennet_reference/calibrated_predictions.csv": "044b9d1ac832c3bf5248ff1c4fdc4c6c9d187752f4e4aaf674d800367bb4f159",
+    "/home/yxzhang/energy/experiment11_20260928/analysis/val_selected_test.csv": "630b979831b5ba0c7e51402201270b2a0ba6efa0380d69912901f6f859a5694a"
+  },
+  "manifest_sha256": "fa3a941f9fcde5e1592b085898cf25c9585da374a9dd81d9a821c1aeb5aec3f0",
+  "prior_attempts": "interventions/ and logs/ A/B/C first-seed runs started before this freeze, interrupted and excluded; formal runs use interventions_v2/"
+}

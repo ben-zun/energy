@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Sr3LaCu2HgBiO10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.29641877
+_cell_length_b   5.30237302
+_cell_length_c   9.77181038
+_cell_angle_alpha   74.25778614
+_cell_angle_beta   74.27592162
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr3LaCu2HgBiO10
+_chemical_formula_sum   'Sr3 La1 Cu2 Hg1 Bi1 O10'
+_cell_volume   253.44792538
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.64692447  0.14692447  0.70615106  1
+  Sr  Sr1  1  0.14505945  0.64505945  0.70988110  1
+  Sr  Sr2  1  0.85346431  0.35346431  0.29307138  1
+  La  La3  1  0.34898523  0.84898523  0.30202954  1
+  Cu  Cu4  1  0.24825576  0.24825576  0.50348848  1
+  Cu  Cu5  1  0.74625328  0.74625328  0.50749345  1
+  Hg  Hg6  1  0.00048593  0.00048593  0.99902815  1
+  Bi  Bi7  1  0.50057778  0.50057778  0.99884444  1
+  O  O8  1  0.11848284  0.11848284  0.76303433  1
+  O  O9  1  0.62249028  0.62249028  0.75501943  1
+  O  O10  1  0.37779249  0.37779249  0.24441502  1
+  O  O11  1  0.88185901  0.88185901  0.23628199  1
+  O  O12  1  0.49477966  0.99477966  0.01044068  1
+  O  O13  1  0.99994922  0.49994922  0.00010156  1
+  O  O14  1  0.49952537  0.99949375  0.49267985  1
+  O  O15  1  0.00779477  0.50782640  0.49267985  1
+  O  O16  1  0.00779477  0.99949375  0.49267985  1
+  O  O17  1  0.49952537  0.50782640  0.49267985  1

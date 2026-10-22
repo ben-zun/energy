@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_YB4Rh7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   2.91412539
+_cell_length_b   5.53766754
+_cell_length_c   9.60591500
+_cell_angle_alpha   90.00000239
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YB4Rh7
+_chemical_formula_sum   'Y1 B4 Rh7'
+_cell_volume   155.01504597
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.00000000  0.00001321  0.00000000  1
+  B  B1  1  0.00000000  0.99967245  0.33382904  1
+  B  B2  1  -0.00000000  0.50032425  0.83282371  1
+  B  B3  1  -0.00000000  0.50032425  0.16717629  1
+  B  B4  1  0.00000000  0.99967245  0.66617096  1
+  Rh  Rh5  1  0.50000000  0.00557502  0.50000000  1
+  Rh  Rh6  1  0.50000000  0.50317330  1.00000000  1
+  Rh  Rh7  1  0.50000000  0.24941769  0.24953803  1
+  Rh  Rh8  1  0.50000000  0.74596859  0.74613432  1
+  Rh  Rh9  1  0.50000000  0.74596859  0.25386568  1
+  Rh  Rh10  1  0.50000000  0.24941769  0.75046197  1
+  Rh  Rh11  1  -0.00000000  0.50027251  0.50000000  1

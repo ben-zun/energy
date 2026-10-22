@@ -1,0 +1,7 @@
+ route split            mode  native_mae_mev_atom  actual_smooth_l1  saturated_fraction
+direct train            eval          2263.109594         71.129649            0.998413
+ clean train            eval          6617.620674        195.497195            1.000000
+direct train train_no_update          2263.153870         71.135797            0.998535
+ clean train train_no_update          6617.638493        195.501892            1.000000
+direct   val            eval          2299.577677         73.240278            0.997070
+ clean   val            eval          6605.603943        200.356371            1.000000

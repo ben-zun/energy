@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Mn3NbF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.92445745
+_cell_length_b   7.84897298
+_cell_length_c   8.01422945
+_cell_angle_alpha   81.90057161
+_cell_angle_beta   107.52738462
+_cell_angle_gamma   111.17582788
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn3NbF6
+_chemical_formula_sum   'Mn3 Nb1 F6'
+_cell_volume   331.15533952
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  -0.00000000  -0.00000000  0.50000000  1
+  Mn  Mn1  1  0.50000000  0.50000000  0.00000000  1
+  Mn  Mn2  1  -0.00000000  0.50000000  0.00000000  1
+  Nb  Nb3  1  -0.00000000  -0.00000000  0.00000000  1
+  F  F4  1  0.86644256  0.20974517  0.93582121  1
+  F  F5  1  0.13355744  0.79025483  0.06417879  1
+  F  F6  1  0.94683266  0.97164977  0.73191618  1
+  F  F7  1  0.05316734  0.02835023  0.26808382  1
+  F  F8  1  0.65694647  0.79909418  0.97505929  1
+  F  F9  1  0.34305353  0.20090582  0.02494071  1

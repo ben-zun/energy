@@ -1,0 +1,22 @@
+{
+  "draws": 10000,
+  "seed": 20261001,
+  "bootstrap_unit": "whole cleaned exact-composition group; identical draws for all methods/seeds",
+  "seed_mean": "arithmetic mean of per-seed statistics, group bootstrap conditional on three archived seeds; not pooled independent samples",
+  "energy_unit": "eV/atom; norms in eV/atom; MSE in (eV/atom)^2; MAE in meV/atom",
+  "major_wrong_threshold_mev": 10,
+  "exact_tie_cost_tolerance_mev": 1e-09,
+  "target_rms_floor_ev_atom": 1e-06,
+  "mask": "relative_cohort & keep, then remove post-cleaning singleton groups, then center",
+  "reference_models": "frozen calibrated base for each backbone; EqV3 historical adapted residual is NOT base",
+  "training": "none; no optimization updates or overwriting reference fits",
+  "inputs": {
+    "/home/yxzhang/energy/experiment14_alignment_controls_20260929/unified/evaluation_manifest.csv": "358624efeadbcd040db4c13279d58a2c0ef2f6a3157d75182164167e2522daaf",
+    "/home/yxzhang/energy/experiment14_alignment_controls_20260929/unified/predictions_matbench.csv": "3c7de2920616df3d03955192fb53a556e900c00602478ffcf234ee3cdb4e4624",
+    "/home/yxzhang/energy/experiment14_alignment_controls_20260929/unified/predictions_eqv3_final40.csv": "4a7469a632fd812859d9631c0b69c4c5487252ee13568769f666174033caa76c",
+    "/home/yxzhang/energy/experiment11_20260928/confirmation/eqv3_base.csv": "983701222b9698fe7c349f3be3694f94a445bfc0a1b1406278df753a56bb3376",
+    "/home/yxzhang/energy/experiment14_alignment_controls_20260929/unified/lr_selection_by_validation.csv": "6195885ca2b1e55981183c894e6dd6c908bcf932a36d0b68728e3de0899fe99b",
+    "/home/yxzhang/energy/experiment14_alignment_controls_20260929/eqv3_fitted_reference.csv": "421201cbebd9ab09f22f427b5ddf411d36c59d2c08e840012911143d546c6214",
+    "/home/yxzhang/energy/experiment14_alignment_controls_20260929/eqv3_fitted_offset_coefficients.npz": "4560d2581fca4a709a5902eeba74264ac1ace2b6ddacfc24b7dc506f832af33a"
+  }
+}

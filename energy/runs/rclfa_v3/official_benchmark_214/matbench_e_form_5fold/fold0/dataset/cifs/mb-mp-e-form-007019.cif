@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Mg6ZrCo
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.37617370
+_cell_length_b   5.77935476
+_cell_length_c   4.89531045
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   116.94913803
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg6ZrCo
+_chemical_formula_sum   'Mg6 Zr1 Co1'
+_cell_volume   160.80399626
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.64075728  0.31844687  0.25000000  1
+  Mg  Mg1  1  0.64075728  0.82230940  0.25000000  1
+  Mg  Mg2  1  0.33758115  0.16528731  0.75000000  1
+  Mg  Mg3  1  0.33758115  0.67229484  0.75000000  1
+  Mg  Mg4  1  0.83610851  0.16805475  0.75000000  1
+  Mg  Mg5  1  0.89515628  0.69757864  0.75000000  1
+  Zr  Zr6  1  0.13632531  0.31816216  0.25000000  1
+  Co  Co7  1  0.17573305  0.83786603  0.25000000  1

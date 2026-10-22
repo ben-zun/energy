@@ -1,0 +1,33 @@
+{
+  "route": "A",
+  "seed": 20260528,
+  "learning_rate": 0.0003,
+  "tag": "r2scan",
+  "prediction": "f_theta(X)/N + d(z) frozen",
+  "reference_initialisation": "w = -mu_Z, b = -bias (identical to the frozen d)",
+  "reference_weight_decay": null,
+  "max_epochs": 60,
+  "no_early_stopping": true,
+  "selection": "argmin val calibrated MAE, ties -> earlier epoch",
+  "post_calibration": "ridge on 118 atomic fractions + unpenalized intercept, alpha=1e-6, train only",
+  "weight_decay": 1e-05,
+  "huber_beta": 0.05,
+  "batch_train": 16,
+  "batch_eval": 32,
+  "trainable_parameters": 301300,
+  "prefixes": [
+    "3_",
+    "4_",
+    "reduce_input_to_hidden",
+    "reduce_hidden_to_energy",
+    "rescale_atomic_energy"
+  ],
+  "init_hash": "c53990a996404d163f1831b6eeb207d6ab11b8d09ab75c7cb86032cab25f0afe",
+  "init_checks": {
+    "A_minus_U_equals_d_max_abs": 9.5367431640625e-07,
+    "T_initial_equals_A_max_abs": 4.76837158203125e-07,
+    "trainable_parameters_main": 301300,
+    "reference_parameters": 119
+  },
+  "started_at_utc": "2026-09-29T19:14:05.692359+00:00"
+}

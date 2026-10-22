@@ -1,0 +1,3 @@
+model,n_fully_unexposed_structures,n_repeated_exact_composition_groups,n_ec_structures,base_mae_mev_atom,adapt_mae_mev_atom,base_ec_mae_mev_atom,adapt_ec_mae_mev_atom
+sevennet,362,8,23,123.77207283186877,122.92296469074552,8.932625809252801,15.885699275026816
+eqv3,362,8,23,123.95510838116289,10.761123011955576,7.164042766809998,9.478899064999679

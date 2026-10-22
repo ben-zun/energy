@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_KCBr(NO2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.45918557
+_cell_length_b   7.59838049
+_cell_length_c   7.47057927
+_cell_angle_alpha   116.14758538
+_cell_angle_beta   103.07832788
+_cell_angle_gamma   97.46011848
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KCBr(NO2)2
+_chemical_formula_sum   'K2 C2 Br2 N4 O8'
+_cell_volume   309.34608656
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.33219421  0.27810221  0.12660152  1
+  K  K1  1  0.66780579  0.72189779  0.87339848  1
+  C  C2  1  0.96083652  0.25005819  0.53550985  1
+  C  C3  1  0.03916348  0.74994181  0.46449015  1
+  Br  Br4  1  0.81241134  0.20836717  0.70704406  1
+  Br  Br5  1  0.18758866  0.79163283  0.29295594  1
+  N  N6  1  0.84351766  0.17288824  0.32435905  1
+  N  N7  1  0.15648234  0.82711176  0.67564095  1
+  N  N8  1  0.18152009  0.35940420  0.62607872  1
+  N  N9  1  0.81847991  0.64059580  0.37392128  1
+  O  O10  1  0.71792339  0.58157322  0.47254280  1
+  O  O11  1  0.72140426  0.59659190  0.18621058  1
+  O  O12  1  0.35977310  0.91547700  0.73690317  1
+  O  O13  1  0.64022690  0.08452300  0.26309683  1
+  O  O14  1  0.28207661  0.41842678  0.52745720  1
+  O  O15  1  0.93511204  0.18343038  0.19525153  1
+  O  O16  1  0.27859574  0.40340810  0.81378942  1
+  O  O17  1  0.06488796  0.81656962  0.80474847  1

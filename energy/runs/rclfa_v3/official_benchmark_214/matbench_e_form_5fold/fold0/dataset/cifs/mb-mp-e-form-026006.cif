@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_SbTeRu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.59071774
+_cell_length_b   6.69418080
+_cell_length_c   6.75813986
+_cell_angle_alpha   114.39669656
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SbTeRu
+_chemical_formula_sum   'Sb4 Te4 Ru4'
+_cell_volume   271.54150953
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  1  0.13946976  0.85904039  0.11877902  1
+  Sb  Sb1  1  0.63946976  0.14095961  0.38122098  1
+  Sb  Sb2  1  0.86053024  0.14095961  0.88122098  1
+  Sb  Sb3  1  0.36053024  0.85904039  0.61877902  1
+  Te  Te4  1  0.86401702  0.65355955  0.32080276  1
+  Te  Te5  1  0.36401702  0.34644045  0.17919724  1
+  Te  Te6  1  0.13598298  0.34644045  0.67919724  1
+  Te  Te7  1  0.63598298  0.65355955  0.82080276  1
+  Ru  Ru8  1  0.49936327  0.72300914  0.20621994  1
+  Ru  Ru9  1  0.99936327  0.27699086  0.29378006  1
+  Ru  Ru10  1  0.50063673  0.27699086  0.79378006  1
+  Ru  Ru11  1  0.00063673  0.72300914  0.70621994  1

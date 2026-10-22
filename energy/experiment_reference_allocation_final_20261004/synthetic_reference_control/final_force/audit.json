@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "checks": {
+    "probe_selection": "12 smallest SHA256(id); independent of labels and outcomes",
+    "probe_population": "frozen synthetic medium-split test IDs (n=2048)",
+    "metadata_path": "/home/yxzhang/energy/runs/rclfa_v3/fegx_component_function_deep_study_292_298_revision/fair_finetune_293/graph_cache/medium/graph_metadata.csv",
+    "force_probe_structures": 12,
+    "finite_difference_structures": 8,
+    "finite_difference_steps_angstrom": [
+      0.01,
+      0.005,
+      0.002,
+      0.001
+    ],
+    "models_finite_differenced": [
+      "pretrained",
+      "reference_aligned",
+      "reference_direct",
+      "zero_direct"
+    ],
+    "finite_difference_max_abs_error_ev_ang": 0.026654953602701426,
+    "finite_difference_best_step_max_abs_error_ev_ang": 0.0016357800923287868,
+    "finite_difference_acceptance": "for every model/structure scalar component, the best tested step must have absolute_error <= max(0.02 eV/angstrom, 0.10*abs(analytic_force))",
+    "finite_difference_absolute_tolerance_ev_ang": 0.02,
+    "finite_difference_relative_tolerance": 0.1,
+    "finite_difference_passed_components": 32,
+    "finite_difference_total_components": 32,
+    "energy_for_force": "SevenNet physical total energy from calculator; composition reference is coordinate independent",
+    "first_seed_checkpoints": {
+      "zero_direct": "/home/yxzhang/energy/experiment_reference_allocation_final_20261004/synthetic_reference_control/runs/zero_direct/seed20260528/epoch013.pt",
+      "reference_direct": "/home/yxzhang/energy/experiment_reference_allocation_final_20261004/synthetic_reference_control/runs/reference_direct/seed20260528/epoch119.pt",
+      "reference_aligned": "/home/yxzhang/energy/experiment_reference_allocation_final_20261004/synthetic_reference_control/runs/reference_aligned/seed20260528/epoch004.pt"
+    }
+  }
+}

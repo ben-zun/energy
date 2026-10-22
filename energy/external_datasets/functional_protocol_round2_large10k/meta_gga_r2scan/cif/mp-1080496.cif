@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_GdInAu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.71690078
+_cell_length_b   7.71692124
+_cell_length_c   4.06601748
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99991529
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GdInAu
+_chemical_formula_sum   'Gd3 In3 Au3'
+_cell_volume   209.69459084
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Gd  Gd0  1  -0.00000026  0.40743555  0.50000000  1.0
+  Gd  Gd1  1  0.59256419  0.59256445  0.50000000  1.0
+  Gd  Gd2  1  0.40743570  0.00000000  0.50000000  1.0
+  In  In3  1  0.99999946  0.74313541  -0.00000000  1.0
+  In  In4  1  0.25686405  0.25686459  -0.00000000  1.0
+  In  In5  1  0.74313558  -0.00000000  -0.00000000  1.0
+  Au  Au6  1  0.00000063  -0.00000000  0.50000000  1.0
+  Au  Au7  1  0.33333282  0.66666699  -0.00000000  1.0
+  Au  Au8  1  0.66666683  0.33333301  -0.00000000  1.0

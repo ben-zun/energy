@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_EuGa3Ni2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.33168237
+_cell_length_b   6.33168876
+_cell_length_c   5.09057640
+_cell_angle_alpha   90.00002044
+_cell_angle_beta   90.00006681
+_cell_angle_gamma   104.43899949
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   EuGa3Ni2
+_chemical_formula_sum   'Eu2 Ga6 Ni4'
+_cell_volume   197.63622314
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  1  0.65500944  0.65500944  0.25000000  1.0
+  Eu  Eu1  1  0.34499056  0.34499056  0.75000000  1.0
+  Ga  Ga2  1  0.06077683  0.06077683  0.25000000  1.0
+  Ga  Ga3  1  0.93922317  0.93922317  0.75000000  1.0
+  Ga  Ga4  1  0.08497562  0.47196726  0.25000000  1.0
+  Ga  Ga5  1  0.52803274  0.91502438  0.75000000  1.0
+  Ga  Ga6  1  0.91502438  0.52803274  0.75000000  1.0
+  Ga  Ga7  1  0.47196726  0.08497562  0.25000000  1.0
+  Ni  Ni8  1  0.20368836  0.79631264  0.50000000  1.0
+  Ni  Ni9  1  0.20368836  0.79631264  0.00000000  1.0
+  Ni  Ni10  1  0.79631164  0.20368736  0.50000000  1.0
+  Ni  Ni11  1  0.79631164  0.20368736  -0.00000000  1.0

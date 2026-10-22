@@ -1,0 +1,340 @@
+{
+  "download": "https://github.com/ben-zun/energy/releases/download/v1.0.0/energy-reference-alignment-20261016.zip",
+  "files": [
+    {
+      "path": "energy/checkpoints/equiformer_v3/checkpoint/omat24-mptrj-salex_gradient.pt",
+      "bytes": 486243861,
+      "sha256": "429ccded98163122e7ba588d78e2441653f37f3e091e106c432807fe373c8f98"
+    },
+    {
+      "path": "energy/experiment11_20260928/confirmation/sevennet_graphs.pt",
+      "bytes": 80455415,
+      "sha256": "1efc0526b52ba3c25c5265c49bfb126aa0f5a12e276fb50f6309c44617ae8bb2"
+    },
+    {
+      "path": "energy/experiment12_20260929_alignment/runs/A_20260528/epoch038.pt",
+      "bytes": 3489484,
+      "sha256": "7b1b843c8b34fe62716bd531a8bff3afab8c759ee471dbcb760a7a089b04164d"
+    },
+    {
+      "path": "energy/experiment12_20260929_alignment/runs/A_20260529/epoch035.pt",
+      "bytes": 3489484,
+      "sha256": "691cc2266a3d1e60d5acd95cb39ca6635f8c8f762b2bcbf65cff8f0b2c4c3093"
+    },
+    {
+      "path": "energy/experiment12_20260929_alignment/runs/A_20260530/epoch037.pt",
+      "bytes": 3489484,
+      "sha256": "0dfc457bb10244bec47acc3f8b5116732458b816dc3077c18802f7247fae49e9"
+    },
+    {
+      "path": "energy/experiment12_20260929_alignment/runs/U_20260528/epoch116.pt",
+      "bytes": 3489484,
+      "sha256": "dc91c796a39843487785960f678041dfdeeed44d2b0911c5d0db6ad67f33d905"
+    },
+    {
+      "path": "energy/experiment12_20260929_alignment/runs/U_20260529/epoch119.pt",
+      "bytes": 3489484,
+      "sha256": "dcddc6b50a4a548d3e95e93ce770d8e07801de847f506234a534797ecc444ef9"
+    },
+    {
+      "path": "energy/experiment12_20260929_alignment/runs/U_20260530/epoch111.pt",
+      "bytes": 3489484,
+      "sha256": "7b0c099058c737ecfed303684a995cfe4fdf7fa22f21b72a949c80cbe6794087"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/r2scan10k_full/graph_cache/graph_metadata.csv",
+      "bytes": 3974642,
+      "sha256": "4e73ebc6e5b884aca2548da1785090f85b057a47e1acae71c7d5f85389c4c4b1"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/r2scan10k_full/graph_cache/test_graphs.pt",
+      "bytes": 30664271,
+      "sha256": "adb4cfb0ddf8469d8e6f8becf6cdfd009b4129b35c3197dce613a09b67c12471"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/r2scan10k_full/graph_cache/train_graphs.pt",
+      "bytes": 122849723,
+      "sha256": "06a1ab6cb739f4ea253e6d075dbd55f4b0638d871267b9f0f2290d7dc3d275bd"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/r2scan10k_full/graph_cache/val_graphs.pt",
+      "bytes": 24980043,
+      "sha256": "b099e9315cb3e46d7fa6df1a82da616e90ba89a0b7d14793ff9fea01a5369f27"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/r2scan10k_full/runs/r2scan_A_20260528_lr0.0003/best.pt",
+      "bytes": 3485200,
+      "sha256": "6ad6785809253071aa4efc34212e70d1e0794b1dfd45b41490d6ddfe114a7bdd"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/r2scan10k_full/runs/r2scan_A_20260529_lr0.0003/best.pt",
+      "bytes": 3485200,
+      "sha256": "f1347430650ee4a7d68bfa3a73c1908a70272805a8974746d33e6d429d7ea50a"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/r2scan10k_full/runs/r2scan_A_20260530_lr0.0003/best.pt",
+      "bytes": 3485200,
+      "sha256": "f1e383f3189f5e0202dac3ff05bd97cc760af914ac4a5ac602831da4397fd4cd"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/r2scan10k_full/runs/r2scan_U_20260528_lr0.0003/best.pt",
+      "bytes": 3485200,
+      "sha256": "942c1bd2c53a2724a49efed7a764c3a3a5f59751bbc94d8d093f181fcea17894"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/r2scan10k_full/runs/r2scan_U_20260529_lr0.0003/best.pt",
+      "bytes": 3485200,
+      "sha256": "44d4058c7c53bdc54ac0659dc28a1a95c8d0e0427284e895ac4a7f84336f9d0e"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/r2scan10k_full/runs/r2scan_U_20260530_lr0.0003/best.pt",
+      "bytes": 3485200,
+      "sha256": "34337f72e0e211012f62b95f25f85935bd741f895a4f78252fd87d2c46e1005c"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/runs/controls_A_20260528_lr0.0001/best.pt",
+      "bytes": 3485200,
+      "sha256": "e75d38c526346190c096f99d8737fc715f1b21aa9894174cc76600e14aa3e300"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/runs/controls_A_20260528_lr0.001/best.pt",
+      "bytes": 3485200,
+      "sha256": "410b6632b0d7ecdc0583848feaf84e0d38395be40e79aa7eb5623194d81f0e66"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/runs/controls_A_20260529_lr0.0001/best.pt",
+      "bytes": 3485200,
+      "sha256": "32c38574a83de4a04446f3ecab5792ea62aedc71b426e926a0fe440d7841b7a5"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/runs/controls_A_20260529_lr0.001/best.pt",
+      "bytes": 3485200,
+      "sha256": "77dc838ab62f77394c50d4bc3236c4d1cbda8fa66db408a7707356348d237c9f"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/runs/controls_A_20260530_lr0.0001/best.pt",
+      "bytes": 3485200,
+      "sha256": "0e69c12cf0d07971fcc1160c0a6e4f08c4f0076605737f211508d6c59e46d0db"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/runs/controls_A_20260530_lr0.001/best.pt",
+      "bytes": 3485200,
+      "sha256": "621d0ebe64a88c29bc30165ce29b966fb89d253643b87ae44f8b8b8e29b13d53"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/runs/controls_T_20260528_lr0.0003/best.pt",
+      "bytes": 3486214,
+      "sha256": "70c4981502da05e19478a3380435692ca64b8e17b2cab97e55b3f8c2ea68db0f"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/runs/controls_T_20260529_lr0.0003/best.pt",
+      "bytes": 3486214,
+      "sha256": "ad9c8c03634e02094b7a30435f1a0489421569e3b927c56d5aad621a6ebf2d42"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/runs/controls_T_20260530_lr0.0003/best.pt",
+      "bytes": 3486214,
+      "sha256": "1d575e48ee408ef50a66cf0e1057e0667eee9a7d67e05cc3345d436a0fa021fa"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/runs/controls_U_20260528_lr0.0001/best.pt",
+      "bytes": 3485200,
+      "sha256": "90a68bdf24c928c00204520349c8e506d20733c165b0d6bb513e6f5f7c756417"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/runs/controls_U_20260528_lr0.001/best.pt",
+      "bytes": 3485200,
+      "sha256": "1a319ce5022c84293f8e68f3b7654015e159d56afc9a7236aac8ecf207742c7a"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/runs/controls_U_20260529_lr0.0001/best.pt",
+      "bytes": 3485200,
+      "sha256": "21b807c32e79b7000cb2a7d92724f4c4b6251165663684b5e7ff53c5b53ef657"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/runs/controls_U_20260529_lr0.001/best.pt",
+      "bytes": 3485200,
+      "sha256": "3e1b2dbf675adf1ef02b744efb76250428d28a99c8f7639cc26638d9d357cae3"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/runs/controls_U_20260530_lr0.0001/best.pt",
+      "bytes": 3485200,
+      "sha256": "63deb2f81c01ad0d67757f8615ba0d14f02501083a2aca204da339189be5767e"
+    },
+    {
+      "path": "energy/experiment14_alignment_controls_20260929/runs/controls_U_20260530_lr0.001/best.pt",
+      "bytes": 3485200,
+      "sha256": "437b56238c9ab7ae5f5e3ea6e6b5fe124dab5be31af57455a68a36c39d610edb"
+    },
+    {
+      "path": "energy/experiment17_eqv3_physical_matched_20261001/cache/graphs.pt",
+      "bytes": 28608805,
+      "sha256": "f6185dfe3c90f56e11a55a2277fccd196a6c633b577a5e69a550cb63b8626836"
+    },
+    {
+      "path": "energy/experiment17_eqv3_physical_matched_20261001/runs/clean/seed20260528/best.pt",
+      "bytes": 125134329,
+      "sha256": "c0a8a3a070c4a80aace5f6e91a47a296a899cd032993b6954b355c904f23f616"
+    },
+    {
+      "path": "energy/experiment17_eqv3_physical_matched_20261001/runs/clean/seed20260529/best.pt",
+      "bytes": 125134329,
+      "sha256": "af797647d55ea78e35927a1802f754cd97797d6ea2795cc1c2c3c58ad177df61"
+    },
+    {
+      "path": "energy/experiment17_eqv3_physical_matched_20261001/runs/clean/seed20260530/best.pt",
+      "bytes": 125134329,
+      "sha256": "fc0694937000583a61a5f1c733990f19b8c7073479e6a516eb41d0f15c4c1dd9"
+    },
+    {
+      "path": "energy/experiment17_eqv3_physical_matched_20261001/runs/direct/seed20260528/best.pt",
+      "bytes": 125134329,
+      "sha256": "560b86f1ae7b57065ee857efac04d949ed438a5ac2a58ea799641d7d739d07bf"
+    },
+    {
+      "path": "energy/experiment17_eqv3_physical_matched_20261001/runs/direct/seed20260529/best.pt",
+      "bytes": 125134329,
+      "sha256": "ce2aadaa64f23aea1b985df15c91f5921edd377c3c741ee4741c961814ebb74a"
+    },
+    {
+      "path": "energy/experiment17_eqv3_physical_matched_20261001/runs/direct/seed20260530/best.pt",
+      "bytes": 125134329,
+      "sha256": "fcf48eba4e44dbda4f0b2c6a1f7f36d17dac36a399343528afcb822c91dd40cf"
+    },
+    {
+      "path": "energy/experiment_reference_allocation_final_20261004/synthetic_reference_control/runs/reference_aligned/seed20260528/epoch004.pt",
+      "bytes": 5935681,
+      "sha256": "496dcafdfa205c9516c463dbef032c3e29c3034b980fa27f0e3d314f057219b4"
+    },
+    {
+      "path": "energy/experiment_reference_allocation_final_20261004/synthetic_reference_control/runs/reference_aligned/seed20260529/epoch012.pt",
+      "bytes": 5935681,
+      "sha256": "32e0763d5424f9ffa249e4b91c911a858b019c5e7baf5372255cdceed5fedb04"
+    },
+    {
+      "path": "energy/experiment_reference_allocation_final_20261004/synthetic_reference_control/runs/reference_aligned/seed20260530/epoch019.pt",
+      "bytes": 5935681,
+      "sha256": "e3b34e60e188b303bc5dbc8d44c35e30758c69d979d90dbc8390bfe5213a4c76"
+    },
+    {
+      "path": "energy/experiment_reference_allocation_final_20261004/synthetic_reference_control/runs/reference_direct/seed20260528/epoch119.pt",
+      "bytes": 5935681,
+      "sha256": "fbc01925fe7a3e35af5a01abc9eb2f6f8f8aff05ed916e3f99c32d2544f28d38"
+    },
+    {
+      "path": "energy/experiment_reference_allocation_final_20261004/synthetic_reference_control/runs/reference_direct/seed20260529/epoch119.pt",
+      "bytes": 5935681,
+      "sha256": "54f868420ee787469533f5aba7b0a8c029f9b883fc850b908bdd2a5075cf8e38"
+    },
+    {
+      "path": "energy/experiment_reference_allocation_final_20261004/synthetic_reference_control/runs/reference_direct/seed20260530/epoch119.pt",
+      "bytes": 5935681,
+      "sha256": "d5e6439a01dccb4d0ee30cca4b9574ef8fe70b53025ff58b5defa5de68fcc6ce"
+    },
+    {
+      "path": "energy/experiment_reference_allocation_final_20261004/synthetic_reference_control/runs/zero_direct/seed20260528/epoch013.pt",
+      "bytes": 5935681,
+      "sha256": "acfc92fccdd608f83646eb7289277ef94f7d14e6d37d57d38729cbccd57bd218"
+    },
+    {
+      "path": "energy/experiment_reference_allocation_final_20261004/synthetic_reference_control/runs/zero_direct/seed20260529/epoch007.pt",
+      "bytes": 5935681,
+      "sha256": "6102e3e1e5c76a8c4a53a1728e5001427286c4a0988c1bd044d580b03697522f"
+    },
+    {
+      "path": "energy/experiment_reference_allocation_final_20261004/synthetic_reference_control/runs/zero_direct/seed20260530/epoch015.pt",
+      "bytes": 5935681,
+      "sha256": "94b9d96b33763ce4bae386e28e3026894090da11844f8ececca9ed86a5ff5f30"
+    },
+    {
+      "path": "energy/external_repos/equiformer_v3-main/experimental/configs/oc20/2M/reference_data/oc20_ref.pkl",
+      "bytes": 23846901,
+      "sha256": "9e2fb1269ab5821b8e455c186bcdf026f96f0265a1bdb3dafbb10f29191f3713"
+    },
+    {
+      "path": "energy/external_repos/equiformer_v3-main/src/fairchem/applications/AdsorbML/adsorbml/2023_neurips_challenge/oc20dense_val_targets.pkl",
+      "bytes": 248268,
+      "sha256": "7336e0ae8f88261d4659e9a836e238a95be10324cd479af6b430c72719fa0bbb"
+    },
+    {
+      "path": "energy/external_repos/equiformer_v3-main/src/fairchem/applications/cattsunami/databases/desorptions_9Aug23.pkl",
+      "bytes": 1793,
+      "sha256": "e5667bd6b732392e4565bcd8672cf9e624628b02cfa57a92d2732fd56fc94934"
+    },
+    {
+      "path": "energy/external_repos/equiformer_v3-main/src/fairchem/applications/cattsunami/databases/dissociation_reactions_22May24.pkl",
+      "bytes": 5408,
+      "sha256": "5a1dfeda74331735ba071ceb0b9410c61bd08cb7ff448e1399c635ec93a0ca68"
+    },
+    {
+      "path": "energy/external_repos/equiformer_v3-main/src/fairchem/applications/cattsunami/databases/transfers_5Sept23.pkl",
+      "bytes": 4032,
+      "sha256": "6369a23e291985219401259e388850c3ee21984a475c54904c2b12986d465b44"
+    },
+    {
+      "path": "energy/external_repos/equiformer_v3-main/src/fairchem/applications/cattsunami/run_validation/mapping_files/desorption_mapping.pkl",
+      "bytes": 35873,
+      "sha256": "8b6737399c70a6166dc9821816c0d2a0dd82dd50934b589bea9eec48c36239c0"
+    },
+    {
+      "path": "energy/external_repos/equiformer_v3-main/src/fairchem/applications/cattsunami/run_validation/mapping_files/dissociation_mapping.pkl",
+      "bytes": 41063,
+      "sha256": "2118b881d264e43d834db077ae84773c558e02b2b152e8cdecacc86a6ea54ee4"
+    },
+    {
+      "path": "energy/external_repos/equiformer_v3-main/src/fairchem/applications/cattsunami/run_validation/mapping_files/transfer_mapping.pkl",
+      "bytes": 50571,
+      "sha256": "9ee6baea932f1dd29ed7f65c73aae5f87d673023182034e9c682770f74917305"
+    },
+    {
+      "path": "energy/external_repos/equiformer_v3-main/src/fairchem/applications/ocx/data/computational_data/cod_matches_lookup.pkl",
+      "bytes": 308092,
+      "sha256": "f78268b2df0ac923f4e864b4ba63ab528363d151ad5aa26ff3090f55d3b33e0f"
+    },
+    {
+      "path": "energy/external_repos/equiformer_v3-main/src/fairchem/data/oc/databases/pkls/adsorbates.pkl",
+      "bytes": 52517,
+      "sha256": "d5391e68b10b714206be1b22a57d2007433a6898fac1407104c101dfba1beaa3"
+    },
+    {
+      "path": "energy/external_repos/equiformer_v3-main/src/fairchem/data/oc/databases/pkls/ions.pkl",
+      "bytes": 6048,
+      "sha256": "bb2c12327ce4f2b0b3f25e06d7d0de97f8f729fb763e951593623a26af02ed01"
+    },
+    {
+      "path": "energy/external_repos/equiformer_v3-main/src/fairchem/data/oc/databases/pkls/solvents.pkl",
+      "bytes": 11210,
+      "sha256": "f18bce1e742269853db6895d44712d29938b321a2c6848abcb56244d36317728"
+    },
+    {
+      "path": "energy/runs/rclfa_v3/fegx_component_function_deep_study_292_298_revision/fair_finetune_293/graph_cache/medium/graph_cache_summary.json",
+      "bytes": 1020,
+      "sha256": "99aba48625f505478a2f3e0d0db1d20bba46517ca6ce24167a8ed0fcaa715a06"
+    },
+    {
+      "path": "energy/runs/rclfa_v3/fegx_component_function_deep_study_292_298_revision/fair_finetune_293/graph_cache/medium/graph_metadata.csv",
+      "bytes": 2092817,
+      "sha256": "5c76b4cda009429241117f09ec340cd383fe6f2aa60c12397131384cf75d2eaf"
+    },
+    {
+      "path": "energy/runs/rclfa_v3/fegx_component_function_deep_study_292_298_revision/fair_finetune_293/graph_cache/medium/test_graphs.pt",
+      "bytes": 67236575,
+      "sha256": "5130e1f84ab37657cbb93b6d55a51c9e4cd05d0333d35e3a753ccfb6543d2fb1"
+    },
+    {
+      "path": "energy/runs/rclfa_v3/fegx_component_function_deep_study_292_298_revision/fair_finetune_293/graph_cache/medium/train_graphs.pt",
+      "bytes": 266231525,
+      "sha256": "ab807969720e7673ef31fb779e9deac232043cf56bb1629daecd759f9673f99f"
+    },
+    {
+      "path": "energy/runs/rclfa_v3/fegx_component_function_deep_study_292_298_revision/fair_finetune_293/graph_cache/medium/val_graphs.pt",
+      "bytes": 33897433,
+      "sha256": "bdc3f8635909ec4c4551e4466a8de92d1572416e5f9001aea2857c8cf93b46a7"
+    },
+    {
+      "path": "third_party/sevennet/pretrained_potentials/SevenNet_0__11Jul2024/checkpoint_sevennet_0.pth",
+      "bytes": 10268648,
+      "sha256": "7052cb42b7b3be42b40b97fa0d21077a48c54b5548948fc4dcf346629f813c36"
+    }
+  ]
+}

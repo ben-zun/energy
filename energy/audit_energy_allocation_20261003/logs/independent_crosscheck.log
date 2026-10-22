@@ -1,0 +1,26 @@
+{
+  "status": "independent_crosscheck_passed",
+  "confirmation_train_overlap": 1447,
+  "models": [
+    {
+      "model": "sevennet",
+      "groups": 45,
+      "n": 193,
+      "T_rms": 8.046443287503841,
+      "C_rms": 28.283578206922186,
+      "ratio": 3.5150410182902427,
+      "base_ec": 4.189597863857513,
+      "adapt_ec": 17.03435833616149
+    },
+    {
+      "model": "eqv3",
+      "groups": 45,
+      "n": 193,
+      "T_rms": 6.810551265013875,
+      "C_rms": 2.69702696720548,
+      "ratio": 0.3960071457152427,
+      "base_ec": 2.9097418999806743,
+      "adapt_ec": 3.402210322598713
+    }
+  ]
+}

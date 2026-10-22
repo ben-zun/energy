@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "source_manifest": "/home/yxzhang/energy/runs/rclfa_v3/full_fegx_like_foundation_probe_269/medium_subset_probe/medium_subset_probe_manifest.csv",
+  "dataset_root": "/home/yxzhang/energy/runs/rclfa_v3/task_specific_reference_299_308/medium_same_split_269",
+  "split_counts": {
+    "train": 8192,
+    "val": 1024,
+    "test": 2048
+  },
+  "notes": "269 medium same-split train8192/val1024/test2048; not a full benchmark."
+}

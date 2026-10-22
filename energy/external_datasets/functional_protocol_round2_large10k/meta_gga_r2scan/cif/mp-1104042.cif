@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Sr2Zn2As3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.41890662
+_cell_length_b   8.41890662
+_cell_length_c   11.96797352
+_cell_angle_alpha   55.06926896
+_cell_angle_beta   55.06926896
+_cell_angle_gamma   29.47843732
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2Zn2As3
+_chemical_formula_sum   'Sr4 Zn4 As6'
+_cell_volume   336.40028742
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.26623085  0.26623085  0.33681439  1.0
+  Sr  Sr1  1  0.73376915  0.73376915  0.66318561  1.0
+  Sr  Sr2  1  0.39332373  0.39332373  0.95035512  1.0
+  Sr  Sr3  1  0.60667627  0.60667627  0.04964488  1.0
+  Zn  Zn4  1  0.03822682  0.03822682  0.68653603  1.0
+  Zn  Zn5  1  0.96177318  0.96177318  0.31346397  1.0
+  Zn  Zn6  1  0.41166614  0.41166614  0.65021910  1.0
+  Zn  Zn7  1  0.58833386  0.58833386  0.34978090  1.0
+  As  As8  1  0.07496865  0.07496865  0.87480470  1.0
+  As  As9  1  0.92503135  0.92503135  0.12519530  1.0
+  As  As10  1  0.15037418  0.15037418  0.20529759  1.0
+  As  As11  1  0.84962582  0.84962582  0.79470241  1.0
+  As  As12  1  0.39116893  0.39116893  0.45657613  1.0
+  As  As13  1  0.60883107  0.60883107  0.54342387  1.0

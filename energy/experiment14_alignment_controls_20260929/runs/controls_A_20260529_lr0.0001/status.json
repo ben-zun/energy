@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "route": "A",
+  "seed": 20260529,
+  "lr": 0.0001,
+  "epochs": 120,
+  "no_early_stopping": true,
+  "best_epoch": 81,
+  "best_val_calibrated_mae": 20.8842671697244,
+  "init_hash": "c53990a996404d163f1831b6eeb207d6ab11b8d09ab75c7cb86032cab25f0afe",
+  "init_checks": {
+    "A_minus_U_equals_d_max_abs": 5.7220458984375e-06,
+    "T_initial_equals_A_max_abs": 1.9073486328125e-06,
+    "trainable_parameters_main": 301300,
+    "reference_parameters": 119
+  },
+  "finished_at_utc": "2026-09-29T11:40:01.464651+00:00"
+}

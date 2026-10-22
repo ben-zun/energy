@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "source_hashes": {
+    "per_seed_metrics.csv": "20e2d3666f236bac673996d911b6c82ed18317669d48b25ba1d20de8e60e735a",
+    "cleaning_report.json": "cf56abd9e810b3c54debe77f646ade6e98dcbf5f72a853440be19f4bfa82fa06",
+    "consistency_audit.json": "2193e3748ce3ad16c6cc18383e6da7ef51f406545f148f4fe472a7711b7c54fa"
+  },
+  "checks": {
+    "upstream_consistency_failed": 0,
+    "dedup_groups": 90,
+    "dedup_structures": 214,
+    "dedup_pairs": 202,
+    "new_training_performed": false
+  },
+  "stale_report_warning": "UNIFIED_ANALYSIS_REPORT.md states 85 groups/209 structures, while current machine-readable cleaning_report and per_seed_metrics agree on 90 groups/214 structures. This summary uses the current hashed machine-readable artifacts and does not copy the stale prose counts."
+}

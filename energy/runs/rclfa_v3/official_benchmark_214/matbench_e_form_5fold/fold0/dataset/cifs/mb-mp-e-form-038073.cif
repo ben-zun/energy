@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_MgMn2(BrO2)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.04407468
+_cell_length_b   9.04407468
+_cell_length_c   7.37801030
+_cell_angle_alpha   83.52580826
+_cell_angle_beta   96.47419174
+_cell_angle_gamma   107.02314889
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgMn2(BrO2)6
+_chemical_formula_sum   'Mg1 Mn2 Br6 O12'
+_cell_volume   571.34241386
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.00000000  0.00000000  0.50000000  1
+  Mn  Mn1  1  0.64113478  0.35886522  0.79746174  1
+  Mn  Mn2  1  0.35886522  0.64113478  0.20253826  1
+  Br  Br3  1  0.08355206  0.25841069  0.73142430  1
+  Br  Br4  1  0.74158931  0.91644794  0.73142430  1
+  Br  Br5  1  0.91644794  0.74158931  0.26857570  1
+  Br  Br6  1  0.25841069  0.08355206  0.26857570  1
+  Br  Br7  1  0.67330515  0.32669485  0.50644844  1
+  Br  Br8  1  0.32669485  0.67330515  0.49355156  1
+  O  O9  1  0.70498526  0.53947841  0.82519181  1
+  O  O10  1  0.46052159  0.29501474  0.82519181  1
+  O  O11  1  0.29501474  0.46052159  0.17480819  1
+  O  O12  1  0.53947841  0.70498526  0.17480819  1
+  O  O13  1  0.73799462  0.26200538  0.92946978  1
+  O  O14  1  0.26200538  0.73799462  0.07053022  1
+  O  O15  1  0.04449232  0.24613785  0.49679926  1
+  O  O16  1  0.75386215  0.95550768  0.49679926  1
+  O  O17  1  0.95550768  0.75386215  0.50320074  1
+  O  O18  1  0.24613785  0.04449232  0.50320074  1
+  O  O19  1  0.03100857  0.96899143  0.21195045  1
+  O  O20  1  0.96899143  0.03100857  0.78804955  1

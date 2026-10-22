@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_InSiCN
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.27202792
+_cell_length_b   5.35197533
+_cell_length_c   5.83632763
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InSiCN
+_chemical_formula_sum   'In2 Si2 C2 N2'
+_cell_volume   102.20467635
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.50000000  0.50389425  0.39516130  1
+  In  In1  1  -0.00000000  0.00389425  0.60483870  1
+  Si  Si2  1  0.50000000  0.99440964  0.08293656  1
+  Si  Si3  1  0.00000000  0.49440964  0.91706344  1
+  C  C4  1  0.50000000  0.35140337  0.04184464  1
+  C  C5  1  0.00000000  0.85140337  0.95815536  1
+  N  N6  1  0.50000000  0.91419274  0.37851789  1
+  N  N7  1  0.00000000  0.41419274  0.62148211  1

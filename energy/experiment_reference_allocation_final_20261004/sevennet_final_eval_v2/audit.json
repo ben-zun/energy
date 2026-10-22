@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "checks": {
+    "overall_n": 2048,
+    "common_n": 401,
+    "common_groups": 190,
+    "legacy_n": 422,
+    "legacy_groups": 200,
+    "paired_initialization_hashes": {
+      "20260528": [
+        "c53990a996404d163f1831b6eeb207d6ab11b8d09ab75c7cb86032cab25f0afe",
+        "c53990a996404d163f1831b6eeb207d6ab11b8d09ab75c7cb86032cab25f0afe"
+      ],
+      "20260529": [
+        "c53990a996404d163f1831b6eeb207d6ab11b8d09ab75c7cb86032cab25f0afe",
+        "c53990a996404d163f1831b6eeb207d6ab11b8d09ab75c7cb86032cab25f0afe"
+      ],
+      "20260530": [
+        "c53990a996404d163f1831b6eeb207d6ab11b8d09ab75c7cb86032cab25f0afe",
+        "c53990a996404d163f1831b6eeb207d6ab11b8d09ab75c7cb86032cab25f0afe"
+      ]
+    },
+    "prediction_rows": 14616,
+    "upstream_metric_regression_max_abs_mev_atom": 3.1497241199218706e-05
+  }
+}

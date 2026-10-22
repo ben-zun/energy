@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Na3HfF7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.35919199
+_cell_length_b   5.35919199
+_cell_length_c   6.18220861
+_cell_angle_alpha   113.37504854
+_cell_angle_beta   113.37504854
+_cell_angle_gamma   90.39500039
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na3HfF7
+_chemical_formula_sum   'Na3 Hf1 F7'
+_cell_volume   146.73751213
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.23789700  0.77459949  0.50900728  1.0
+  Na  Na1  1  0.48601068  0.48601068  0.95494866  1.0
+  Na  Na2  1  0.77459949  0.23789700  0.50900728  1.0
+  Hf  Hf3  1  0.95255487  0.95255487  0.97216688  1.0
+  F  F4  1  0.15123072  0.15123072  0.84654083  1.0
+  F  F5  1  0.10464044  0.64357493  0.76719281  1.0
+  F  F6  1  0.33090907  0.97543106  0.24891307  1.0
+  F  F7  1  0.64357493  0.10464044  0.76719281  1.0
+  F  F8  1  0.62273910  0.62273910  0.71242950  1.0
+  F  F9  1  0.97543106  0.33090907  0.24891307  1.0
+  F  F10  1  0.84541164  0.84541164  0.21368980  1.0

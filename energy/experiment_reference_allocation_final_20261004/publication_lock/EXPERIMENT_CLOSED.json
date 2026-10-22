@@ -1,0 +1,10 @@
+{
+  "status": "EXPERIMENT_CLOSED",
+  "closed_scope": "reference-allocation experiments",
+  "new_training_allowed": false,
+  "canonical_report": "/home/yxzhang/energy/experiment_reference_allocation_final_20261004/FINAL_REPORT.md",
+  "canonical_number_registry": "/home/yxzhang/energy/experiment_reference_allocation_final_20261004/publication_lock/CURRENT_NUMBER_REGISTRY.csv",
+  "historical_report_not_for_manuscript": "/home/yxzhang/energy/experiment14_alignment_controls_20260929/UNIFIED_ANALYSIS_REPORT.md",
+  "manuscript_modified": false,
+  "reason": "core evidence chain and no-training closure analyses complete"
+}

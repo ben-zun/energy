@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "epochs": 40,
+  "best_epoch": 39,
+  "best_val_mae_mev": 18.735736234157766,
+  "elapsed_seconds": 243.62467479400001,
+  "checkpoint_sha256": "fc0694937000583a61a5f1c733990f19b8c7073479e6a516eb41d0f15c4c1dd9",
+  "initial_weight_hash": "d0f9a095b56529eb4608c974f147bc43eff86232121c63b5f4287ca478399778",
+  "no_result_based_expansion": true,
+  "exact_resume_supported": true,
+  "resumed_from_epoch": 40
+}

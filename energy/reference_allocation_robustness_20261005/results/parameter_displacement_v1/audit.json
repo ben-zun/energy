@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "epoch_vectors": 720,
+  "definition": "L2 displacement of 301300 trainable network parameters from original pretrained initialization; excludes composition reference parameters",
+  "initial_parameter_names": [
+    "3_convolution.denominator",
+    "3_convolution.weight_nn.layer0.weight",
+    "3_convolution.weight_nn.layer1.weight",
+    "3_convolution.weight_nn.layer2.weight",
+    "3_self_connection_intro.linear.weight",
+    "3_self_interaction_1.linear.weight",
+    "3_self_interaction_2.linear.weight",
+    "4_convolution.denominator",
+    "4_convolution.weight_nn.layer0.weight",
+    "4_convolution.weight_nn.layer1.weight",
+    "4_convolution.weight_nn.layer2.weight",
+    "4_self_connection_intro.linear.weight",
+    "4_self_interaction_1.linear.weight",
+    "4_self_interaction_2.linear.weight",
+    "reduce_hidden_to_energy.linear.weight",
+    "reduce_input_to_hidden.linear.weight",
+    "rescale_atomic_energy.scale",
+    "rescale_atomic_energy.shift"
+  ],
+  "initial_vector_sha256": "0c90bdb2f754a9df0941813da725d5e1b96009e46861a728681b22344ca40502",
+  "gradient_batch_median": "unavailable historical artifact"
+}

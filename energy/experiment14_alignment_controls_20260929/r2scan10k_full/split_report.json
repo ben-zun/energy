@@ -1,0 +1,43 @@
+{
+  "structures": 10000,
+  "dataset_csv": "/home/yxzhang/energy/external_datasets/functional_protocol_round2_large10k/meta_gga_r2scan/cleaned/meta_gga_r2scan.csv",
+  "train": {
+    "structures": 6915,
+    "groups": 6771,
+    "multi_groups": 95,
+    "multi_structures": 239
+  },
+  "val": {
+    "structures": 1431,
+    "groups": 1431,
+    "multi_groups": 0,
+    "multi_structures": 0
+  },
+  "test": {
+    "structures": 1654,
+    "groups": 1524,
+    "multi_groups": 94,
+    "multi_structures": 224
+  },
+  "groups_spanning_splits": 0,
+  "structure_formula_crosscheck": {
+    "sampled": 300,
+    "mismatches": 172,
+    "examples": [
+      "mp-1106005",
+      "mp-998537",
+      "mp-30285",
+      "mp-29084",
+      "mp-555596"
+    ]
+  },
+  "reference_fit": {
+    "train_raw_mae_mev": 4490.613417089036,
+    "train_residual_std_ev": 1.900505442871263,
+    "d_std_ev": 1.9056054840103078,
+    "intercept": -5.279914577334902
+  },
+  "train_raw_mae_mev": 4490.613417089036,
+  "val_raw_mae_mev": 4627.004571078743,
+  "test_raw_mae_mev": 4458.7933701364345
+}

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cu2GeSe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.88145459
+_cell_length_b   11.76673814
+_cell_length_c   6.78647418
+_cell_angle_alpha   30.13371430
+_cell_angle_beta   54.87510005
+_cell_angle_gamma   60.16178652
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu2GeSe3
+_chemical_formula_sum   'Cu4 Ge2 Se6'
+_cell_volume   258.42083378
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.99247455  0.99744391  0.99657733  1.0
+  Cu  Cu1  1  0.99446127  0.66938716  0.99885874  1.0
+  Cu  Cu2  1  0.49259418  0.33524517  0.99118572  1.0
+  Cu  Cu3  1  0.49388994  0.66502878  0.00657923  1.0
+  Ge  Ge4  1  0.01146826  0.33964773  0.98685229  1.0
+  Ge  Ge5  1  0.51152131  0.99303471  0.00667426  1.0
+  Se  Se6  1  0.12075742  0.33546255  0.25428878  1.0
+  Se  Se7  1  0.12425441  0.66522575  0.24831012  1.0
+  Se  Se8  1  0.62339850  0.33738351  0.23632685  1.0
+  Se  Se9  1  0.12341580  0.99576090  0.24803145  1.0
+  Se  Se10  1  0.62447228  0.66721390  0.24556385  1.0
+  Se  Se11  1  0.62059408  0.99767493  0.26112439  1.0

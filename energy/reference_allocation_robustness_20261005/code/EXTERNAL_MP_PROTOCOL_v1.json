@@ -1,0 +1,142 @@
+{
+  "task": "15b Temporal external Materials Project candidate acquisition; 16b provenance; 17 secondary subset",
+  "frozen_at_utc": "2026-10-05T10:43:42.730692+00:00",
+  "mp_database_version": "2026.04.13",
+  "download_date": "2026-10-05 Asia/Shanghai",
+  "matbench_cutoff_date": "2019-04-02",
+  "cutoff_utc": "2019-04-02T23:59:59.999999Z",
+  "date_rule": "created_at strictly after end of Matbench acquisition day; missing dates excluded",
+  "created_at_meaning": "earliest completed task within current MaterialsDoc grouping; geometric exclusion still required, no guarantee this is date of first public release",
+  "allowed_thermo_type": "GGA_GGA+U",
+  "forbidden": [
+    "R2SCAN",
+    "GGA_GGA+U_R2SCAN",
+    "summary default formation_energy_per_atom"
+  ],
+  "structure": "ComputedStructureEntry in selected GGA/GGA+U thermo document with corrected energy/atom equal to thermo energy_per_atom within1e-8; unique match required",
+  "label": "formation_energy_per_atom from that same GGA_GGA+U ThermoDoc; eV/atom",
+  "id_normalization": "numeric and alpha MP identifiers normalize to common integer using official AlphaID base26 identity; raw source alias retained",
+  "download_selection": "all nondeprecated current core materials; date filter then historical ID exclusion; fetch GGA_GGA+U entries for every remaining ID, no target/error/stability selection",
+  "historical_rule": "exclude any ID in existing development CSV/TSV/XYZ/EXTXYZ/JSONL or relevant JSON manifests/results; candidate geometry compared to all old Matbench and available historical development structures before final cohort certification",
+  "geometry_duplicate_policy": {
+    "before_predictions": true,
+    "method": "pymatgen StructureMatcher; primitive_cell=False, scale=False, attempt_supercell=False, ElementComparator; ltol=0.2, stol=0.3, angle_tol=5",
+    "development_duplicates": "exclude candidate if matcher matches any excluded historical structure",
+    "within_candidate_duplicates": "sort canonical ID; greedily retain first representative, exclude later matcher duplicates; regroup afterwards",
+    "if_zero_ID_candidates": "not applicable; report no geometry audit performed"
+  },
+  "full_count_composition": "118 integers in Z order, pipe-delimited; never reduced formula for main grouping",
+  "m_g_minimum": 2,
+  "group_selection": "eligible50–100 all; >100 first100 ascending SHA256(canonical full-count key); <50 all with limitation; <20 report insufficiency and no automatic cross-database replacement",
+  "pairs": "all unordered within-group pairs; ID stable ordering",
+  "primary_metrics": [
+    "EC-MAE",
+    "pair deltaE-MAE",
+    "group-equal pair MAE",
+    "Top1",
+    "R"
+  ],
+  "secondary_metric": "absolute MAE descriptive only: current MP correction/version differs from2019",
+  "R": "norm(c-t)/norm(t), c=delta_prediction-delta_frozen, t=delta_truth-delta_frozen; nonpositive norm invalid",
+  "contrasts": [
+    "aligned-direct",
+    "aligned-frozen"
+  ],
+  "bootstrap": {
+    "draws": 10000,
+    "seed": 20261005,
+    "unit": "whole exact-composition group",
+    "interval": "percentile 95%",
+    "seed_statistic": "mean of statistics from the three fixed seeds; same paired draws"
+  },
+  "non_degenerate": "only after primary cohort lock, max(y)-min(y)>0.010 eV/atom strictly, secondary subset; no primary filtering",
+  "checkpoints": [
+    {
+      "route": "U",
+      "seed": 20260528,
+      "learning_rate": 0.0003,
+      "selected_epoch": 116,
+      "checkpoint": "/home/yxzhang/energy/experiment12_20260929_alignment/runs/U_20260528/epoch116.pt",
+      "checkpoint_sha256": "dc91c796a39843487785960f678041dfdeeed44d2b0911c5d0db6ad67f33d905",
+      "max_epochs": 120,
+      "initial_hash": "c53990a996404d163f1831b6eeb207d6ab11b8d09ab75c7cb86032cab25f0afe",
+      "reference_initialisation": "frozen_or_none"
+    },
+    {
+      "route": "U",
+      "seed": 20260529,
+      "learning_rate": 0.0003,
+      "selected_epoch": 119,
+      "checkpoint": "/home/yxzhang/energy/experiment12_20260929_alignment/runs/U_20260529/epoch119.pt",
+      "checkpoint_sha256": "dcddc6b50a4a548d3e95e93ce770d8e07801de847f506234a534797ecc444ef9",
+      "max_epochs": 120,
+      "initial_hash": "c53990a996404d163f1831b6eeb207d6ab11b8d09ab75c7cb86032cab25f0afe",
+      "reference_initialisation": "frozen_or_none"
+    },
+    {
+      "route": "U",
+      "seed": 20260530,
+      "learning_rate": 0.0003,
+      "selected_epoch": 111,
+      "checkpoint": "/home/yxzhang/energy/experiment12_20260929_alignment/runs/U_20260530/epoch111.pt",
+      "checkpoint_sha256": "7b0c099058c737ecfed303684a995cfe4fdf7fa22f21b72a949c80cbe6794087",
+      "max_epochs": 120,
+      "initial_hash": "c53990a996404d163f1831b6eeb207d6ab11b8d09ab75c7cb86032cab25f0afe",
+      "reference_initialisation": "frozen_or_none"
+    },
+    {
+      "route": "A",
+      "seed": 20260528,
+      "learning_rate": 0.0003,
+      "selected_epoch": 38,
+      "checkpoint": "/home/yxzhang/energy/experiment12_20260929_alignment/runs/A_20260528/epoch038.pt",
+      "checkpoint_sha256": "7b1b843c8b34fe62716bd531a8bff3afab8c759ee471dbcb760a7a089b04164d",
+      "max_epochs": 120,
+      "initial_hash": "c53990a996404d163f1831b6eeb207d6ab11b8d09ab75c7cb86032cab25f0afe",
+      "reference_initialisation": "frozen_or_none"
+    },
+    {
+      "route": "A",
+      "seed": 20260529,
+      "learning_rate": 0.0003,
+      "selected_epoch": 35,
+      "checkpoint": "/home/yxzhang/energy/experiment12_20260929_alignment/runs/A_20260529/epoch035.pt",
+      "checkpoint_sha256": "691cc2266a3d1e60d5acd95cb39ca6635f8c8f762b2bcbf65cff8f0b2c4c3093",
+      "max_epochs": 120,
+      "initial_hash": "c53990a996404d163f1831b6eeb207d6ab11b8d09ab75c7cb86032cab25f0afe",
+      "reference_initialisation": "frozen_or_none"
+    },
+    {
+      "route": "A",
+      "seed": 20260530,
+      "learning_rate": 0.0003,
+      "selected_epoch": 37,
+      "checkpoint": "/home/yxzhang/energy/experiment12_20260929_alignment/runs/A_20260530/epoch037.pt",
+      "checkpoint_sha256": "0dfc457bb10244bec47acc3f8b5116732458b816dc3077c18802f7247fae49e9",
+      "max_epochs": 120,
+      "initial_hash": "c53990a996404d163f1831b6eeb207d6ab11b8d09ab75c7cb86032cab25f0afe",
+      "reference_initialisation": "frozen_or_none"
+    }
+  ],
+  "h": {
+    "path": "/home/yxzhang/energy/runs/rclfa_v3/real_fegx_foundation_replacement_272/reference_conversion/sevennet_reference/calibration_coefficients.csv",
+    "sha256": "9776aae1e0e91fae7e2a9387df72ab031a468376388c3c42a663f434403fd366",
+    "refit": false
+  },
+  "original_postcalibration_hashes": {
+    "/home/yxzhang/energy/experiment12_20260929_alignment/runs/U_20260528/calibration_history.csv": "1ffe334a3d8d66508fcefa4183cb3d95fab828a39f5d1c759c1f901cf55230e5",
+    "/home/yxzhang/energy/experiment12_20260929_alignment/runs/U_20260529/calibration_history.csv": "452d18a3b0aaac7e7330891b3556c2126834c6ba50ce3e33a8d1abc618903899",
+    "/home/yxzhang/energy/experiment12_20260929_alignment/runs/U_20260530/calibration_history.csv": "817807221f0e201c7589fc882d3e74695c32c3c9212b22ce071898b6967b0bce",
+    "/home/yxzhang/energy/experiment12_20260929_alignment/runs/A_20260528/calibration_history.csv": "bc70726f8aa08e25475c900cc242cadfcedb0ed2087b10475dbdb5488a9a7fd9",
+    "/home/yxzhang/energy/experiment12_20260929_alignment/runs/A_20260529/calibration_history.csv": "2583e78d37e48b831de91060dda7dd8b91e972285c784fd85e60c86a091819c9",
+    "/home/yxzhang/energy/experiment12_20260929_alignment/runs/A_20260530/calibration_history.csv": "208fb6344723ab13c8448dd07c9565c4c203c2750b8fbfb49308b4cc638aecfc"
+  },
+  "new_training": false,
+  "model_forward_before_cohort_lock": false,
+  "api_key": "existing server private key file; credential never exported",
+  "sources": [
+    "https://docs.materialsproject.org/downloading-data/using-the-api/querying-data",
+    "https://github.com/materialsproject/emmet/blob/main/emmet-core/emmet/core/vasp/material.py",
+    "https://github.com/materialsproject/emmet/blob/main/emmet-core/emmet/core/thermo.py"
+  ]
+}

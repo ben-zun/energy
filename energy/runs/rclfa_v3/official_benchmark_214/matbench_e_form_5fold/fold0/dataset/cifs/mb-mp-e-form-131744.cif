@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_YTiF5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.19108226
+_cell_length_b   5.85309539
+_cell_length_c   5.85309496
+_cell_angle_alpha   72.91348564
+_cell_angle_beta   69.02119306
+_cell_angle_gamma   69.02117963
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YTiF5
+_chemical_formula_sum   'Y1 Ti1 F5'
+_cell_volume   122.89694590
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.50000000  0.50000000  0.50000000  1
+  Ti  Ti1  1  0.00000000  0.00000000  0.00000000  1
+  F  F2  1  0.50000000  0.81898065  0.18101935  1
+  F  F3  1  0.50000000  0.18101935  0.81898065  1
+  F  F4  1  0.76085027  0.23914973  0.23914973  1
+  F  F5  1  0.23914973  0.76085027  0.76085027  1
+  F  F6  1  0.00000000  0.50000000  0.50000000  1

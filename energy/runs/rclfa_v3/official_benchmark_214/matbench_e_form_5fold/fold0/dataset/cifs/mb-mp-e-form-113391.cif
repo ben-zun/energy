@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Ti3H2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   19.00886864
+_cell_length_b   19.00886864
+_cell_length_c   10.02874117
+_cell_angle_alpha   74.07380468
+_cell_angle_beta   105.92619532
+_cell_angle_gamma   168.61282988
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti3H2O7
+_chemical_formula_sum   'Ti6 H4 O14'
+_cell_volume   687.72555910
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.76317288  0.23682712  0.78289447  1
+  Ti  Ti1  1  0.23682712  0.76317288  0.21710553  1
+  Ti  Ti2  1  0.79172957  0.20827043  0.43294250  1
+  Ti  Ti3  1  0.20827043  0.79172957  0.56705750  1
+  Ti  Ti4  1  0.81949531  0.18050469  0.16128249  1
+  Ti  Ti5  1  0.18050469  0.81949531  0.83871751  1
+  H  H6  1  0.71827542  0.28172458  0.95197033  1
+  H  H7  1  0.28172458  0.71827542  0.04802967  1
+  H  H8  1  0.76495380  0.23504620  0.58822251  1
+  H  H9  1  0.23504620  0.76495380  0.41177749  1
+  O  O10  1  0.78958718  0.21041282  0.95318634  1
+  O  O11  1  0.21041282  0.78958718  0.04681366  1
+  O  O12  1  0.79224220  0.20775780  0.64223301  1
+  O  O13  1  0.20775780  0.79224220  0.35776699  1
+  O  O14  1  0.82879960  0.17120040  0.36541539  1
+  O  O15  1  0.17120040  0.82879960  0.63458461  1
+  O  O16  1  0.86076164  0.13923836  0.14256533  1
+  O  O17  1  0.13923836  0.86076164  0.85743467  1
+  O  O18  1  0.70731363  0.29268637  0.85056416  1
+  O  O19  1  0.29268637  0.70731363  0.14943584  1
+  O  O20  1  0.72220918  0.27779082  0.57141217  1
+  O  O21  1  0.27779082  0.72220918  0.42858783  1
+  O  O22  1  0.75125126  0.24874874  0.25369556  1
+  O  O23  1  0.24874874  0.75125126  0.74630444  1

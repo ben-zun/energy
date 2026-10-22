@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_KBaMg6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.87304197
+_cell_length_b   6.90923693
+_cell_length_c   5.23581705
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   116.02676270
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KBaMg6
+_chemical_formula_sum   'K1 Ba1 Mg6'
+_cell_volume   255.92829499
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.14385682  0.32192791  0.25000000  1
+  Ba  Ba1  1  0.15175762  0.82587831  0.25000000  1
+  Mg  Mg2  1  0.65332423  0.33355827  0.25000000  1
+  Mg  Mg3  1  0.65332423  0.81976496  0.25000000  1
+  Mg  Mg4  1  0.41258406  0.20444734  0.75000000  1
+  Mg  Mg5  1  0.41258406  0.70813771  0.75000000  1
+  Mg  Mg6  1  0.78522773  0.14261437  0.75000000  1
+  Mg  Mg7  1  0.78734126  0.64367113  0.75000000  1

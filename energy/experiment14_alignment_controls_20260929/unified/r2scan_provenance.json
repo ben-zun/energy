@@ -1,0 +1,73 @@
+{
+  "label_source": {
+    "dataset_csv": "/home/yxzhang/energy/external_datasets/functional_protocol_round2_large10k/meta_gga_r2scan/cleaned/meta_gga_r2scan.csv",
+    "source_dataset": [
+      "Materials Project mp-api"
+    ],
+    "source_thermo_type": [
+      "r2SCAN"
+    ],
+    "id_prefix_examples": [
+      "mp-1183115",
+      "mp-1183196",
+      "mp-865958"
+    ],
+    "id_equals_material_id": true,
+    "source_record_index_equals_id": true,
+    "n_rows": 10000,
+    "unique_ids": 10000,
+    "unique_material_ids": 10000,
+    "download_manifest": {
+      "dataset": "Materials Project mp-api",
+      "display_name": "meta-GGA (r2SCAN)",
+      "selected_rows": 10000,
+      "requested_max_rows": 10000,
+      "thermo_type": "R2SCAN",
+      "candidate_count": 37123,
+      "thermo_type_counts_preview": {
+        "r2SCAN": 37123,
+        "GGA_GGA+U_R2SCAN": 152595,
+        "GGA_GGA+U": 152426
+      },
+      "missing_summary_count": 0,
+      "missing_summary_material_ids": [],
+      "status": "complete",
+      "fill_rate": 1.0
+    }
+  },
+  "pairing_check": {
+    "sampled": 400,
+    "missing_cif": 0,
+    "composition_mismatch": 0,
+    "atomcount_mismatch": 0,
+    "examples_composition": [],
+    "examples_atomcount": []
+  },
+  "structure_identity": {
+    "sampled": 1200,
+    "same_reduced_formula_and_size": 7
+  },
+  "split": {
+    "structures": 10000,
+    "train": {
+      "structures": 6915,
+      "groups": 6771,
+      "multi_groups": 95,
+      "multi_structures": 239
+    },
+    "val": {
+      "structures": 1431,
+      "groups": 1431,
+      "multi_groups": 0,
+      "multi_structures": 0
+    },
+    "test": {
+      "structures": 1654,
+      "groups": 1524,
+      "multi_groups": 94,
+      "multi_structures": 224
+    },
+    "groups_spanning_splits": 0,
+    "crosscheck_note": "the crosscheck recorded in split_report.json was produced by the earlier unscaled comparison; this file supersedes it"
+  }
+}

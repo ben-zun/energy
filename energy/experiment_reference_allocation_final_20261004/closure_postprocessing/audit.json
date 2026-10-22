@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": {
+    "bootstrap_draws": 10000,
+    "ec_bootstrap_seed": 20261004,
+    "force_bootstrap_seed": 20261005,
+    "ec_cluster_unit": "whole exact-composition group",
+    "ec_clusters": 22,
+    "force_cluster_unit": "whole structure with all atoms/components",
+    "force_clusters": 12,
+    "seed_handling": "three seeds remain paired; endpoint is their arithmetic mean",
+    "projection_primary": "native predictions before post-hoc calibration",
+    "projection_definition": "uncentered beta=(u dot h)/(h dot h); Pearson is centered",
+    "postcalibration_ec_cancellation_max_mev_atom": 1.5987211554602254e-14,
+    "python": "3.11.15",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3"
+  }
+}

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_La2Th3O9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.98846340
+_cell_length_b   20.04578473
+_cell_length_c   18.39052633
+_cell_angle_alpha   10.84573647
+_cell_angle_beta   57.13769799
+_cell_angle_gamma   60.14446952
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La2Th3O9
+_chemical_formula_sum   'La2 Th3 O9'
+_cell_volume   226.58879637
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.03253465  0.02226905  0.96342593  1
+  La  La1  1  0.96518667  0.18090605  0.03175544  1
+  Th  Th2  1  0.99102966  0.39487160  0.00737605  1
+  Th  Th3  1  0.00070369  0.59869636  0.00032304  1
+  Th  Th4  1  0.00837033  0.80436983  0.99154477  1
+  O  O5  1  0.21736504  0.03129716  0.28049049  1
+  O  O6  1  0.25561224  0.25067957  0.24581752  1
+  O  O7  1  0.24374887  0.44556707  0.25603956  1
+  O  O8  1  0.28145640  0.66974272  0.21686317  1
+  O  O9  1  0.73793691  0.14416027  0.75958113  1
+  O  O10  1  0.75053630  0.35032057  0.74890822  1
+  O  O11  1  0.75978117  0.55783826  0.73676601  1
+  O  O12  1  0.73501498  0.73853456  0.76618598  1
+  O  O13  1  0.76483609  0.95781892  0.73562269  1

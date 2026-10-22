@@ -1,0 +1,5 @@
+{
+  "phase": "complete",
+  "runs": 6,
+  "epochs_each": 40
+}

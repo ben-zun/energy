@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_PrSbIr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.59599460
+_cell_length_b   7.46999810
+_cell_length_c   7.97828954
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PrSbIr
+_chemical_formula_sum   'Pr4 Sb4 Ir4'
+_cell_volume   273.91120238
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.25000000  0.51573390  0.19169698  1.0
+  Pr  Pr1  1  0.75000000  0.48426610  0.80830302  1.0
+  Pr  Pr2  1  0.75000000  0.98426610  0.69169698  1.0
+  Pr  Pr3  1  0.25000000  0.01573390  0.30830302  1.0
+  Sb  Sb4  1  0.25000000  0.67552124  0.58648281  1.0
+  Sb  Sb5  1  0.75000000  0.32447876  0.41351719  1.0
+  Sb  Sb6  1  0.75000000  0.82447876  0.08648281  1.0
+  Sb  Sb7  1  0.25000000  0.17552124  0.91351719  1.0
+  Ir  Ir8  1  0.25000000  0.79972987  0.90888234  1.0
+  Ir  Ir9  1  0.75000000  0.20027013  0.09111766  1.0
+  Ir  Ir10  1  0.75000000  0.70027013  0.40888234  1.0
+  Ir  Ir11  1  0.25000000  0.29972987  0.59111766  1.0

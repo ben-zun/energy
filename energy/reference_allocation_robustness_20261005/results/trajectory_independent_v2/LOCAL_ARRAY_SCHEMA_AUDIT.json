@@ -1,0 +1,54 @@
+{
+  "array_schema_counts": {
+    "hdf": 2,
+    "npz": 722
+  },
+  "npz_schemas": [
+    {
+      "members": [
+        "b.npy",
+        "w.npy"
+      ],
+      "files": 1
+    },
+    {
+      "members": [
+        "b.npy",
+        "raw.npy",
+        "train_rows.npy",
+        "truth.npy",
+        "w.npy"
+      ],
+      "files": 1
+    },
+    {
+      "members": [
+        "calibrated.npy",
+        "manifest_row.npy",
+        "native.npy"
+      ],
+      "files": 720
+    }
+  ],
+  "hdf_model_headers": [
+    {
+      "path": "/Users/Admin/pcg/FormDelta_publication_snapshot_20260910/checkpoints/foundation/megnet_formation_energy.hdf5",
+      "groups": [
+        "model_weights",
+        "optimizer_weights"
+      ],
+      "has_model_config": true
+    },
+    {
+      "path": "/Users/Admin/pcg/invdesform_github_repro_20260908/models/megnet_formation_energy.hdf5",
+      "groups": [
+        "model_weights",
+        "optimizer_weights"
+      ],
+      "has_model_config": true
+    }
+  ],
+  "parquet_columns": [],
+  "unresolved_array_inputs": [],
+  "executable_deserialization": false
+}

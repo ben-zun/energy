@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "registry_rows": 33,
+  "historical_stale_matches": 3,
+  "manuscript_target_matches": 0,
+  "inputs": {
+    "historical_report_sha256": "6b6c689ba3d95b1ab68e02d0eb05a28082e50599bd79ba64a083531a12c5f45c",
+    "final_report_sha256": "a3d2ffc3db29e3961c597e9206a4b2e52b091737f107b1b9c758394fc7d76d45"
+  }
+}

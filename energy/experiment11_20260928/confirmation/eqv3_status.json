@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "n": 2436,
+  "seeds": 3,
+  "force_definition": "F_full = F_reference + F_residual; composition offsets constant in positions",
+  "energy_precision": "native bfloat16, batch_size=8, checkpointing configuration enabled",
+  "force_precision": "float32 derivative and centered finite differences; float32 energy sensitivity retained separately",
+  "normalization": "reference output denormalized with original trainer; LoRA output scaled only by native scale_divisor"
+}

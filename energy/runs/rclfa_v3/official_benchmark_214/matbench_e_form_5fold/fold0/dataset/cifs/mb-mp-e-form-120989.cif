@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_U3Bi2O9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.80971030
+_cell_length_b   19.47879937
+_cell_length_c   17.92674054
+_cell_angle_alpha   10.68323248
+_cell_angle_beta   57.90742693
+_cell_angle_gamma   60.72801136
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   U3Bi2O9
+_chemical_formula_sum   'U3 Bi2 O9'
+_cell_volume   204.22852945
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  U  U0  1  0.99592618  0.39755571  0.00407382  1
+  U  U1  1  -0.00000000  0.60000000  0.00000000  1
+  U  U2  1  0.00407382  0.80244429  0.99592618  1
+  Bi  Bi3  1  0.99450226  0.99670135  0.00549774  1
+  Bi  Bi4  1  0.00549774  0.20329865  0.99450226  1
+  O  O5  1  0.21347069  0.02808241  0.28652931  1
+  O  O6  1  0.23177245  0.23906347  0.26822755  1
+  O  O7  1  0.26822755  0.46093653  0.23177245  1
+  O  O8  1  0.28652931  0.67191759  0.21347069  1
+  O  O9  1  0.80600707  0.18360424  0.69399293  1
+  O  O10  1  0.75000000  0.35000000  0.75000000  1
+  O  O11  1  0.69399293  0.51639576  0.80600707  1
+  O  O12  1  0.73917968  0.74350781  0.76082032  1
+  O  O13  1  0.76082032  0.95649219  0.73917968  1

@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Na3AlSiTe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.36861726
+_cell_length_b   7.94669910
+_cell_length_c   10.08134126
+_cell_angle_alpha   121.20939560
+_cell_angle_beta   90.04890059
+_cell_angle_gamma   100.65490065
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na3AlSiTe4
+_chemical_formula_sum   'Na3 Al1 Si1 Te4'
+_cell_volume   292.22214116
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.43967451  0.96674779  0.41043033  1
+  Na  Na1  1  0.93054372  0.99973386  0.12286336  1
+  Na  Na2  1  0.42267136  0.14447364  0.89268452  1
+  Al  Al3  1  0.33104970  0.56962602  0.91771371  1
+  Si  Si4  1  0.10801466  0.45437116  0.53150687  1
+  Te  Te5  1  0.61818542  0.75426841  0.78822416  1
+  Te  Te6  1  0.84700614  0.59174309  0.09920719  1
+  Te  Te7  1  0.51508357  0.29869169  0.32452737  1
+  Te  Te8  1  0.03777092  0.22034434  0.66284248  1

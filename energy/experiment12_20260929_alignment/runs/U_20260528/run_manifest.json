@@ -1,0 +1,46 @@
+{
+  "route": "U",
+  "alignment": "none",
+  "seed": 20260528,
+  "started_at_utc": "2026-09-28T17:47:32.783270+00:00",
+  "prediction": "f_theta(X)/N",
+  "d_definition": "d(z) = -(x @ mu_Z + bias), frozen train-only element reference",
+  "max_epochs": 120,
+  "no_early_stopping": true,
+  "selection": "argmin val calibrated MAE, ties -> earlier epoch",
+  "post_calibration": "ridge on 118 atomic fractions + unpenalized intercept, alpha=1e-6, fit on train only, no backprop",
+  "learning_rate": 0.0003,
+  "weight_decay": 1e-05,
+  "huber_beta": 0.05,
+  "batch_train": 16,
+  "batch_eval": 32,
+  "trainable_parameters": 301300,
+  "prefixes": [
+    "3_",
+    "4_",
+    "reduce_input_to_hidden",
+    "reduce_hidden_to_energy",
+    "rescale_atomic_energy"
+  ],
+  "calibration_coefficients": "/home/yxzhang/energy/runs/rclfa_v3/real_fegx_foundation_replacement_272/reference_conversion/sevennet_reference/calibration_coefficients.csv",
+  "init_hash": "c53990a996404d163f1831b6eeb207d6ab11b8d09ab75c7cb86032cab25f0afe",
+  "init_checks": {
+    "route_A_minus_route_U_equals_d_max_abs": 4.512469363504579e-06,
+    "route_U_call_equals_raw_max_abs": 9.5367431640625e-07,
+    "route_A_call_equals_raw_plus_d_max_abs": 7.247245275010528e-07,
+    "A_initial_vs_exp11_base_max_abs_ev_atom": 6.222392431975976e-06,
+    "A_initial_vs_confirmation_base_max_abs_ev_atom": 4.76837158203125e-06,
+    "confirmation_d_within_group_max_spread_ev_atom": 0.0,
+    "per_atom_single_division_max_abs_ev_atom": 9.5367431640625e-07,
+    "medium_d_within_group_max_spread_ev_atom": 0.0,
+    "d_mean_ev_atom": 4.428980544735325,
+    "d_std_ev_atom": 1.6193460901243952
+  },
+  "first_batch_first_rows": [
+    380,
+    5164,
+    59,
+    6581,
+    720
+  ]
+}

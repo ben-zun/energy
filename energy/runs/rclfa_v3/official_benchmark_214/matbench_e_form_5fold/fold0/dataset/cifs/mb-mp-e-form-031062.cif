@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_BaCoCu3Se4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.15596283
+_cell_length_b   6.07831832
+_cell_length_c   6.15796159
+_cell_angle_alpha   89.96865918
+_cell_angle_beta   89.99344798
+_cell_angle_gamma   90.03105744
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaCoCu3Se4
+_chemical_formula_sum   'Ba1 Co1 Cu3 Se4'
+_cell_volume   230.41793158
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.49989510  0.49999224  0.50010108  1
+  Co  Co1  1  0.00048982  0.00003840  0.99951026  1
+  Cu  Cu2  1  0.99990011  0.50000348  0.00009521  1
+  Cu  Cu3  1  0.99987584  0.99997760  0.50018572  1
+  Cu  Cu4  1  0.49982062  0.99997610  0.00012237  1
+  Se  Se5  1  0.21801121  0.21740490  0.21817274  1
+  Se  Se6  1  0.78199550  0.78279756  0.21801885  1
+  Se  Se7  1  0.21817108  0.78240193  0.78181936  1
+  Se  Se8  1  0.78184072  0.21740780  0.78197440  1

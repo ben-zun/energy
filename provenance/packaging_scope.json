@@ -1,0 +1,18 @@
+{
+  "created": "2026-10-16",
+  "source_root": "/home/yxzhang/energy",
+  "source_files": 28048,
+  "bytes": 2501810706,
+  "excluded": [
+    "unrelated experiments",
+    "all virtual environments and caches",
+    "private credentials and shell histories",
+    "intermediate epoch states except selected checkpoints",
+    "interrupted / obsolete EqV3 runs",
+    "obsolete SevenNet v1 evaluation",
+    "smoke runs",
+    "full server-wide multi-gigabyte geometry inventories"
+  ],
+  "preserved_original_paths": true,
+  "original_files_unchanged": true
+}

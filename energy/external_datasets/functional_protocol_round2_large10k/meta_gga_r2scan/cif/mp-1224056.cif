@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ho3Sc2S7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.44790030
+_cell_length_b   6.44790030
+_cell_length_c   11.34815914
+_cell_angle_alpha   76.29018991
+_cell_angle_beta   76.29018991
+_cell_angle_gamma   33.49323229
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho3Sc2S7
+_chemical_formula_sum   'Ho3 Sc2 S7'
+_cell_volume   252.25942132
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.70017442  0.70017442  0.18515524  1.0
+  Ho  Ho1  1  0.30093673  0.30093673  0.81025726  1.0
+  Ho  Ho2  1  0.88889448  0.88889448  0.42449594  1.0
+  Sc  Sc3  1  0.11161112  0.11161112  0.58043351  1.0
+  Sc  Sc4  1  0.00075728  0.00075728  0.99720397  1.0
+  S  S5  1  0.03605083  0.03605083  0.20886968  1.0
+  S  S6  1  0.96647198  0.96647198  0.78510541  1.0
+  S  S7  1  0.73613212  0.73613212  0.64675046  1.0
+  S  S8  1  0.25362404  0.25362404  0.35751099  1.0
+  S  S9  1  0.34737710  0.34737710  0.04829950  1.0
+  S  S10  1  0.65447435  0.65447535  0.94939935  1.0
+  S  S11  1  0.50349556  0.50349556  0.50651770  1.0

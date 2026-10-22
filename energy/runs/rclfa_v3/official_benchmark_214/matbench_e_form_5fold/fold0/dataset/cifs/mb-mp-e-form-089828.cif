@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Sr2AlGaW2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.50473475
+_cell_length_b   6.12728290
+_cell_length_c   11.83236385
+_cell_angle_alpha   105.09288435
+_cell_angle_beta   103.11878259
+_cell_angle_gamma   90.00518230
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2AlGaW2O7
+_chemical_formula_sum   'Sr4 Al2 Ga2 W4 O14'
+_cell_volume   374.52715612
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.15353210  0.16979135  0.30624308  1
+  Sr  Sr1  1  0.83423471  0.81148098  0.68732131  1
+  Sr  Sr2  1  0.65936398  0.62347446  0.31238575  1
+  Sr  Sr3  1  0.32989230  0.37552732  0.67995797  1
+  Al  Al4  1  0.45610860  0.45435646  0.98181857  1
+  Al  Al5  1  0.03235827  0.99655787  0.99969239  1
+  Ga  Ga6  1  0.22181549  0.81883661  0.49601503  1
+  Ga  Ga7  1  0.72222073  0.17664000  0.49908868  1
+  W  W8  1  0.44265815  0.91324963  0.87098805  1
+  W  W9  1  0.08520314  0.58590321  0.13260262  1
+  W  W10  1  0.94183242  0.41899923  0.86719292  1
+  W  W11  1  0.56513854  0.07954542  0.13397305  1
+  O  O12  1  0.70067524  0.40782436  0.10304598  1
+  O  O13  1  0.88997593  0.90687770  0.50261997  1
+  O  O14  1  0.21094054  0.24428999  0.12135046  1
+  O  O15  1  0.83857050  0.38142180  0.65183456  1
+  O  O16  1  0.80146663  0.09398275  0.88540614  1
+  O  O17  1  0.27908777  0.22887559  0.85042366  1
+  O  O18  1  0.38753112  0.09388546  0.49901094  1
+  O  O19  1  0.09162181  0.75376119  0.87315341  1
+  O  O20  1  0.59407689  0.58511157  0.88519772  1
+  O  O21  1  0.35458100  0.75182617  0.64180572  1
+  O  O22  1  0.17533229  0.60848517  0.34652506  1
+  O  O23  1  0.71360590  0.25085051  0.35639892  1
+  O  O24  1  0.90235074  0.89986537  0.10969991  1
+  O  O25  1  0.39610223  0.83102883  0.19445016  1

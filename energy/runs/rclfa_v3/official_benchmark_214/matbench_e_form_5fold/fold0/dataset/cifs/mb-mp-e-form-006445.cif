@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LiBeB
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.40346836
+_cell_length_b   4.99733812
+_cell_length_c   6.07422679
+_cell_angle_alpha   114.29003796
+_cell_angle_beta   106.26954594
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiBeB
+_chemical_formula_sum   'Li4 Be4 B4'
+_cell_volume   89.60796218
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.34682878  0.24866728  0.69365755  1
+  Li  Li1  1  0.65317122  0.55500972  0.30634245  1
+  Li  Li2  1  0.50000000  0.14575057  0.00000000  1
+  Li  Li3  1  0.00000000  0.90120131  0.00000000  1
+  Be  Be4  1  0.17663013  0.30995906  0.35326026  1
+  Be  Be5  1  0.82336987  0.95669880  0.64673974  1
+  Be  Be6  1  0.17329414  0.83736000  0.34658828  1
+  Be  Be7  1  0.82670586  0.49077171  0.65341172  1
+  B  B8  1  0.66604235  0.04386245  0.33208471  1
+  B  B9  1  0.33395765  0.71177774  0.66791529  1
+  B  B10  1  0.50000000  0.66203836  0.00000000  1
+  B  B11  1  1.00000000  0.44581300  1.00000000  1

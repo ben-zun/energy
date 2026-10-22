@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_TbGa2Ag
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.32964245
+_cell_length_b   6.94081747
+_cell_length_c   10.17898763
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbGa2Ag
+_chemical_formula_sum   'Tb4 Ga8 Ag4'
+_cell_volume   305.89138300
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.25000000  0.78018933  0.82690351  1.0
+  Tb  Tb1  1  0.75000000  0.21981067  0.17309649  1.0
+  Tb  Tb2  1  0.75000000  0.71981067  0.32690351  1.0
+  Tb  Tb3  1  0.25000000  0.28018933  0.67309649  1.0
+  Ga  Ga4  1  0.25000000  0.92696548  0.15299180  1.0
+  Ga  Ga5  1  0.75000000  0.07303452  0.84700820  1.0
+  Ga  Ga6  1  0.75000000  0.57303452  0.65299180  1.0
+  Ga  Ga7  1  0.25000000  0.42696548  0.34700820  1.0
+  Ga  Ga8  1  0.25000000  0.70320098  0.53654883  1.0
+  Ga  Ga9  1  0.75000000  0.29679902  0.46345117  1.0
+  Ga  Ga10  1  0.75000000  0.79679902  0.03654883  1.0
+  Ga  Ga11  1  0.25000000  0.20320098  0.96345117  1.0
+  Ag  Ag12  1  0.25000000  0.54479154  0.09643662  1.0
+  Ag  Ag13  1  0.75000000  0.45520846  0.90356338  1.0
+  Ag  Ag14  1  0.75000000  0.95520846  0.59643662  1.0
+  Ag  Ag15  1  0.25000000  0.04479154  0.40356338  1.0

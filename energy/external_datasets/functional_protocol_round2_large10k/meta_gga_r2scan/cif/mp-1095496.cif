@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_ErGa4Ni
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.77836281
+_cell_length_b   7.77836281
+_cell_length_c   6.50951507
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   149.82039435
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ErGa4Ni
+_chemical_formula_sum   'Er2 Ga8 Ni2'
+_cell_volume   197.99057713
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.87965014  0.12034986  0.75000000  1.0
+  Er  Er1  1  0.12034986  0.87965014  0.25000000  1.0
+  Ga  Ga2  1  0.50000000  0.50000000  0.00000000  1.0
+  Ga  Ga3  1  0.50000000  0.50000000  0.50000000  1.0
+  Ga  Ga4  1  0.06997315  0.93002685  0.75000000  1.0
+  Ga  Ga5  1  0.93002685  0.06997315  0.25000000  1.0
+  Ga  Ga6  1  0.68517138  0.31482862  0.94872257  1.0
+  Ga  Ga7  1  0.31482862  0.68517138  0.05127743  1.0
+  Ga  Ga8  1  0.68517138  0.31482862  0.55127743  1.0
+  Ga  Ga9  1  0.31482862  0.68517138  0.44872257  1.0
+  Ni  Ni10  1  0.22430502  0.77569498  0.75000000  1.0
+  Ni  Ni11  1  0.77569498  0.22430502  0.25000000  1.0

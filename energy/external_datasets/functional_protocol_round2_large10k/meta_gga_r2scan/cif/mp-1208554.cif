@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_TaSiPt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.80419057
+_cell_length_b   6.43827642
+_cell_length_c   7.39832176
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaSiPt
+_chemical_formula_sum   'Ta4 Si4 Pt4'
+_cell_volume   181.20288111
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.25000000  0.52549866  0.16175292  1.0
+  Ta  Ta1  1  0.75000000  0.47450134  0.83824708  1.0
+  Ta  Ta2  1  0.75000000  0.97450134  0.66175292  1.0
+  Ta  Ta3  1  0.25000000  0.02549866  0.33824708  1.0
+  Si  Si4  1  0.25000000  0.77053322  0.87410305  1.0
+  Si  Si5  1  0.75000000  0.22946678  0.12589695  1.0
+  Si  Si6  1  0.75000000  0.72946678  0.37410305  1.0
+  Si  Si7  1  0.25000000  0.27053322  0.62589695  1.0
+  Pt  Pt8  1  0.25000000  0.65256324  0.56901365  1.0
+  Pt  Pt9  1  0.75000000  0.34743676  0.43098635  1.0
+  Pt  Pt10  1  0.75000000  0.84743676  0.06901365  1.0
+  Pt  Pt11  1  0.25000000  0.15256324  0.93098635  1.0

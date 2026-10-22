@@ -1,0 +1,7 @@
+   model  route  norm_ratio  direction_cosine  ec_mae_mev_atom  major_wrong_rate
+    EqV3   base    0.000000               NaN         8.935138          0.026316
+    EqV3  clean    1.865120          0.308849        34.970735          0.205263
+    EqV3 direct    1.033694          0.634376        15.401865          0.078947
+SevenNet      A    0.771330          0.530585        12.260043          0.035088
+SevenNet      U    1.816193          0.363930        24.037967          0.082456
+SevenNet   base    0.000000               NaN        11.700945          0.031579

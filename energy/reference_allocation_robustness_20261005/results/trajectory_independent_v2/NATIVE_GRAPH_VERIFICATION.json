@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "checks": 6,
+  "records": [
+    {
+      "route": "Frozen",
+      "snapshot_id": "mp-3530684:ionic-step-2",
+      "original_batched_graph_raw_eV_atom": 4082.2640845070423,
+      "calculator_raw_eV_atom": 4082.262764084507,
+      "absolute_difference": 0.0013204225351728383
+    },
+    {
+      "route": "Frozen",
+      "snapshot_id": "mp-3530684:ionic-step-95",
+      "original_batched_graph_raw_eV_atom": -6.413274200869278,
+      "calculator_raw_eV_atom": -6.413273771044234,
+      "absolute_difference": 4.2982504400157495e-07
+    },
+    {
+      "route": "Direct_20260528",
+      "snapshot_id": "mp-3530684:ionic-step-2",
+      "original_batched_graph_raw_eV_atom": -351746.9014084507,
+      "calculator_raw_eV_atom": -351746.7323943662,
+      "absolute_difference": 0.1690140845021233
+    },
+    {
+      "route": "Direct_20260528",
+      "snapshot_id": "mp-3530684:ionic-step-95",
+      "original_batched_graph_raw_eV_atom": -1.898164131272007,
+      "calculator_raw_eV_atom": -1.898164346184529,
+      "absolute_difference": 2.1491252200078748e-07
+    },
+    {
+      "route": "Aligned_20260528",
+      "snapshot_id": "mp-3530684:ionic-step-2",
+      "original_batched_graph_raw_eV_atom": 5939.392605633803,
+      "calculator_raw_eV_atom": 5939.37676056338,
+      "absolute_difference": 0.015845070422983554
+    },
+    {
+      "route": "Aligned_20260528",
+      "snapshot_id": "mp-3530684:ionic-step-95",
+      "original_batched_graph_raw_eV_atom": -6.45018886512434,
+      "calculator_raw_eV_atom": -6.45018886512434,
+      "absolute_difference": 0.0
+    }
+  ],
+  "purpose": "check high-error snapshot and ordinary late snapshot using original batched energy-only path; no model/data selection changes"
+}

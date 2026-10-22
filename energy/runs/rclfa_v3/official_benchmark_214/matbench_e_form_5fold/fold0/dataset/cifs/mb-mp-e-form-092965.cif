@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_BaAl2O6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.65941210
+_cell_length_b   5.65941210
+_cell_length_c   10.43720441
+_cell_angle_alpha   101.83740593
+_cell_angle_beta   101.83740593
+_cell_angle_gamma   104.08560659
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaAl2O6
+_chemical_formula_sum   'Ba2 Al4 O12'
+_cell_volume   305.67718040
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.73146202  0.23146202  0.50000000  1
+  Ba  Ba1  1  0.98146202  0.98146202  -0.00000000  1
+  Al  Al2  1  0.52655058  0.75364549  0.66214202  1
+  Al  Al3  1  0.09150347  0.86440856  0.33785798  1
+  Al  Al4  1  0.61440856  0.34150347  0.83785798  1
+  Al  Al5  1  0.50364549  0.77655058  0.16214202  1
+  O  O6  1  0.66790662  0.59462688  0.76712438  1
+  O  O7  1  0.82750249  0.90078224  0.23287562  1
+  O  O8  1  0.65078224  0.07750249  0.73287562  1
+  O  O9  1  0.34462688  0.91790662  0.26712438  1
+  O  O10  1  0.57859667  0.66720890  0.49683244  1
+  O  O11  1  0.17037646  0.08176423  0.50316756  1
+  O  O12  1  0.83176423  0.42037646  0.00316756  1
+  O  O13  1  0.41720890  0.82859667  0.99683244  1
+  O  O14  1  0.18810908  0.60608868  0.60229608  1
+  O  O15  1  0.00379261  0.58581300  0.39770392  1
+  O  O16  1  0.33581300  0.25379261  0.89770392  1
+  O  O17  1  0.35608868  0.43810908  0.10229608  1

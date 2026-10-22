@@ -1,0 +1,14 @@
+{
+  "python": "3.11.15 (main, Mar 11 2026, 17:20:07) [GCC 14.3.0]",
+  "executable": "/home/yxzhang/envs/sevennet_cuda/bin/python",
+  "torch": "2.7.1+cu118",
+  "sevenn": "0.13.0",
+  "ase": "3.28.0",
+  "scikit-learn": "1.8.0",
+  "numpy": "2.4.6",
+  "torch-geometric": "2.7.0",
+  "e3nn": "0.4.4",
+  "fairchem-core": null,
+  "pymatgen": "2026.3.23",
+  "pandas": "2.3.3"
+}

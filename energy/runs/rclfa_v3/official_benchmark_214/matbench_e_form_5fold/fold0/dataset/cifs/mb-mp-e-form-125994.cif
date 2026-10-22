@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ba3MnF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.74229070
+_cell_length_b   8.03518905
+_cell_length_c   7.67441375
+_cell_angle_alpha   121.48654423
+_cell_angle_beta   66.10390618
+_cell_angle_gamma   148.19410552
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba3MnF6
+_chemical_formula_sum   'Ba3 Mn1 F6'
+_cell_volume   213.77737497
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.50000000  -0.00000000  -0.00000000  1
+  Ba  Ba1  1  -0.00000000  0.50000000  0.50000000  1
+  Ba  Ba2  1  -0.00000000  -0.00000000  0.50000000  1
+  Mn  Mn3  1  -0.00000000  -0.00000000  -0.00000000  1
+  F  F4  1  0.75729010  0.94591914  0.27235819  1
+  F  F5  1  0.24270990  0.05408086  0.72764181  1
+  F  F6  1  0.61245925  0.69922977  0.77324358  1
+  F  F7  1  0.38754075  0.30077023  0.22675642  1
+  F  F8  1  0.92559126  0.63147251  0.91678510  1
+  F  F9  1  0.07440874  0.36852749  0.08321490  1

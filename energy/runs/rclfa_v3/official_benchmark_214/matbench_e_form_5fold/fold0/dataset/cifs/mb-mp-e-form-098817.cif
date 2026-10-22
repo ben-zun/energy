@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Ba2AlTlV2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.48910723
+_cell_length_b   3.99065062
+_cell_length_c   16.30518362
+_cell_angle_alpha   83.16701172
+_cell_angle_beta   89.98007713
+_cell_angle_gamma   90.00349593
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2AlTlV2O7
+_chemical_formula_sum   'Ba2 Al1 Tl1 V2 O7'
+_cell_volume   225.41767371
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.50057673  0.44177522  0.19032676  1
+  Ba  Ba1  1  0.49978044  0.44468212  0.77571475  1
+  Al  Al2  1  0.50009016  0.37814099  0.47515996  1
+  Tl  Tl3  1  0.99956350  0.94209018  0.97281528  1
+  V  V4  1  0.00021371  0.93198224  0.36047461  1
+  V  V5  1  0.99992539  0.00773425  0.63338639  1
+  O  O6  1  0.00045179  0.90397675  0.24589204  1
+  O  O7  1  0.00014233  0.55012508  0.45236091  1
+  O  O8  1  0.50020123  0.14027808  0.38433488  1
+  O  O9  1  0.50000605  0.09584315  0.56521749  1
+  O  O10  1  0.49933709  0.65810629  0.04780703  1
+  O  O11  1  0.99989479  0.53331034  0.64245360  1
+  O  O12  1  0.99981478  0.97195631  0.75405831  1

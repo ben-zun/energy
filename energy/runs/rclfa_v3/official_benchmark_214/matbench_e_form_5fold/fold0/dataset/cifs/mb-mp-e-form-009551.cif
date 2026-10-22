@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_MgGaH4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.00224387
+_cell_length_b   6.95020953
+_cell_length_c   8.03145713
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   97.57188468
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgGaH4
+_chemical_formula_sum   'Mg4 Ga4 H16'
+_cell_volume   332.12560929
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.75000317  0.63410800  0.74327294  1
+  Mg  Mg1  1  0.25000317  0.86589200  0.24327294  1
+  Mg  Mg2  1  0.24999683  0.36589200  0.25672706  1
+  Mg  Mg3  1  0.74999683  0.13410800  0.75672706  1
+  Ga  Ga4  1  0.26065534  0.62293463  0.61244239  1
+  Ga  Ga5  1  0.76065534  0.87706537  0.11244239  1
+  Ga  Ga6  1  0.73934466  0.37706537  0.38755761  1
+  Ga  Ga7  1  0.23934466  0.12293463  0.88755761  1
+  H  H8  1  0.72840190  0.57873712  0.48408638  1
+  H  H9  1  0.22840190  0.92126288  0.98408638  1
+  H  H10  1  0.27159810  0.42126288  0.51591362  1
+  H  H11  1  0.77159810  0.07873712  0.01591362  1
+  H  H12  1  0.74082131  0.38702944  0.82035361  1
+  H  H13  1  0.24082131  0.11297056  0.32035361  1
+  H  H14  1  0.25917869  0.61297056  0.17964639  1
+  H  H15  1  0.75917869  0.88702944  0.67964539  1
+  H  H16  1  0.76238430  0.18902678  0.50529594  1
+  H  H17  1  0.26238430  0.31097322  0.00529594  1
+  H  H18  1  0.23761570  0.81097322  0.49470406  1
+  H  H19  1  0.73761570  0.68902678  0.99470406  1
+  H  H20  1  0.91490141  0.38130164  0.25430952  1
+  H  H21  1  0.41490141  0.11869836  0.75430952  1
+  H  H22  1  0.08509859  0.61869836  0.74569048  1
+  H  H23  1  0.58509859  0.88130164  0.24569048  1

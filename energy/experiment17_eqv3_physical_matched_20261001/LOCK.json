@@ -1,0 +1,40 @@
+{
+  "frozen_at_utc": "2026-10-01T13:33:53.529852+00:00",
+  "seeds": [
+    20260528,
+    20260529,
+    20260530
+  ],
+  "routes": [
+    "direct",
+    "clean"
+  ],
+  "epochs": 40,
+  "early_stopping": false,
+  "batch_size": 8,
+  "decoder": "E_total=sigma*q+mean+sum(n_Z*epsilon_Z)+N*h; h=0 for direct, frozen physical reference for clean",
+  "sigma": 0.6274358034133911,
+  "mean": 0.0,
+  "loss": "physical total SmoothL1 beta=0.05 eV",
+  "precision": "network bfloat16 autocast; physical decode and scalar loss float64 for cancellation stability",
+  "lora_rank": 8,
+  "lora_alpha": 16.0,
+  "lr_head": 0.0002,
+  "lr_lora": 0.0002,
+  "weight_decay": 0.0001,
+  "clip_grad_norm": 2.0,
+  "lr_schedule": "ReduceLROnPlateau val native per-atom MAE; factor .5 patience20; same rule both routes",
+  "checkpoint_selection": "minimum validation native per-atom MAE over exactly40 epochs",
+  "post_calibration": "best-checkpoint train predictions only; Ridge alpha1e-6 on 118 fractions + intercept, applied equally to both routes",
+  "confirmation": "same previously inspected holdout, cleaned190groups401structures primary; no tuning; not claimed novel blind data",
+  "first_seed_gate": "runtime/gradient/unit/coverage only, never effect direction; remaining seeds mandatory after operational gate",
+  "trainable_device": "all LoRA and energy head parameters on GPU after attachment; no CPU LoRA offload",
+  "input_sha256": {
+    "/home/yxzhang/energy/experiment16_eqv3_output_contract_20261001/reference_physical_fp32.npz": "9d74bb3591f70be57d222f842092f91de38f3c41b6b31c68218dda3a10ddde0f",
+    "/home/yxzhang/energy/experiment15_prediction_audit_20261001/support/cleaning_mask.csv": "bd1de9219a5256a6ed4ba96f4b6e5563aef6e91059fb0d58d781eae904c766d0",
+    "/home/yxzhang/energy/experiment15_prediction_audit_20261001/support/cohort.csv": "107612bd80de92e54936e0f5c2bf97bdd4048ea3405001a8a15748610678b40e",
+    "/home/yxzhang/energy/checkpoints/equiformer_v3/checkpoint/omat24-mptrj-salex_gradient.pt": "429ccded98163122e7ba588d78e2441653f37f3e091e106c432807fe373c8f98"
+  },
+  "metadata_sha256": "89049d20be54f3614fa3ae113d7c46ed7e00369033e585e68b9befe86647bd11",
+  "graphs_sha256": "f6185dfe3c90f56e11a55a2277fccd196a6c633b577a5e69a550cb63b8626836"
+}

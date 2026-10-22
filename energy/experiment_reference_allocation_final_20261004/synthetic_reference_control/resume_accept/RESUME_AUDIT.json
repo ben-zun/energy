@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "claim": "resume equivalent within observed GPU process-level numerical tolerance; not bitwise",
+  "checks": {
+    "global_step_interrupted": 1024,
+    "global_step_control": 1024,
+    "data_loader_rng_equal": true,
+    "torch_rng_equal": true,
+    "model_state_max_abs_difference": 0.025570008903741837,
+    "val_calibrated_mae_max_abs_difference_mev_atom": 0.052969110912091555,
+    "val_ec_drift_max_abs_difference_mev_atom": 0.0008564287175735,
+    "metric_differences": {
+      "train_loss": 1.569500748920002e-05,
+      "val_native_mae_mev_atom": 0.11833844473586153,
+      "val_calibrated_mae_mev_atom": 0.052969110912091555,
+      "val_ec_drift_mev_atom": 0.0008564287175735,
+      "val_calibrated_ec_drift_mev_atom": 0.0008564287175743001,
+      "parameter_update_l2": 0.08149277473767613
+    }
+  }
+}

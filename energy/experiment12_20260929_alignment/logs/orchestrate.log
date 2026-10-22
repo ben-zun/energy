@@ -1,0 +1,29 @@
+[2026-09-29T02:51:27+09:00] orchestrator started
+[2026-09-29T04:10:27+09:00] run U 20260528 complete
+[2026-09-29T04:13:27+09:00] run A 20260528 complete
+[2026-09-29T04:13:27+09:00] GPU 0/1 free -> launching seed 20260530
+launched alignment=none seed=20260530 gpu=0
+launched alignment=element_reference seed=20260530 gpu=1
+[2026-09-29T04:13:31+09:00] run U 20260528 complete
+[2026-09-29T04:14:31+09:00] run U 20260529 complete
+[2026-09-29T05:34:32+09:00] run U 20260530 complete
+[2026-09-29T05:34:32+09:00] run A 20260528 complete
+[2026-09-29T05:34:32+09:00] run A 20260529 complete
+[2026-09-29T05:34:32+09:00] run A 20260530 complete
+[2026-09-29T05:34:32+09:00] all six runs complete
+selected checkpoints: 48 | confirmation evaluations: 27
+wrote results/{training_history,selected_checkpoints,final_metrics,paired_differences,tail20_trend}.csv
+[2026-09-29T05:35:26+09:00] evaluate ok
+wrote /home/yxzhang/energy/experiment12_20260929_alignment/PROTOCOL.md
+wrote /home/yxzhang/energy/experiment12_20260929_alignment/FINAL_COMPARISON.md
+[2026-09-29T05:35:26+09:00] reports ok
+{
+  "hard_checks": "failed",
+  "problems": [
+    "seed 20260528: A - U != d(z)",
+    "seed 20260529: A - U != d(z)",
+    "seed 20260530: A - U != d(z)"
+  ]
+}
+[2026-09-29T05:35:42+09:00] verify FAILED
+[2026-09-29T05:35:42+09:00] pipeline finished

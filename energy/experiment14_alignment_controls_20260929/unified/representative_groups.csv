@@ -1,0 +1,9 @@
+seed,group,n,y_spread_mev,cost_U_mev,cost_A_mev,hit_U,hit_A,selection_rule
+20260528,CrPO10|48,2,282.749,282.749,282.749,0,0,"top-3 by cost_U, top-3 by cost_A, 3 ties nearest median spread"
+20260528,TaRu|2,2,179.645,179.645,0.0,0,1,"top-3 by cost_U, top-3 by cost_A, 3 ties nearest median spread"
+20260528,NiS2|6,3,815.419,170.64,0.0,0,1,"top-3 by cost_U, top-3 by cost_A, 3 ties nearest median spread"
+20260528,Nb5Si3|16,2,39.345,0.0,39.345,1,0,"top-3 by cost_U, top-3 by cost_A, 3 ties nearest median spread"
+20260528,Pr(NO5)3|38,2,37.023,37.023,37.023,0,0,"top-3 by cost_U, top-3 by cost_A, 3 ties nearest median spread"
+20260528,Fe2Si|6,2,60.478,0.0,0.0,1,1,"top-3 by cost_U, top-3 by cost_A, 3 ties nearest median spread"
+20260528,HfMg6Nb|8,2,62.939,0.0,0.0,1,1,"top-3 by cost_U, top-3 by cost_A, 3 ties nearest median spread"
+20260528,Cs2CuH12(SO7)2|62,2,64.03,0.0,0.0,1,1,"top-3 by cost_U, top-3 by cost_A, 3 ties nearest median spread"

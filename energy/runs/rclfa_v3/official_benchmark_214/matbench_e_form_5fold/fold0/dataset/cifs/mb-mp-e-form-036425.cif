@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Lu2FeSi4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.93968069
+_cell_length_b   3.93984008
+_cell_length_c   8.22551312
+_cell_angle_alpha   76.14361946
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu2FeSi4
+_chemical_formula_sum   'Lu2 Fe1 Si4'
+_cell_volume   123.95861343
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.25000000  0.89360537  0.21278925  1
+  Lu  Lu1  1  0.75000000  0.10988252  0.78023496  1
+  Fe  Fe2  1  0.25000000  0.25075984  0.49848032  1
+  Si  Si3  1  0.25000000  0.69058510  0.61882980  1
+  Si  Si4  1  0.75000000  0.30855694  0.38288612  1
+  Si  Si5  1  0.25000000  0.53847360  0.92305281  1
+  Si  Si6  1  0.75000000  0.45813663  0.08372674  1

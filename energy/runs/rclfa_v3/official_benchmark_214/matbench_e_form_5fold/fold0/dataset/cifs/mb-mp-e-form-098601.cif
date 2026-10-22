@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_TiV4FeO12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.87941667
+_cell_length_b   6.87941667
+_cell_length_c   5.73963856
+_cell_angle_alpha   75.32724820
+_cell_angle_beta   104.67274475
+_cell_angle_gamma   95.46666625
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiV4FeO12
+_chemical_formula_sum   'Ti1 V4 Fe1 O12'
+_cell_volume   254.06767851
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.90588970  0.90588970  0.25000000  1
+  V  V1  1  0.20580195  0.61218969  0.74908144  1
+  V  V2  1  0.38843905  0.80926380  0.24992659  1
+  V  V3  1  0.61218969  0.20580195  0.75091856  1
+  V  V4  1  0.80926380  0.38843905  0.25007341  1
+  Fe  Fe5  1  0.08693524  0.08693524  0.75000000  1
+  O  O6  1  0.03511157  0.81214943  0.61783512  1
+  O  O7  1  0.08599046  0.38398636  0.76440518  1
+  O  O8  1  0.17514511  0.96328942  0.13454084  1
+  O  O9  1  0.37411649  0.64428337  0.55532119  1
+  O  O10  1  0.38398636  0.08599046  0.73559482  1
+  O  O11  1  0.33654185  0.63127165  0.04780698  1
+  O  O12  1  0.64428337  0.37411649  0.94467881  1
+  O  O13  1  0.64219889  0.90739598  0.27895532  1
+  O  O14  1  0.63127165  0.33654185  0.45219302  1
+  O  O15  1  0.81214943  0.03511157  0.88216488  1
+  O  O16  1  0.90739598  0.64219889  0.22104468  1
+  O  O17  1  0.96328942  0.17514511  0.36545916  1

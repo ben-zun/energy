@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_AlCNO5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.31564368
+_cell_length_b   7.31564368
+_cell_length_c   6.15283539
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   39.35712224
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlCNO5
+_chemical_formula_sum   'Al2 C2 N2 O10'
+_cell_volume   208.82081600
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.00000000  0.00000000  0.50000000  1
+  Al  Al1  1  -0.00000000  -0.00000000  0.00000000  1
+  C  C2  1  0.82563248  0.82563248  0.25000000  1
+  C  C3  1  0.17436752  0.17436752  0.75000000  1
+  N  N4  1  0.47880299  0.47880299  0.25000000  1
+  N  N5  1  0.52119701  0.52119701  0.75000000  1
+  O  O6  1  0.73722413  0.73722413  0.25000000  1
+  O  O7  1  0.26277587  0.26277587  0.75000000  1
+  O  O8  1  0.87705590  0.87705590  0.43524213  1
+  O  O9  1  0.12294410  0.12294410  0.56475787  1
+  O  O10  1  0.87705590  0.87705590  0.06475787  1
+  O  O11  1  0.12294410  0.12294410  0.93524213  1
+  O  O12  1  0.75046130  0.31630966  0.25000000  1
+  O  O13  1  0.68369034  0.24953870  0.75000000  1
+  O  O14  1  0.24953870  0.68369034  0.75000000  1
+  O  O15  1  0.31630966  0.75046130  0.25000000  1

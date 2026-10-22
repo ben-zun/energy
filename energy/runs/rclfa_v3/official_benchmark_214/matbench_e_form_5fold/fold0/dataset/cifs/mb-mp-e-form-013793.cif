@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_NaMnCr(CN)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.21832888
+_cell_length_b   7.21632349
+_cell_length_c   7.21805177
+_cell_angle_alpha   60.00998118
+_cell_angle_beta   60.01011971
+_cell_angle_gamma   60.00810333
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaMnCr(CN)6
+_chemical_formula_sum   'Na1 Mn1 Cr1 C6 N6'
+_cell_volume   265.91951448
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.75000442  0.74999532  0.75000080  1
+  Mn  Mn1  1  -0.00009846  0.00004773  0.00005757  1
+  Cr  Cr2  1  0.49997851  0.50002895  0.50003291  1
+  C  C3  1  0.30422236  0.69578072  0.30420184  1
+  C  C4  1  0.30415389  0.30429687  0.69585969  1
+  C  C5  1  0.30418183  0.69564966  0.69584457  1
+  C  C6  1  0.69587213  0.30430217  0.30413561  1
+  C  C7  1  0.69588509  0.69568325  0.30413386  1
+  C  C8  1  0.69575915  0.30424142  0.69575455  1
+  N  N9  1  0.18879829  0.81120324  0.18879492  1
+  N  N10  1  0.18879275  0.18882648  0.81122119  1
+  N  N11  1  0.18881988  0.81113489  0.81120258  1
+  N  N12  1  0.81122469  0.18881771  0.18877845  1
+  N  N13  1  0.81122533  0.81117514  0.18878564  1
+  N  N14  1  0.81118014  0.18881645  0.81119582  1

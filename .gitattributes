@@ -1,0 +1,3 @@
+# Preserve archived file bytes and checksums.
+* -text
+README.md text eol=lf

@@ -1,0 +1,33 @@
+schema_version: 1
+experiment_id: experiment_reference_allocation_final_20261004
+created: 2026-10-04
+remote_root: /home/yxzhang/energy/experiment_reference_allocation_final_20261004
+energy_root: /home/yxzhang/energy
+seeds: [20260528, 20260529, 20260530]
+units:
+  training_energy: eV_total
+  evaluation_energy: eV_per_atom
+  displayed_energy: meV_per_atom
+same_composition:
+  definition: exact_integer_element_count_vector
+  near_degenerate_threshold_mev_atom: 10.0
+  major_misselection_threshold_mev_atom: 10.0
+bootstrap:
+  draws: 10000
+  seed: 20261004
+eqv3:
+  source: /home/yxzhang/energy/experiment17_eqv3_physical_matched_20261001
+  routes: [direct, clean]
+  epochs: 40
+sevennet:
+  source: /home/yxzhang/energy/experiment12_20260929_alignment
+  routes: [U, A]
+  epochs: 120
+synthetic:
+  teacher: frozen_pretrained_sevennet_physical_energy
+  shifts: [zero, fitted_reference]
+  routes: [direct, aligned]
+  reuse_sevennet_protocol: true
+  early_stopping: false
+  smoke_seed: 20260528
+  smoke_is_result_gate: false

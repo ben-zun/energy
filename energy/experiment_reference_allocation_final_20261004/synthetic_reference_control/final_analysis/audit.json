@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": {
+    "complete_trajectories": 9,
+    "epochs_per_trajectory": 120,
+    "energy_metric_rows": 18,
+    "force_metric_rows": 9,
+    "aggregation": "mean and sample standard deviation across three frozen seeds",
+    "result_dependent_filtering": false
+  }
+}

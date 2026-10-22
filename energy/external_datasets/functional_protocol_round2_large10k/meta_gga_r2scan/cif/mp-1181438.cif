@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Er5BiAu2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.60940149
+_cell_length_b   8.60940149
+_cell_length_c   8.60940149
+_cell_angle_alpha   124.44886727
+_cell_angle_beta   124.44886727
+_cell_angle_gamma   82.45290576
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Er5BiAu2
+_chemical_formula_sum   'Er10 Bi2 Au4'
+_cell_volume   416.91733406
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.50000000  0.50000000  0.00000000  1.0
+  Er  Er1  1  -0.00000000  -0.00000000  0.00000000  1.0
+  Er  Er2  1  0.51444024  0.01444024  0.80768057  1.0
+  Er  Er3  1  0.20675767  0.70675767  0.19231943  1.0
+  Er  Er4  1  0.01444024  0.20675767  0.50000000  1.0
+  Er  Er5  1  0.70675767  0.51444024  0.50000000  1.0
+  Er  Er6  1  0.48555976  0.98555976  0.19231943  1.0
+  Er  Er7  1  0.79324233  0.29324233  0.80768057  1.0
+  Er  Er8  1  0.98555976  0.79324233  0.50000000  1.0
+  Er  Er9  1  0.29324233  0.48555976  0.50000000  1.0
+  Bi  Bi10  1  0.25000000  0.25000000  0.00000000  1.0
+  Bi  Bi11  1  0.75000000  0.75000000  0.00000000  1.0
+  Au  Au12  1  0.13845806  0.63845806  0.77691612  1.0
+  Au  Au13  1  0.86154194  0.36154194  0.22308388  1.0
+  Au  Au14  1  0.63845806  0.86154194  0.50000000  1.0
+  Au  Au15  1  0.36154194  0.13845806  0.50000000  1.0

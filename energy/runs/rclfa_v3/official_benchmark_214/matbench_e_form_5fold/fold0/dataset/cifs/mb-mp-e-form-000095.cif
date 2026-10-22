@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Sc2CdRu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.67457020
+_cell_length_b   11.93496784
+_cell_length_c   11.93496786
+_cell_angle_alpha   62.11015555
+_cell_angle_beta   63.43599609
+_cell_angle_gamma   63.43599955
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc2CdRu
+_chemical_formula_sum   'Sc2 Cd1 Ru1'
+_cell_volume   1146.26952892
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.79730646  0.00000000  0.00000000  1
+  Sc  Sc1  1  0.20269354  1.00000000  1.00000000  1
+  Cd  Cd2  1  0.50000000  0.00000000  0.00000000  1
+  Ru  Ru3  1  0.00000000  0.00000000  0.00000000  1

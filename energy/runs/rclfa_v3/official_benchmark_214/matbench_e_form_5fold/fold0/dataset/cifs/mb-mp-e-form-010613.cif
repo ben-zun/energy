@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Sn9Au4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.47010444
+_cell_length_b   9.43376960
+_cell_length_c   9.43376960
+_cell_angle_alpha   71.35393281
+_cell_angle_beta   69.78101180
+_cell_angle_gamma   110.21898820
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sn9Au4
+_chemical_formula_sum   'Sn18 Au8'
+_cell_volume   643.24486771
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  0.81162374  0.78866857  0.21133143  1
+  Sn  Sn1  1  0.22973947  0.00814235  0.99185765  1
+  Sn  Sn2  1  0.01882168  0.22426473  0.98561890  1
+  Sn  Sn3  1  0.01882168  0.01438110  0.77573527  1
+  Sn  Sn4  1  0.35131913  0.63967840  0.36032160  1
+  Sn  Sn5  1  0.63265950  0.63439673  0.64206251  1
+  Sn  Sn6  1  0.63265950  0.35793749  0.36560327  1
+  Sn  Sn7  1  0.65374436  0.29276696  0.70723304  1
+  Sn  Sn8  1  0.33861255  0.72776989  0.00210656  1
+  Sn  Sn9  1  0.33861255  0.99789344  0.27223011  1
+  Sn  Sn10  1  0.99534090  0.36026567  0.29314543  1
+  Sn  Sn11  1  0.73092207  0.33920349  0.99949627  1
+  Sn  Sn12  1  0.27420939  0.64153085  0.72084602  1
+  Sn  Sn13  1  0.99534090  0.70685457  0.63973433  1
+  Sn  Sn14  1  0.27420939  0.27915398  0.35846915  1
+  Sn  Sn15  1  0.73092207  0.00050373  0.66079651  1
+  Sn  Sn16  1  0.63361268  0.63345744  0.00086812  1
+  Sn  Sn17  1  0.63361268  0.99913188  0.36654256  1
+  Au  Au18  1  0.00070550  0.64298377  0.35701623  1
+  Au  Au19  1  0.35065557  0.35257558  0.00241812  1
+  Au  Au20  1  0.35065557  0.99758188  0.64742442  1
+  Au  Au21  1  0.99987750  0.35552697  0.64447303  1
+  Au  Au22  1  0.35220716  0.35238832  0.64761168  1
+  Au  Au23  1  0.65198731  -0.00036864  0.00036864  1
+  Au  Au24  1  -0.00043643  0.65230775  0.99899693  1
+  Au  Au25  1  -0.00043643  0.00100307  0.34769225  1

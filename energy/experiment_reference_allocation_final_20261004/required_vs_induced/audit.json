@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": {
+    "models": [
+      "eqv3",
+      "sevennet"
+    ],
+    "routes": [
+      "direct",
+      "aligned"
+    ],
+    "seeds": [
+      20260528,
+      20260529,
+      20260530
+    ],
+    "groups": 190,
+    "pairs": 238,
+    "bootstrap_draws": 10000,
+    "bootstrap_seed_base": 20261004,
+    "pair_list_shared_by_all_models_routes": true,
+    "plot_status": "written"
+  }
+}

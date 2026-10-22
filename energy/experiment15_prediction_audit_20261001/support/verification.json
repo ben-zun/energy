@@ -1,0 +1,20 @@
+{
+  "execution_checks": "passed",
+  "scientific_initialization_validity": "failed",
+  "no_new_training": true,
+  "initialization_rows": 6,
+  "correction_rows": 32,
+  "decomposition_rows": 24,
+  "configuration_rows": 570,
+  "groups": 190,
+  "structures": 401,
+  "mse_identity_max_abs": 3.7930312811383145e-17,
+  "reference_preserved_sha256": "421201cbebd9ab09f22f427b5ddf411d36c59d2c08e840012911143d546c6214",
+  "coefficient_preserved_sha256": "4560d2581fca4a709a5902eeba74264ac1ace2b6ddacfc24b7dc506f832af33a",
+  "outputs": {
+    "initialization_audit.csv": "b3c1990888ece5617edd920e6ee591d17f6deed3bb619a1fb2dd7a36b85e3e8c",
+    "correction_analysis.csv": "658ff5ba05609001d182ff9856d1d564730cea1e57f1c58622562c52a7f179ba",
+    "error_decomposition.csv": "e7a82469a97e1977dbba490fd783fd86beacd65dc98ab2f74c7c999907b03b1f",
+    "configuration_cases.csv": "847f20584ffcde7cc95e48f80e96124f63a0932981eab5d06cc4800b70c4f7c2"
+  }
+}

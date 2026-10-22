@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "condition": "reference_aligned",
+  "seed": 20260528,
+  "completed_epochs": 120,
+  "global_step": 61440,
+  "best_epoch": 4,
+  "best_val_calibrated_mae_mev_atom": 0.8297620175684483,
+  "initialization_checks": {
+    "initialization_hash": "c53990a996404d163f1831b6eeb207d6ab11b8d09ab75c7cb86032cab25f0afe",
+    "val_initial_target_mae_mev_atom": 0.0003195485041210883,
+    "val_initial_ec_drift_mae_mev_atom": 2.5611370810599277e-06,
+    "reference_offset_match_max_abs_ev_atom": 3.552713678800501e-15,
+    "trainable_parameter_count": 301300
+  },
+  "finished_at_utc": "2026-10-04T07:34:16.429263+00:00"
+}

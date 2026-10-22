@@ -1,0 +1,10 @@
+{
+  "settings": {
+    "draws": 5000,
+    "interval": "percentile 2.5/97.5",
+    "boot_seed": 20260930,
+    "resample_unit": "exact-composition group",
+    "multiplicity": "none applied; EC-MAE and wrong-pick rate are the pre-specified primary endpoints",
+    "note": "the three training seeds share one evaluation group set, so group-level uncertainty is common across seeds"
+  }
+}

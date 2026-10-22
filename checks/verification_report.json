@@ -1,0 +1,99 @@
+{
+  "passed": true,
+  "checks": {
+    "original_artifact_hashes": {
+      "passed": true,
+      "detail": {
+        "files": 28048,
+        "bad": []
+      }
+    },
+    "no_missing_sources": {
+      "passed": true,
+      "detail": null
+    },
+    "medium_split_counts": {
+      "passed": true,
+      "detail": {
+        "train": 8192,
+        "val": 1024,
+        "test": 2048
+      }
+    },
+    "medium_split_disjoint": {
+      "passed": true,
+      "detail": null
+    },
+    "fixed_relative_cohort": {
+      "passed": true,
+      "detail": {
+        "structures": 401,
+        "groups": 190,
+        "pairs": 238
+      }
+    },
+    "raw_prediction_pair_error_recomputed": {
+      "passed": true,
+      "detail": []
+    },
+    "force100_selection": {
+      "passed": true,
+      "detail": null
+    },
+    "force100_nine_selected_runs": {
+      "passed": true,
+      "detail": null
+    },
+    "force12_finite_difference_records": {
+      "passed": true,
+      "detail": {
+        "rows": 128
+      }
+    },
+    "force100_finite_difference_records": {
+      "passed": true,
+      "detail": {
+        "rows": 128
+      }
+    },
+    "force100_best_step_finite_difference": {
+      "passed": true,
+      "detail": {
+        "passed_components": 32,
+        "components": 32
+      }
+    },
+    "trajectory_counts": {
+      "passed": true,
+      "detail": null
+    },
+    "trajectory_prediction_coverage": {
+      "passed": true,
+      "detail": null
+    },
+    "selected_checkpoint_manifest_paths": {
+      "passed": true,
+      "detail": {
+        "references": 45
+      }
+    },
+    "no_private_files": {
+      "passed": true,
+      "detail": []
+    },
+    "no_obvious_embedded_credentials": {
+      "passed": true,
+      "detail": []
+    },
+    "project_python_syntax": {
+      "passed": true,
+      "detail": []
+    },
+    "paper_number_check": {
+      "passed": true,
+      "detail": null
+    }
+  },
+  "failed_checks": [],
+  "note": "Integrity/statistics verification only. Does not rerun GPU training or establish historical environment compatibility."
+}

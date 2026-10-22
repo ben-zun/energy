@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_ZrAl5Cu7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.86982992
+_cell_length_b   6.47721208
+_cell_length_c   6.47721186
+_cell_angle_alpha   98.42852792
+_cell_angle_beta   112.04959406
+_cell_angle_gamma   67.95040880
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrAl5Cu7
+_chemical_formula_sum   'Zr1 Al5 Cu7'
+_cell_volume   175.51257259
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.99618266  0.00407191  0.99592806  1.0
+  Al  Al1  1  0.65735875  0.34288318  0.65711693  1.0
+  Al  Al2  1  0.34736504  0.65206163  0.34793845  1.0
+  Al  Al3  1  0.00541443  0.33795266  0.34898840  1.0
+  Al  Al4  1  0.00541440  0.65101167  0.66204748  1.0
+  Al  Al5  1  0.69531188  0.80447784  0.19552202  1.0
+  Cu  Cu6  1  0.50278853  0.99612136  0.50000095  1.0
+  Cu  Cu7  1  0.00127835  0.99635590  0.49964969  1.0
+  Cu  Cu8  1  0.50278865  0.49999953  0.00387835  1.0
+  Cu  Cu9  1  0.00127764  0.50035048  0.00364358  1.0
+  Cu  Cu10  1  0.28905475  0.21166269  0.78833716  1.0
+  Cu  Cu11  1  0.49788232  0.77795248  0.77490136  1.0
+  Cu  Cu12  1  0.49788260  0.22509867  0.22204757  1.0

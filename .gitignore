@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+workspaces/
+/*.zip
+*.pt
+*.pth
+*.ckpt
+*.pkl
+**/graph_cache/

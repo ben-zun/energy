@@ -1,0 +1,8 @@
+{
+  "python": "3.11.15 (main, Mar 11 2026, 17:20:07) [GCC 14.3.0]",
+  "numpy": "2.4.6",
+  "pandas": "2.3.3",
+  "git_energy": "unavailable: Command '['git', '-C', '/home/yxzhang/energy', 'rev-parse', 'HEAD']' returned non-zero exit status 128.",
+  "git_eqv3": "unavailable: Command '['git', '-C', '/home/yxzhang/energy/external_repos/equiformer_v3-main', 'rev-parse', 'HEAD']' returned non-zero exit status 128.",
+  "nvidia_smi": "unavailable: Command '['nvidia-smi']' returned non-zero exit status 9."
+}

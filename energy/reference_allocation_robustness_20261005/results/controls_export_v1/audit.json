@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "runs": 21,
+  "confirmation_n": 2436,
+  "selection": "original frozen validation selection; no confirmation tuning",
+  "writes": "new output directory only"
+}

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_DyMnGa
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.12962328
+_cell_length_b   8.22474075
+_cell_length_c   8.22474075
+_cell_angle_alpha   80.77871236
+_cell_angle_beta   115.68514259
+_cell_angle_gamma   64.31485741
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyMnGa
+_chemical_formula_sum   'Dy6 Mn6 Ga6'
+_cell_volume   353.88542300
+_cell_formula_units_Z   6
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.42517803  0.45590917  0.95590917  1
+  Dy  Dy1  1  0.92517803  0.54409083  0.04409083  1
+  Dy  Dy2  1  0.79964705  0.25016788  0.75016788  1
+  Dy  Dy3  1  0.29964705  0.74983212  0.24983212  1
+  Dy  Dy4  1  0.42547131  0.04442544  0.54442544  1
+  Dy  Dy5  1  0.92547131  0.95557456  0.45557456  1
+  Mn  Mn6  1  0.47122708  0.33511589  0.33582693  1
+  Mn  Mn7  1  0.47051604  0.66488411  0.66417307  1
+  Mn  Mn8  1  0.97051604  0.83582693  0.83511589  1
+  Mn  Mn9  1  0.97122708  0.16417307  0.16488411  1
+  Mn  Mn10  1  0.20977925  0.50000000  0.50000000  1
+  Mn  Mn11  1  0.70977925  -0.00000000  -0.00000000  1
+  Ga  Ga12  1  0.22670535  0.25000785  0.75000785  1
+  Ga  Ga13  1  0.72670535  0.74999215  0.24999215  1
+  Ga  Ga14  1  0.34880663  0.12910266  0.12924003  1
+  Ga  Ga15  1  0.34866926  0.87089734  0.87075997  1
+  Ga  Ga16  1  0.84866926  0.62924003  0.62910266  1
+  Ga  Ga17  1  0.84880663  0.37075997  0.37089734  1

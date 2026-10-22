@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ca(CuO2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.19031529
+_cell_length_b   6.19689885
+_cell_length_c   6.19158256
+_cell_angle_alpha   90.58316222
+_cell_angle_beta   119.60370294
+_cell_angle_gamma   119.71484268
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca(CuO2)2
+_chemical_formula_sum   'Ca2 Cu4 O8'
+_cell_volume   168.81460113
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.24864869  0.12426176  0.87499153  1
+  Ca  Ca1  1  0.75134727  0.87574047  0.12500912  1
+  Cu  Cu2  1  0.50001186  -0.00001871  0.50000898  1
+  Cu  Cu3  1  0.50003544  0.50003242  0.50002480  1
+  Cu  Cu4  1  0.99994023  0.49994836  0.99996266  1
+  Cu  Cu5  1  -0.00000205  0.49999823  0.49999570  1
+  O  O6  1  0.04042156  0.73302263  0.27173806  1
+  O  O7  1  0.45920593  0.73180071  0.69291622  1
+  O  O8  1  0.46145440  0.72884348  0.26802317  1
+  O  O9  1  0.95942280  0.69240167  0.73239344  1
+  O  O10  1  0.53851282  0.27115259  0.73196262  1
+  O  O11  1  0.54080537  0.26821879  0.30708593  1
+  O  O12  1  0.04058860  0.30761989  0.26761089  1
+  O  O13  1  0.95960805  0.26697771  0.72827788  1

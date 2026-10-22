@@ -1,0 +1,33 @@
+{
+  "archived_train_fit_normal_equation_max": 3.760290871200936e-12,
+  "archive_ridge_intercept_residual": -5.379811179873073e-16,
+  "live_train_intercept_residual_ev_atom": -6.6173869404554,
+  "live_train_normal_equation_max": 2043.0441739952373,
+  "current_init_fit_valid": false,
+  "reference_was_not_refit_or_overwritten": true,
+  "mappings": {
+    "train": {
+      "native_vs_archive_max_ev_atom": 16.123016357421875,
+      "native_vs_archive_mae_ev_atom": 6.617630655676817,
+      "denormalized_native_vs_archive_mae_ev_atom": 0.00590908293115049,
+      "denormalized_native_vs_archive_max_ev_atom": 2.0048677347853445,
+      "offset_within_group_max_ev_atom": 0.0,
+      "clean_minus_direct_identity_max_ev_atom": 3.552713678800501e-15,
+      "archive_filled_prediction_unique_ids": 17,
+      "denormalized_native_vs_archive_median_ev_atom": 0.00253262970945789
+    },
+    "val": {
+      "native_vs_archive_max_ev_atom": 15.102374076843262,
+      "native_vs_archive_mae_ev_atom": 6.609702399016529,
+      "denormalized_native_vs_archive_mae_ev_atom": 0.006144434985827206,
+      "denormalized_native_vs_archive_max_ev_atom": 0.9670962417673881,
+      "offset_within_group_max_ev_atom": 0.0,
+      "clean_minus_direct_identity_max_ev_atom": 1.7763568394002505e-15,
+      "archive_filled_prediction_unique_ids": 2,
+      "denormalized_native_vs_archive_median_ev_atom": 0.0025524411143531545
+    }
+  },
+  "normalization_explanation": "archive e0 was denormalized with energy rmsd and atomic element references; native trainer uses un-denormalized network energy directly",
+  "validity_gate": "failed: clean offset was not fitted against actual native initialization output",
+  "new_training_decision": "do not launch composition-offset training until initialization/reference contract is repaired and audited separately"
+}

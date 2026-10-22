@@ -1,0 +1,61 @@
+{
+  "G2_reference_provenance": {
+    "fitted_here": {
+      "alpha": 1e-06,
+      "features": "118 atomic fractions + intercept",
+      "fitted_on": "train split only, targets y - e0",
+      "mean": 4.4297508692113166,
+      "std": 1.620541252441814
+    },
+    "repository_column": {
+      "mean": 4.429789868917629,
+      "std": 1.6201738740824285
+    },
+    "agreement": {
+      "corr": 0.9995407564679915,
+      "max_abs_diff": 3.6411512319745123,
+      "rmse": 0.04910883929506538
+    }
+  },
+  "G5_invariance_fitted_here": {
+    "max_within_group_spread": 0.0,
+    "groups_with_spread": 0,
+    "groups": 335
+  },
+  "G5_invariance_repository": {
+    "max_within_group_spread": 1.7763568394002505e-15,
+    "groups_with_spread": 0,
+    "groups": 335
+  },
+  "G4_epoch0_direct": {
+    "train_mae_mev": 4423.495255760706,
+    "train_rmse_mev": 4715.007888710233,
+    "val_mae_mev": 4398.191038166736,
+    "val_rmse_mev": 4683.855546283323
+  },
+  "G4_epoch0_clean_fitted": {
+    "train_mae_mev": 110.28081712374535,
+    "train_rmse_mev": 163.95086477143366,
+    "val_mae_mev": 116.80547627397966,
+    "val_rmse_mev": 172.96712327613093
+  },
+  "G4_epoch0_clean_repository": {
+    "train_mae_mev": 110.72675952161917,
+    "train_rmse_mev": 168.6487175452062,
+    "val_mae_mev": 116.95196532327051,
+    "val_rmse_mev": 174.5113959956058
+  },
+  "G6_identity": {
+    "clean_minus_direct_equals_d_fitted_max_abs": 4.440892098500626e-16,
+    "clean_minus_direct_equals_d_repo_max_abs": 4.440892098500626e-16
+  },
+  "G3_units": {
+    "repo_offset_equals_reference_minus_model_max_abs": 1.7763568394002505e-15,
+    "note": "all quantities are eV per atom; the trainer multiplies the reference column by natoms exactly once (reference_total_ev = ref_per_atom * natoms)"
+  },
+  "decision": {
+    "clean_reduces_epoch0_val_MAE": true,
+    "use_fitted_offset": true,
+    "explanation": "the offset must be refitted on this initialization/split/labels; the repository column was produced by a different pipeline"
+  }
+}

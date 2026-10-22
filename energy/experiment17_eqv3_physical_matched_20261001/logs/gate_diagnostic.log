@@ -1,0 +1,333 @@
+/home/yxzhang/energy/external_repos/equiformer_v3-main/experimental/models/equiformer_v3/layer_norm.py:53: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/yxzhang/energy/external_repos/equiformer_v3-main/experimental/models/equiformer_v3/layer_norm.py:147: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/yxzhang/energy/external_repos/equiformer_v3-main/experimental/models/equiformer_v3/layer_norm.py:246: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/yxzhang/energy/external_repos/equiformer_v3-main/src/fairchem/experimental/models/equiformer_v3/layer_norm.py:53: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/yxzhang/energy/external_repos/equiformer_v3-main/src/fairchem/experimental/models/equiformer_v3/layer_norm.py:147: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/yxzhang/energy/external_repos/equiformer_v3-main/src/fairchem/experimental/models/equiformer_v3/layer_norm.py:246: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+INFO:root:local rank base: 0
+INFO:root:amp: false
+cmd:
+  checkpoint_dir: /home/yxzhang/energy/checkpoints/2026-10-01-22-37-04
+  commit: core:None,experimental:None
+  identifier: ''
+  logs_dir: /home/yxzhang/energy/logs/wandb/2026-10-01-22-37-04
+  print_every: 100
+  results_dir: /home/yxzhang/energy/results/2026-10-01-22-37-04
+  seed: null
+  timestamp_id: 2026-10-01-22-37-04
+  version: ''
+dataset:
+  a2g_args:
+    r_edges: false
+    r_energy: true
+    r_forces: true
+    r_pbc: true
+    r_stress: true
+  format: ase_db
+  max_atoms: 24000
+  transforms:
+    element_references:
+      energy:
+        file: /mnt/data2/projects/yilunliao/fairchem_omat24_08-04-2025/experimental/configs/omat24/salex_mptrj/preprocessing/salex_mptrj_energy_element_references.npz
+    normalizer:
+      energy:
+        mean: 0.0
+        rmsd: 0.6274358034133911
+      forces:
+        mean: 0.0
+        rmsd: 0.6274358034133911
+      stress:
+        mean: 0.0
+        rmsd: 0.6274358034133911
+evaluation_metrics:
+  metrics:
+    energy:
+    - mae
+    - per_atom_mae
+    forces:
+    - mae
+    - cosine_similarity
+    stress:
+    - mae
+  primary_metric: forces_mae
+gp_gpus: null
+gpus: 1
+logger: wandb
+loss_functions:
+- energy:
+    coefficient: 20
+    fn: per_atom_mae
+- forces:
+    coefficient: 20
+    fn: l2mae
+- stress:
+    coefficient: 5
+    fn: mae
+model:
+  alpha_drop: 0.0
+  attn_activation: sep-merge_gates2_swiglu
+  attn_alpha_channels: 64
+  attn_eps: 1.0e-08
+  attn_grid_resolution_list:
+  - 14
+  - 8
+  attn_hidden_channels: 32
+  attn_mask_rate: 0.0
+  attn_value_channels: 16
+  attn_weights_drop: 0.0
+  avg_num_nodes: 1
+  direct_prediction: false
+  drop_path_rate: 0.0
+  edge_channels: 128
+  enforce_max_neighbors_strictly: true
+  ffn_activation: sep-merge_gates2_swiglu
+  ffn_drop: 0.0
+  ffn_grid_resolution_list:
+  - 14
+  - 14
+  ffn_hidden_channels: 512
+  gradient_checkpointing_block_list:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  lmax: 4
+  max_neighbors: 300
+  max_num_elements: 128
+  max_radius: 6.0
+  mmax: 2
+  name: equiformer_v3
+  norm_type: merge_layer_norm
+  num_channels: 128
+  num_heads: 8
+  num_layers: 7
+  num_radial_basis: 64
+  otf_graph: true
+  proj_drop: 0.0
+  regress_forces: true
+  regress_stress: true
+  softcap: null
+  use_add_merge: false
+  use_atom_edge_embedding: true
+  use_attn_renorm: true
+  use_envelope: true
+  use_gate_force_head: false
+  use_grid_mlp: true
+  use_head_reg: false
+  use_pbc: true
+  use_pbc_single: true
+  use_rad_l_parametrization: true
+  value_drop: 0.0
+optim:
+  batch_size: 8
+  clip_grad_norm: 100
+  denoising_pos_coefficient: 1
+  denoising_pos_params:
+    corrupt_ratio: 0.5
+    fixed_noise_std: true
+    max_force_norm: 2.5
+    min_num_atoms: null
+    num_steps: 50
+    prob: 0.5
+    std: 0.025
+    std_high: 0.5
+    std_low: 0.01
+    strict_max_ratio: 0.75
+  ema_decay: 0.999
+  eval_batch_size: 8
+  eval_every: 2500
+  grad_accumulation_steps: 1
+  load_balancing: atoms
+  load_pretrained_weights: /mnt/data2/projects/yilunliao/fairchem_omat24_08-04-2025/models/omat24/equiformer_v3/checkpoints/2025-12-27-12-45-52-1226-2_grad-ft_N@7_L@4_lr@0-1e-4-epochs@2-bs@512-beta2@0.98-eps@1e-6_rand-e/checkpoint_no-energy_head.pt
+  lr_initial: 5.0e-05
+  max_epochs: 2
+  num_workers: 0
+  optimizer: AdamW
+  optimizer_params:
+    betas:
+    - 0.9
+    - 0.98
+    eps: 1.0e-06
+    weight_decay: 0.001
+  scheduler: LambdaLR
+  scheduler_params:
+    epochs: 180280
+    lambda_type: cosine
+    lr: 5.0e-05
+    lr_min_factor: 0.01
+    warmup_epochs: 9014
+    warmup_factor: 0.0
+  use_compile: false
+  use_denoising_pos: false
+outputs:
+  energy:
+    level: system
+    property: energy
+relax_dataset: {}
+slurm: {}
+task: {}
+test_dataset: {}
+trainer: ocp
+val_dataset: {}
+
+INFO:root:Loading model: equiformer_v3
+INFO:root:EquiformerV3_OC(
+  (sphere_embedding): Embedding(128, 128)
+  (distance_expansion): GaussianSmearing()
+  (envelope_func): PolynomialEnvelope(cutoff=6.0, exponent=5)
+  (so3_rotation): SO3Rotation(lmax=4, mmax=2)
+  (edge_degree_embedding): EdgeDegreeEmbedding(
+    rescale_factor=23.395238876342773
+    (so3_rotation): SO3Rotation(lmax=4, mmax=2)
+    (source_embedding): Embedding(128, 128)
+    (target_embedding): Embedding(128, 128)
+    (rad_func): RadialFunction(
+      (net): Sequential(
+        (0): Linear(in_features=320, out_features=128, bias=True)
+        (1): LayerNorm((128,), eps=1e-05, elementwise_affine=True)
+        (2): SiLU()
+        (3): Linear(in_features=128, out_features=128, bias=True)
+        (4): LayerNorm((128,), eps=1e-05, elementwise_affine=True)
+        (5): SiLU()
+        (6): Linear(in_features=128, out_features=640, bias=True)
+      )
+    )
+  )
+  (blocks): ModuleList(
+    (0-6): 7 x TransBlockV3(
+      (norm_1): EquivariantMergeLayerNorm(lmax=4, num_channels=128, eps=1e-05, std_balance_degrees=True, centering=True)
+      (ga): EquivariantGraphAttention(
+        (so3_rotation): SO3Rotation(lmax=4, mmax=2)
+        (source_embedding): Embedding(128, 128)
+        (target_embedding): Embedding(128, 128)
+        (rad_func): RadialFunction(
+          (net): Sequential(
+            (0): Linear(in_features=320, out_features=128, bias=True)
+            (1): LayerNorm((128,), eps=1e-05, elementwise_affine=True)
+            (2): SiLU()
+            (3): Linear(in_features=128, out_features=128, bias=True)
+            (4): LayerNorm((128,), eps=1e-05, elementwise_affine=True)
+            (5): SiLU()
+            (6): Linear(in_features=128, out_features=1280, bias=True)
+          )
+        )
+        (so2_linear_1): SO2Linear(
+          (fc_m0): Linear(in_features=1280, out_features=928, bias=True)
+          (so2_m_linear): ModuleList(
+            (0): SO2MLinear(
+              (fc): Linear(in_features=1024, out_features=512, bias=False)
+            )
+            (1): SO2MLinear(
+              (fc): Linear(in_features=768, out_features=384, bias=False)
+            )
+          )
+        )
+        (alpha_norm): LayerNorm((64,), eps=1e-05, elementwise_affine=True)
+        (alpha_act): SmoothLeakyReLU(negative_slope=0.2)
+        (alpha_dropout): Identity()
+        (attn_softmax): GraphSoftmax(
+          eps=1e-08
+          (dropout): Identity()
+          (softcap): Identity()
+        )
+        (attn_weights_dropout): Identity()
+        (act): SeparableGateS2Activation_SwiGLU_Merge(
+          lmax=4, mmax=2, use_m_primary=True
+          (gate_act): Sigmoid()
+          (so3_grid): SO3Grid(lmax=4, mmax=2, lat_resolution=14, long_resolution=8, use_m_primary=True)
+          (scalar_act): SwiGLU(backend=torch)
+          (grid_drop): Identity()
+        )
+        (so2_linear_2): SO2Linear(
+          (fc_m0): Linear(in_features=160, out_features=640, bias=True)
+          (so2_m_linear): ModuleList(
+            (0): SO2MLinear(
+              (fc): Linear(in_features=128, out_features=1024, bias=False)
+            )
+            (1): SO2MLinear(
+              (fc): Linear(in_features=96, out_features=768, bias=False)
+            )
+          )
+        )
+        (proj): SO3Linear(in_features=128, out_features=128, lmax=4, bias=True)
+      )
+      (drop_path): GraphDropPath(drop_prob=0.0)
+      (norm_2): EquivariantMergeLayerNorm(lmax=4, num_channels=128, eps=1e-05, std_balance_degrees=True, centering=True)
+      (ffn): FeedForwardNetwork(
+        (so3_linear_1): SO3Linear(in_features=128, out_features=512, lmax=4, bias=True)
+        (scalar_mlp): Sequential(
+          (0): LinearSwiGLU(
+            (linear): Linear(in_features=128, out_features=1024, bias=True)
+            (act): SwiGLU(backend=torch)
+          )
+          (1): Identity()
+        )
+        (so3_grid): SO3Grid(lmax=4, mmax=4, lat_resolution=14, long_resolution=14, use_m_primary=False)
+        (grid_mlp): GatedSwiGLUGridMLP(
+          (gating_linear): Linear(in_features=128, out_features=512, bias=True)
+          (gate_act): Sigmoid()
+          (grid_linear_1): Linear(in_features=512, out_features=1024, bias=False)
+          (grid_drop): Identity()
+          (grid_linear_2): Linear(in_features=512, out_features=512, bias=False)
+        )
+        (so3_linear_2): SO3Linear(in_features=512, out_features=128, lmax=4, bias=True)
+      )
+    )
+  )
+  (norm): EquivariantMergeLayerNorm(lmax=4, num_channels=128, eps=1e-05, std_balance_degrees=True, centering=True)
+  (energy_block): ScalarFeedForwardNetwork(
+    (linear_1): Linear(in_features=128, out_features=512, bias=True)
+    (act): SiLU()
+    (dropout): Identity()
+    (linear_2): Linear(in_features=512, out_features=1, bias=True)
+  )
+)
+INFO:root:Loaded EquiformerV3_OC with 30333409 parameters.
+INFO:root:Loading checkpoint in inference-only mode, not loading keys associated with trainer state!
+{"route": "direct", "loss_decoded": 27.452027370644327, "loss_encoded": 27.452027370644323, "gradient_relative_l2_error": 0.0019975094351168342, "gradient_max_abs_error": 0.0625, "same_loss_repeated_backward_relative_error": 0.0019094639779394932, "raw_output_gradient_max_difference": 0.0, "gradient_of_loss_difference_relative_norm": 0.0}
+{"route": "clean", "loss_decoded": 0.6404146011613443, "loss_encoded": 0.6404146011613436, "gradient_relative_l2_error": 0.0014417521030348553, "gradient_max_abs_error": 0.015625, "same_loss_repeated_backward_relative_error": 0.0012902023974371642, "raw_output_gradient_max_difference": 0.0, "gradient_of_loss_difference_relative_norm": 0.0}
+{
+  "gradient_checks": [
+    {
+      "route": "direct",
+      "loss_decoded": 27.452027370644327,
+      "loss_encoded": 27.452027370644323,
+      "gradient_relative_l2_error": 0.0019975094351168342,
+      "gradient_max_abs_error": 0.0625,
+      "same_loss_repeated_backward_relative_error": 0.0019094639779394932,
+      "raw_output_gradient_max_difference": 0.0,
+      "gradient_of_loss_difference_relative_norm": 0.0
+    },
+    {
+      "route": "clean",
+      "loss_decoded": 0.6404146011613443,
+      "loss_encoded": 0.6404146011613436,
+      "gradient_relative_l2_error": 0.0014417521030348553,
+      "gradient_max_abs_error": 0.015625,
+      "same_loss_repeated_backward_relative_error": 0.0012902023974371642,
+      "raw_output_gradient_max_difference": 0.0,
+      "gradient_of_loss_difference_relative_norm": 0.0
+    }
+  ],
+  "within_composition_prediction_difference_max_ev_atom": 3.0531133177191805e-16,
+  "initial_weight_hash": "b3120e2e73952dc920490e3dfafcb11a5b4da38a388f7e2d03cfd0c1bc2d21da",
+  "parameter_updates_during_gate": 0,
+  "probe_ids": [
+    "mb-mp-e-form-007253",
+    "mb-mp-e-form-014434",
+    "mb-mp-e-form-008231",
+    "mb-mp-e-form-015901"
+  ],
+  "training_mode": true,
+  "network_precision": "bfloat16",
+  "physical_loss_precision": "float64"
+}
