@@ -42,4 +42,4 @@ python tools/verify_release.py
 
 该命令检查原始文件哈希、数据划分、固定结构对、预测结果和有限差分记录；输出写入 `checks/verification_report.json`。
 
-第三方代码和模型保留原有许可证；EquiformerV3 的许可证见 [LICENSE](energy/external_repos/equiformer_v3-main/LICENSE)。
+第三方代码和模型保留原有许可证：[EquiformerV3](energy/external_repos/equiformer_v3-main/LICENSE)、[SevenNet](third_party/sevennet/LICENSE)。
